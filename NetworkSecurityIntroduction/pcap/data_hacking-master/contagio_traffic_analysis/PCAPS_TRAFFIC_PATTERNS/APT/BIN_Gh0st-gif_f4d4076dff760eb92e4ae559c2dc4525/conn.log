@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1359946180.718653	CAJDyn1ZHEdOF6Dzf4	0.0.0.0	68	255.255.255.255	67	udp	dhcp	1.005339	613	0	S0	-	0	D	2	669	0	0	(empty)
+1359946180.719218	Cwa2202TceYtRj6xM5	172.16.253.254	8	172.16.253.130	0	icmp	-	0.000008	40	0	OTH	-	0	-	2	96	0	0	(empty)
+1359946181.723321	COWzcAlKftQLFaSG8	172.16.253.130	68	172.16.253.254	67	udp	dhcp	0.004412	0	600	SHR	-	0	d	0	0	2	656	(empty)
+1359946263.940614	CgKnj31m7JLw6cK0Li	172.16.253.130	53	8.8.8.8	53	udp	dns	0.376432	35	51	SF	-	0	Dd	1	63	1	79	(empty)
+1359946263.940765	CYF21t2EJIqm2seWDl	172.16.253.130	53	4.2.2.2	53	udp	dns	0.563710	35	51	SF	-	0	Dd	1	63	1	79	(empty)
+1359946264.318006	CilkoW2q2qdwbYNXfc	172.16.253.130	1067	202.85.136.181	110	tcp	-	120.602363	189	0	RSTR	-	0	ShADar	3	317	3	124	(empty)
+1359946394.936255	Cy6qZQ32jyn5ys7Dte	172.16.253.130	1068	202.85.136.181	110	tcp	-	120.600762	189	0	RSTR	-	0	ShADar	3	317	3	124	(empty)
+1359946525.553343	Ce96at46VsQG7w3y23	172.16.253.130	1069	202.85.136.181	110	tcp	-	0.286635	189	0	S1	-	0	ShADa	3	317	2	84	(empty)
+#close	2014-03-09-10-21-09

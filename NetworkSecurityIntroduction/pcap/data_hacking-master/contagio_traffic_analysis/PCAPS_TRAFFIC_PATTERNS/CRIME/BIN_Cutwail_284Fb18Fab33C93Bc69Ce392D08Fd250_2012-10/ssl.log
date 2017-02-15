@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-21-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+13.798899	CdFnkz2WNZVysHByLj	10.0.2.15	1045	193.200.113.66	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.aboliton.at,OU=Globe Standard Wildcard SSL,OU=Provided by Globe Hosting\, Inc.,OU=Domain Control Validated	CN=GlobeSSL CA,OU=GlobeSSL DV Certification Authority,O=Globe Hosting\, Inc.,C=US	1336280400.000000	1367902799.000000	-	-	-	f96961fc7bee2142f88a28d61e52b8b5	certificate is not yet valid
+#close	2014-03-09-10-21-22

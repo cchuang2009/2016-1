@@ -1,0 +1,42 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1349621088.512565	CBtmfd3HfSF8jZoXbi	172.16.253.130	1079	216.146.38.70	80	1	GET	checkip.dyndns.org	/	-	-	0	105	200	OK	-	-	-	(empty)	-	-	-	-	-	FK52f32jeZWMnYC89	text/html
+1349621120.878740	CGAOe32CSGinbSarrl	172.16.253.130	2066	216.146.38.70	80	1	GET	checkip.dyndns.org	/	-	-	0	105	200	OK	-	-	-	(empty)	-	-	-	-	-	F4EVOM1vUznecclvy	text/html
+1349621210.220513	ChxpuN239qBlAHAI1e	172.16.253.130	2108	173.194.73.103	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)	0	111526	200	OK	-	-	-	(empty)	-	-	-	-	-	F9KCSDLpmlE3BcAac	text/html
+1349621445.058273	CPVyUx4OWH9osRBKOg	172.16.253.130	2113	188.173.32.149	91	1	GET	188.173.32.149	/test.txt	-	-	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	FpcQAwj4lGibJvkC1	text/plain
+1349621538.847865	Cp0Dfm1FBwPIhVCYib	172.16.253.130	2117	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FImSnf2Bzogyb8zBk9	text/plain	FfAMWO3nAuaVB1NlZ	text/plain
+1349621539.416812	CboFMb5wSBhUPV6h4	172.16.253.130	2119	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	F3lJYh4hwPMoxU0Xl2	text/plain	Fhecz74A4BMxZVeiVg	text/plain
+1349621539.416845	C1kSfinug0nqahwcd	172.16.253.130	2118	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	Fz6S2rquXQY2l4rP4	text/plain	FTf9PO1gCWJEfoVRV6	text/plain
+1349621600.451267	CVykpY2VEMO7JUkMK3	172.16.253.130	2120	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FtGNLY1aRJTYYuR4N3	text/plain	FFCKsV1yGwyDmsnmU8	text/plain
+1349621600.974260	C91HO32c6G0oi3lPol	172.16.253.130	2122	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	Fw81bV2Jdk7ZIleVK1	text/plain	FRh94E2ZDpQZcDF35l	text/plain
+1349621600.987326	CvSo3n3217Z5UBZrvj	172.16.253.130	2121	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FGu7q3rOWDr9y6gOl	text/plain	F2dC6n4hnmVjmkaKIa	text/plain
+1349621663.123957	CLBGnX1QRrE9xkYFY6	172.16.253.130	2123	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	Frm2WtHCMKHlKGnla	text/plain	FVd8g64V4qEDV7ERj6	text/plain
+1349621850.060889	CV1Ojz36GgPTucGvs6	172.16.253.130	2126	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FD62B84zBYSi6G11k2	text/plain	FwOm1IgUqK6x8LXy8	text/plain
+1349621850.610287	C2Vxb11FV8oRRE5Rlg	172.16.253.130	2128	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FDGrDV392rrpeQKWBe	text/plain	FSEdgr1Rhm93OFoVqh	text/plain
+1349621850.611634	CVOFVX3ne6r97BA15e	172.16.253.130	2127	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FSSwX34V1E8YI1GVlb	text/plain	Fyhrx74Ov8MkmzTr52	text/plain
+1349621912.643475	CmgX1Qdq6JgyZ3HV1	172.16.253.130	2129	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FKUugN0aSmZPJqo6j	text/plain	Fz2bWs3sSDZVJWWCTk	text/plain
+1349621968.086989	CisFiV2YY129Qg03Sg	172.16.253.130	2131	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FKdxRV1FrRjlZ2aTKk	text/plain	F1ZqMp3xlJ9dF0AMqk	text/plain
+1349621968.087029	Cg5iVA1AiRYvQwcI8j	172.16.253.130	2132	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	F1gwFN1816ykFm87x4	text/plain	FMZZ2v2KOEiRbejxf3	text/plain
+1349622030.148910	C2XTNp1WuB7nLGwjda	172.16.253.130	2133	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FnweJI2walkJWPegj8	text/plain	F2BFrv4FeVKwYfOpfj	text/plain
+1349622030.670783	C2NFIF4nfgtGlKHgVk	172.16.253.130	2135	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FKMdEGJChGgMkbRzk	text/plain	FqpdWk4iCvbBFNfRC	text/plain
+1349622030.670822	Cqoqqc4emrjtecnRj9	172.16.253.130	2134	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FjskXw4C24FVDaEK05	text/plain	FBm1Lg4zGSQ6PPzYTf	text/plain
+1349622093.063986	CPBREKydmJz2pHMb	172.16.253.130	2138	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FRM0fF4n16ThuPK38	text/plain	FTO32y4qfXiPsoS5a	text/plain
+1349622146.891644	ClKY8h3IQOmmCiji55	172.16.253.130	2139	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FeXHye2CwFOYpEGWo8	text/plain	FMLQV8fuFywhJjqEa	text/plain
+1349622209.562230	CLoos53VkhdXSUfzci	172.16.253.130	2140	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	F0YNrl19OOrDYxNOi2	text/plain	FiPOk74EuWGceSHT13	text/plain
+1349622263.283789	Cwhlkj135MnfS0GTIh	172.16.253.130	2141	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FvxhGp1hJOyjxwtdte	text/plain	FnQ8Nv1zmwpPos69Qe	text/plain
+1349622325.325348	CUUBxI13YT1sbX0vN8	172.16.253.130	2142	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	Flj94sZYxrm8tM0Zd	text/plain	F7Hz6DzJk7JGjYBB9	text/plain
+1349622379.745210	CylWrIk3xShbZjl1f	172.16.253.130	2145	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FO1FTd12Sfn2rJ8mUl	text/plain	FEvdR93AobxAR4SFm1	text/plain
+1349622412.825512	Cus0D71uJs9HoBgbB	172.16.253.130	2146	173.194.73.103	80	1	GET	www.google.com	/webhp	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)	0	111496	200	OK	-	-	-	(empty)	-	-	-	-	-	FA5KL02bUKJ9F2NQ7c	text/html
+1349622442.369978	Csb3zC2LjIUcrGO746	172.16.253.130	2149	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	FaLr3023qdyra9eanc	text/plain	FPwBw83jBU9KI2Jq5h	text/plain
+1349622496.388698	CMnVTT39A9sJHn3iY7	172.16.253.130	2150	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	F6jghW1Rbq5y8CXkS2	text/plain	FPJhbD4k3EImNN4188	text/plain
+1349622558.990332	CCTYyN3f6eEaraHh1l	172.16.253.130	2151	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	F5PvrB4giSwM4SAg9i	text/plain	FcS2Vs1E66wfRFNTcf	text/plain
+1349622612.514653	CWoosT1F5mOvgsbfuk	172.16.253.130	2152	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	Fhhzvd2Quu6RhRQfq	text/plain	FO8XNg2npdBb3TVMB3	text/plain
+1349622647.783220	Cs48Xh2iYmlFXMHgh3	172.16.253.130	2154	188.173.32.149	91	1	GET	188.173.32.149	/test.txt	-	-	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	FknoB9LYYY42e3OF2	text/plain
+1349622675.230442	CMGY7k3mOztm5HDgb5	172.16.253.130	2156	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user5	-	-	F1g3J7FZHP5pVtz0g	text/plain	F2JAll4AQLzIKR5oKg	text/plain
+#close	2014-03-09-10-21-53

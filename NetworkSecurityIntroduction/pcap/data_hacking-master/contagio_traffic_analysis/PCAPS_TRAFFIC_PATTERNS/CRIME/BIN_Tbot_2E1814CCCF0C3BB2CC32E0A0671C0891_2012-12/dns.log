@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349621061.072397	ChDPtU3Zr8Z0OZoGV7	172.16.253.130	53	8.8.8.8	53	udp	57893	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.22	3376.000000,76.000000	F
+1349621061.072457	CVgS8O3uEvvc84VbMc	172.16.253.130	53	4.2.2.2	53	udp	57893	time.windows.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1349621088.444296	CTz7yj3sQ8pPVkxSd5	172.16.253.130	53	4.2.2.2	53	udp	57268	checkip.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	checkip.dyndns.com,216.146.38.70,216.146.39.70,91.198.22.70	498.000000,498.000000,498.000000,498.000000	F
+1349621088.444182	Cb09Ww8EMV0UMwSj3	172.16.253.130	53	8.8.8.8	53	udp	57268	checkip.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	checkip.dyndns.com,216.146.39.70,91.198.22.70,216.146.38.70	542.000000,542.000000,542.000000,542.000000	F
+1349621147.350817	CQFeLe8gfnqylKDo7	172.16.253.130	53	8.8.8.8	53	udp	25865	1562h\xc2\xa3c\xe2\x82\xacp\x08\xc3\xa1\xe2\x80\xa6\xc2\xa8=\x05\xe2\x80\x9a.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1349621147.350882	CMjUiC3waTdCSScty6	172.16.253.130	53	4.2.2.2	53	udp	25865	1562h\xc2\xa3c\xe2\x82\xacp\x08\xc3\xa1\xe2\x80\xa6\xc2\xa8=\x05\xe2\x80\x9a.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1349621210.151207	C9Atqo2JLWtG9AyJY	172.16.253.130	53	4.2.2.2	53	udp	16827	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.73.103,173.194.73.105,173.194.73.147,173.194.73.104,173.194.73.106,173.194.73.99	143.000000,143.000000,143.000000,143.000000,143.000000,143.000000	F
+1349621210.151099	CcU7m02ryJ7r1p37t1	172.16.253.130	53	8.8.8.8	53	udp	16827	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.68.147,173.194.68.103,173.194.68.99,173.194.68.106,173.194.68.104,173.194.68.105	300.000000,300.000000,300.000000,300.000000,300.000000,300.000000	F
+1349622052.660157	Cb015L1hWYQfxggj4k	172.16.253.130	53	8.8.8.8	53	udp	51095	1562h\xc2\xa3c\xe2\x82\xacp\x08\xc3\xa1\xe2\x80\xa6\xc2\xa8=\x05\xe2\x80\x9a.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1349622052.660287	CPbFYe2rwINjaXP9E5	172.16.253.130	53	4.2.2.2	53	udp	51095	1562h\xc2\xa3c\xe2\x82\xacp\x08\xc3\xa1\xe2\x80\xa6\xc2\xa8=\x05\xe2\x80\x9a.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-53

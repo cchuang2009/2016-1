@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1266070998.490261	CnOJttHBObl1TtOJd	192.168.242.131	56129	192.168.242.2	53	udp	32546	www.whatsrunning.net	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	whatsrunning.net,64.38.48.114	5.000000,5.000000	F
+1266071004.034844	CB2e841Wu7aqUALBjb	192.168.242.131	137	192.168.242.2	137	udp	32932	OWNER-CFD98CA45	1	C_INTERNET	32	NB	-	-	F	F	F	F	0	-	-	F
+1266071005.534972	CB2e841Wu7aqUALBjb	192.168.242.131	137	192.168.242.2	137	udp	32932	OWNER-CFD98CA45	1	C_INTERNET	32	NB	-	-	F	F	F	F	0	-	-	F
+1266071007.061809	CB2e841Wu7aqUALBjb	192.168.242.131	137	192.168.242.2	137	udp	32932	OWNER-CFD98CA45	1	C_INTERNET	32	NB	-	-	F	F	F	F	0	-	-	F
+1266071019.455201	CTvB211jPViLOjmIWf	192.168.242.131	56563	192.168.242.2	53	udp	43351	nazarethimaging.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	60.12.117.147	5.000000	F
+1266071020.959966	CVLDlG6Tu7XLWcgd	192.168.242.131	52294	192.168.242.2	53	udp	50793	www.nazarethimaging.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	nazarethimaging.com,60.12.117.147	5.000000,5.000000	F
+1266071021.722434	CtOUkEOlKzdCLdXPb	192.168.242.131	60117	192.168.242.2	53	udp	44802	www.missboston.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	missboston.org,66.147.242.97	5.000000,5.000000	F
+1266071080.103858	Cln1vyviJqf4urZne	192.168.242.131	53835	192.168.242.2	53	udp	32637	go.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.go.microsoft.akadns.net,207.46.198.220	5.000000,5.000000	F
+1266071080.971687	CjeuxmwINRZNs6qyd	192.168.242.131	60254	192.168.242.2	53	udp	51229	windowsupdate.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	windowsupdate.microsoft.nsatc.net,207.46.18.94	5.000000,5.000000	F
+1266071082.714438	C9knXEL8E65raSfkg	192.168.242.131	63189	192.168.242.2	53	udp	57512	update.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	update.microsoft.com.nsatc.net,www.update.microsoft.com.nsatc.net,65.55.185.26	5.000000,5.000000,5.000000	F
+1266071083.246258	CThFZp2586QIDH3YR	192.168.242.131	51848	192.168.242.2	53	udp	39130	www.update.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.update.microsoft.com.nsatc.net,65.55.185.26	5.000000,5.000000	F
+#close	2014-03-09-10-21-52

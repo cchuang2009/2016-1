@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-53
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349620439.820369	CTnQZe3gjo9IQpPQ1g	172.16.253.129	53	8.8.8.8	53	udp	14575	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.24	3515.000000,215.000000	F
+1349620439.820434	C5g9PripAuQbcQCV8	172.16.253.129	53	4.2.2.2	53	udp	14575	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.13	2808.000000,239.000000	F
+1349620467.899018	C7ejgq1pXSS22pOV06	172.16.253.129	53	4.2.2.2	53	udp	53963	checkip.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	checkip.dyndns.com,216.146.38.70,216.146.39.70,91.198.22.70	335.000000,335.000000,335.000000,335.000000	F
+1349620467.898922	C0mkzU2ypxaFjnU1zk	172.16.253.129	53	8.8.8.8	53	udp	53963	checkip.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	checkip.dyndns.com,91.198.22.70,216.146.38.70,216.146.39.70	363.000000,363.000000,363.000000,363.000000	F
+1349620524.574847	C8DlyF3Ci4mK3SZuOg	172.16.253.129	53	4.2.2.2	53	udp	47536	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.73.103,173.194.73.105,173.194.73.147,173.194.73.104,173.194.73.106,173.194.73.99	45.000000,45.000000,45.000000,45.000000,45.000000,45.000000	F
+1349620524.574762	CsZDFS3DSy0rN7c89	172.16.253.129	53	8.8.8.8	53	udp	47536	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.194.68.147,173.194.68.103,173.194.68.99,173.194.68.106,173.194.68.104,173.194.68.105	202.000000,202.000000,202.000000,202.000000,202.000000,202.000000	F
+#close	2014-03-09-10-21-53

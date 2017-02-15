@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-22-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1359946191.980369	CZ5S0P3NkJXbbglzPf	172.16.253.130	1070	110.34.198.123	888	1	GET	110.34.198.123	/3.txt	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)	0	8050	200	OK	-	-	-	(empty)	-	-	-	-	-	FF3zKEweS43azwdPf	text/x-msdos-batch
+1359946200.646582	C8F39s3zk4sKLBaYo4	172.16.253.130	1071	218.30.115.254	80	1	GET	blog.sina.com.cn	/s/blog_b2afd7fe01019tkf.html	-	getURLDown	0	30960	200	OK	-	-	-	(empty)	-	-	-	-	-	FQAM4I3fBD1litxnR5	text/html
+1359946202.548768	CDLt9D1RVcgRYTSdri	172.16.253.130	1073	180.76.2.68	80	1	GET	e.hiphotos.bdimg.com	/album/w=1600;q=90/sign=862e65d610dfa9ecfd2e521152e0cc72/9358d109b3de9c82a5a5fe456d81800a18d84333.jpg	-	loadMM	0	21133	200	OK	-	-	-	(empty)	-	-	-	-	-	FxGBJ3phQEQkwYq3b	image/jpeg
+1359946216.013050	CX5w67mUJHv3doiOb	172.16.253.130	1076	218.30.115.254	80	1	GET	blog.sina.com.cn	/s/blog_b2afd7fe01019tkf.html	-	getURLDown	0	30960	200	OK	-	-	-	(empty)	-	-	-	-	-	FvOUDIcHCadE8oVke	text/html
+1359946218.057468	CE4VoYRUMtuBrKU38	172.16.253.130	1077	180.76.2.68	80	1	GET	e.hiphotos.bdimg.com	/album/w=1600;q=90/sign=862e65d610dfa9ecfd2e521152e0cc72/9358d109b3de9c82a5a5fe456d81800a18d84333.jpg	-	loadMM	0	265336	200	OK	-	-	-	(empty)	-	-	-	-	-	FSoN831tpqXA4iI8b4	image/jpeg
+1359946261.291886	Clqnc22Ok2Mb4xWxG	172.16.253.130	1080	174.139.74.164	5920	1	GET	174.139.74.164	/tj/count.asp?mac=14-10-9F-D4-86-9E&ver=2	-	POSTtj	0	39	400	Bad Request	-	-	-	(empty)	-	-	-	-	-	F6ncQI23ebWDxXe8A4	text/plain
+#close	2014-03-09-10-22-12

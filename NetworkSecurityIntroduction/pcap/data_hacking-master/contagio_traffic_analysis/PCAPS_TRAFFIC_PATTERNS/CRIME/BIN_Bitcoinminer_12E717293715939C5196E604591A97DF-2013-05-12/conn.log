@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1368387154.023879	C7eC3z3Arecln2nqVi	172.16.253.129	53	8.8.8.8	53	udp	dns	0.117386	30	110	SF	-	0	Dd	1	58	1	138	(empty)
+1368387154.023946	CY8dX546HtisQVNSHg	172.16.253.129	53	4.2.2.2	53	udp	dns	0.273766	30	110	SF	-	0	Dd	1	58	1	138	(empty)
+1368387116.188645	C6bFiOoiWymx3DGbj	172.16.253.254	8	172.16.253.129	0	icmp	-	0.000006	40	0	OTH	-	0	-	2	96	0	0	(empty)
+1368387117.190601	CNLrb24ojpXjSxlwBg	172.16.253.129	68	172.16.253.254	67	udp	dhcp	0.004597	0	600	SHR	-	0	d	0	0	2	656	(empty)
+1368387154.154333	CAEYqx3IoOgJGK57l4	172.16.253.129	1056	92.243.30.75	666	tcp	http	55.103269	1096	3156	SF	-	0	ShADadfF	16	1744	19	7076	(empty)
+1368387167.450814	Cbe81U6KzgeF8LmO3	172.16.253.254	8	172.16.253.131	0	icmp	-	-	-	-	OTH	-	0	-	1	48	0	0	(empty)
+1368387116.188140	CYu0vVWNxIR2u7i54	0.0.0.0	68	255.255.255.255	67	udp	dhcp	52.264551	1226	0	S0	-	0	D	4	1338	0	0	(empty)
+1368387209.258129	Cx7cdSGiMMlWQjvzj	172.16.253.129	1058	92.243.30.75	666	tcp	http	40.730052	548	1578	SF	-	0	ShADadfF	10	956	11	3600	(empty)
+1368387249.989467	CJaMt64MKexhvLL3Jl	172.16.253.129	1059	92.243.30.75	666	tcp	http	27.767383	274	789	SF	-	0	ShADadfF	7	562	7	1862	(empty)
+1368387277.757597	CzvwhF4aLWI8ONOi71	172.16.253.129	1060	92.243.30.75	666	tcp	http	57.965314	1096	2367	SF	-	0	ShADadfF	15	1704	17	5418	(empty)
+1368387335.723920	CQxzSgiuKxBw6U2I1	172.16.253.129	1061	92.243.30.75	666	tcp	http	21.248256	274	789	SF	-	0	ShADadfF	7	562	7	1862	(empty)
+1368387356.972994	CQrRoiEp4rmcUSEh1	172.16.253.129	1062	92.243.30.75	666	tcp	http	26.738413	274	789	SF	-	0	ShADadfF	7	562	7	1862	(empty)
+1368387383.712164	ClEjYeIiRsBjmmNn1	172.16.253.129	1063	92.243.30.75	666	tcp	http	57.353985	1096	2367	SF	-	0	ShADadfF	15	1704	17	5418	(empty)
+1368387441.068100	CNSasmmtgy0L2nAej	172.16.253.129	1064	92.243.30.75	666	tcp	http	20.803936	274	789	S3	-	0	ShADadf	6	522	6	1822	(empty)
+#close	2014-03-09-10-21-16

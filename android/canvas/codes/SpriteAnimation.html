@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+      <canvas id="myCanvas" width="500" height="100"></canvas>
+    
+    <script>
+      var speed = 25;
+      var frames = 4;                 
+      var currentFrame = 0;
+      var Src_Width=100;
+      var Src_Height=100;
+      var speed = -10;  
+      var f_width=400;  
+                 
+      canvas = document.getElementById("myCanvas");
+      var width = canvas.width; 
+             
+      var height = canvas.height;  
+      ctx = canvas.getContext("2d");
+      // Moving to left        
+      image = new Image()
+      image.src = '../imgs/sprite.png';
+      //movin to right  
+      image2 = new Image()      
+      image2.src = '../imgs/sprite2.png';  
+      var draw = function(){
+          f_width += speed;
+
+          // change speed if hits wall and the position of x
+          if(f_width <= 0-25 || f_width >= width-25){
+             speed = -speed;
+          } 
+          ctx.clearRect(0, 0, width, height);
+          // change direction while hits wall 
+          if(speed <= 0){
+             ctx.drawImage(image, 0, height * currentFrame, Src_Width,Src_Height, f_width,
+                           0, Src_Width,Src_Height); 
+          }
+          else {
+             ctx.drawImage(image2, 0, height * currentFrame, Src_Width,Src_Height, f_width, 
+                           0, Src_Width,Src_Height); 
+          }
+          // change the sprite
+          if (currentFrame == frames) {
+             currentFrame = 0;
+          } else {
+             currentFrame++;
+          }
+      }
+      setInterval(draw, 1000/25);
+    </script>
+  </body>
+</html>
+
+    </script>
+  </body>
+</html>

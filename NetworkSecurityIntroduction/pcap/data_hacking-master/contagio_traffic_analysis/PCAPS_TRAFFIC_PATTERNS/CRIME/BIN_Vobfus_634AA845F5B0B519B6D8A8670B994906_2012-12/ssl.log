@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-21-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1354853704.021507	CaIq6u4PkUZToszc64	10.0.2.15	1042	222.186.36.128	443	-	-	-	-	-	-	-	-	unknown-184	-	-	-	-
+1354853704.021507	CaIq6u4PkUZToszc64	10.0.2.15	1042	222.186.36.128	443	-	-	-	-	-	-	-	-	unknown-184	-	-	-	-
+1354853754.024936	Cp6PIx3GmDaLD6X0nl	10.0.2.15	1043	222.186.36.128	443	-	-	-	-	-	-	-	-	unknown-45065	-	-	-	-
+1354853754.024936	Cp6PIx3GmDaLD6X0nl	10.0.2.15	1043	222.186.36.128	443	-	-	-	-	-	-	-	-	close_notify	-	-	-	-
+1354853754.024936	Cp6PIx3GmDaLD6X0nl	10.0.2.15	1043	222.186.36.128	443	-	-	-	-	-	-	-	-	unknown-235	-	-	-	-
+#close	2014-03-09-10-21-55

@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-21-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1349361158.461254	CRJlcX3bb46b56cW5a	192.168.248.165	1163	98.139.225.42	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=ad.yieldmanager.com,O=Yahoo! Inc.,L=Sunnyvale,ST=CA,C=US	192.168.248.165	98.139.225.42	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361219.027272	C4tD8D2s4zNEWq4OV3	192.168.248.165	1216	96.16.78.131	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=cdns.gigya.com,OU=IT,O=Gigya,L=Palo Alto,ST=CALIFORNIA,C=US	192.168.248.165	96.16.78.131	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361304.072863	CPrbjU1mGLiswFsUmh	192.168.248.165	1243	74.125.228.20	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	192.168.248.165	74.125.228.20	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361304.618131	C5G9Uy1VIKBUTuvGH4	192.168.248.165	1245	173.194.74.95	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.googleapis.com,O=Google Inc,L=Mountain View,ST=California,C=US	192.168.248.165	173.194.74.95	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361305.716640	CCrlANzGru0sfOyPb	192.168.248.165	1252	74.125.228.1	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	192.168.248.165	74.125.228.1	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361307.085683	Cs7ZJ320LLUUM5hx6i	192.168.248.165	1255	74.125.228.15	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	192.168.248.165	74.125.228.15	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361625.682003	CFXciy3s6jFx8de0Sd	192.168.248.165	1381	74.125.228.28	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.doubleclick.net,O=Google Inc,L=Mountain View,ST=California,C=US	192.168.248.165	74.125.228.28	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361630.057703	CylfawprbJ6ZwFvkg	192.168.248.165	1389	96.16.66.110	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=s-static.ak.facebook.com,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,ST=California,C=US	192.168.248.165	96.16.66.110	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349361700.170898	CwX03P3ffZjyp58wof	192.168.248.165	1535	74.125.228.8	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	192.168.248.165	74.125.228.8	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-22-01

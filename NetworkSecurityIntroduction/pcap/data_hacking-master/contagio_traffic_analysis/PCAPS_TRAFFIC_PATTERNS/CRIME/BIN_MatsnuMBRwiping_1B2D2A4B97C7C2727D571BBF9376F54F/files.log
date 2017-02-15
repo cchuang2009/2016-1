@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-35
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1359941555.682707	FJ3yC12T3TW7zhBYNi	46.165.248.117	172.16.253.132	ClNqum4if63qGyCM0d	HTTP	0	MD5,SHA1	binary	-	0.768179	-	F	144924	-	0	0	F	-	2c074d8b3a7aa1c637ff046c4a55c566	c5bbd62c5ffeac5c507ef5318a2f9828f9898c7d	-	-
+1359941562.492596	FvgAeFRd2S8I4klea	46.165.248.117	172.16.253.132	CRQ3su1VNMlukW8ts1	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	4	-	0	0	F	-	17fa6a9581cea67eb0ec3b598cc24ec8	2bdb8f1d7ffe3a91c4caa0f1cc69dc0784dbf05f	-	-
+1359941583.501402	F2EGxI2f5H8l2UetH9	217.174.211.1	172.16.253.132	C8g0uzRps4JIUWJ88	HTTP	0	MD5,SHA1	binary	-	1.937293	-	F	236060	-	0	0	F	-	9e146203693167ebe22c77506600604c	35e96de124dfe88ac25c9175a0d3d696f7c5ef7b	-	-
+1359941586.215939	FWkCnV2jvrn1RRsc3b	217.174.211.1	172.16.253.132	CHtaNM2NbkygrnSZTf	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	4	-	0	0	F	-	17fa6a9581cea67eb0ec3b598cc24ec8	2bdb8f1d7ffe3a91c4caa0f1cc69dc0784dbf05f	-	-
+1359941586.920505	FCIZNx4jFd10KHnvU6	74.125.228.49	172.16.253.132	C7hoKj1Pceatmnkdy	HTTP	0	MD5,SHA1	text/html	-	0.030114	-	F	46267	-	0	0	F	-	5e37908d400f9cafae416a65f717a315	ed034acf218beefd19b62f324b9daff360d36d57	-	-
+1359941587.263412	F3ru7v30yHxWfORElk	172.16.253.132	93.89.235.13	Cw2CDw38ADpDHOnFeg	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	T	344	344	0	0	F	-	f81f08ee7c041a8cb45d213eaa2fdf1e	a67d45659afe3ffb1e6165952a6356401fed911d	-	-
+1359941587.821190	FzSL4aYVU5fPcoUOl	93.89.235.13	172.16.253.132	Cw2CDw38ADpDHOnFeg	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	8	8	0	0	F	-	aaeb9489d7912948469b22d5a404b99e	303e035ae4ffa4dc87d13bf2302a91788af2255e	-	-
+#close	2014-03-09-10-21-35

@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1336619679.613196	Cyq59v41rS278Cqw56	10.0.2.15	1611	82.165.37.127	80	1	POST	dak1otavola1ndos.com	/h/index.php	-	Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0	13	20	200	OK	-	-	-	(empty)	-	-	-	FIleh34FVKZOuSeBW4	binary	Fk1iJf4g9NyLb2kpkg	application/x-gzip
+1336619679.626940	CgCwVX3z1fFasXGykg	10.0.2.15	1612	82.165.37.127	80	1	POST	dak1otavola1ndos.com	/h/index.php	-	Mozilla/5.0 (Windows NT 5.1; rv:12.0) Gecko/20100101 Firefox/12.0	13	20	200	OK	-	-	-	(empty)	-	-	-	FVGyG26Bpt6Wxmwmc	binary	FyUEQYZ8sSePXanIh	application/x-gzip
+#close	2014-03-09-10-21-55

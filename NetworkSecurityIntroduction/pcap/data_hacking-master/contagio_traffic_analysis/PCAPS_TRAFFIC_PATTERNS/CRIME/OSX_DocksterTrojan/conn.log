@@ -1,0 +1,31 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-22-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1354251439.045719	Cj9IOq4HMVmInD9bC8	172.29.0.109	53182	8.8.8.8	53	udp	dns	0.319697	32	48	SF	-	0	Dd	1	60	1	76	(empty)
+1354251470.184539	C5Y08L3f1joaO88sO7	172.29.0.109	137	172.29.0.255	137	udp	dns	0.750037	200	0	S0	-	0	D	4	312	0	0	(empty)
+1354251487.985760	CUqmmY3zp9NEFZNJR5	172.29.0.109	49282	54.240.190.21	443	tcp	-	-	-	-	RSTRH	-	0	r	0	0	1	40	(empty)
+1354251503.984237	CNqeIE3npIdGvaLp27	172.29.0.109	49289	66.235.133.62	80	tcp	-	-	-	-	RSTRH	-	0	r	0	0	1	40	(empty)
+1354251569.269090	CsMqsQ3pNBe74PGZya	172.29.0.109	55831	8.8.8.8	53	udp	dns	0.017578	53	181	SF	-	0	Dd	1	81	1	209	(empty)
+1354251818.845881	C3XxFy4zccob5IFXu9	172.29.0.109	60302	8.8.8.8	53	udp	dns	0.017137	53	122	SF	-	0	Dd	1	81	1	150	(empty)
+1354251873.038413	C6Davl4GvkUHLUNeVf	172.29.0.109	55831	8.8.8.8	53	udp	dns	0.015239	53	181	SF	-	0	Dd	1	81	1	209	(empty)
+1354252141.402116	C081u41ef9R2ef0bQe	172.29.0.109	53665	8.8.8.8	53	udp	dns	0.020100	57	57	SF	-	0	Dd	1	85	1	85	(empty)
+1354252175.012996	CrnwxRqkQDEtHNewb	172.29.0.109	55831	8.8.8.8	53	udp	dns	0.014649	53	181	SF	-	0	Dd	1	81	1	209	(empty)
+1354252277.400070	CyFgD6awuNhdlSiFc	172.29.0.109	137	172.29.0.255	137	udp	dns	9.000072	200	0	S0	-	0	D	4	312	0	0	(empty)
+1354252296.400728	CvX2JiqsDIQJMEz5c	172.29.0.109	137	172.29.0.255	137	udp	dns	-	-	-	S0	-	0	D	1	78	0	0	(empty)
+1354252320.407707	C4GYchgTdtxYtMUad	172.29.0.109	137	172.29.0.255	137	udp	dns	1.002389	200	0	S0	-	0	D	4	312	0	0	(empty)
+1354252342.120632	CHf16uuv43itkRDpf	172.29.0.109	61727	8.8.8.8	53	udp	dns	0.019266	56	56	SF	-	0	Dd	1	84	1	84	(empty)
+1354252342.120786	CmVe0TalyApKAAjge	172.29.0.109	55084	8.8.8.8	53	udp	dns	0.018645	47	118	SF	-	0	Dd	1	75	1	146	(empty)
+1354252475.951292	CjJ9YGPi2kWtlcUs8	172.29.0.109	57014	8.8.8.8	53	udp	dns	0.016446	57	57	SF	-	0	Dd	1	85	1	85	(empty)
+1354252511.462149	CGePU74TaTnDCUFxea	172.29.0.109	55831	8.8.8.8	53	udp	dns	0.033244	53	181	SF	-	0	Dd	1	81	1	209	(empty)
+1354252649.501495	Cf2QWt4rfb3ESUh838	172.29.0.109	64322	8.8.8.8	53	udp	dns	0.031944	48	119	SF	-	0	Dd	1	76	1	147	(empty)
+1354252773.182318	Ckdvk44ZCC7KVh4wd6	172.29.0.109	55831	8.8.8.8	53	udp	dns	0.020682	53	181	SF	-	0	Dd	1	81	1	209	(empty)
+1354252868.021590	C1tm9J3l4Unn1wRju7	172.29.0.109	57869	8.8.8.8	53	udp	dns	0.050870	49	249	SF	-	0	Dd	1	77	1	277	(empty)
+1354252868.125579	CkxtzT3pILPoXZBnI5	172.29.0.109	55771	8.8.8.8	53	udp	dns	0.026046	49	225	SF	-	0	Dd	1	77	1	253	(empty)
+1354252972.336289	CJVHBx3ldaY6AnuEX8	172.29.0.109	60798	8.8.8.8	53	udp	dns	0.016450	48	119	SF	-	0	Dd	1	76	1	147	(empty)
+1354251439.366096	Cyte0f4fR9Y33UaKK6	172.29.0.109	49294	123.120.110.212	8088	tcp	-	1551.175323	450	537	S1	-	0	ShADad	179	9772	143	7985	(empty)
+#close	2014-03-09-10-22-12

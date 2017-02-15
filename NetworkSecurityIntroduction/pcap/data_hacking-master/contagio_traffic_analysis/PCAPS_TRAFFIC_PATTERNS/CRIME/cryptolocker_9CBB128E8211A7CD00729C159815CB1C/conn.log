@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-22-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1349360808.569037	CN5ens1NYUO3ExyrP6	192.168.248.165	53	8.8.8.8	53	udp	dns	0.021834	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1349360808.569104	C9H19DobISPZ4uNg7	192.168.248.165	53	4.2.2.2	53	udp	dns	0.003841	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1349360823.839090	CXIjZ01HkIsLA70FD5	192.168.248.165	53	8.8.8.8	53	udp	dns	0.061065	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1349360823.839183	CkwOgOhLaPAXARVN3	192.168.248.165	53	4.2.2.2	53	udp	dns	0.004087	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1349360808.627925	Cs6X131i8IC9b4d8V4	192.168.248.165	123	65.55.21.21	123	udp	-	6.161588	96	0	S0	-	0	D	2	152	0	0	(empty)
+1349360810.670904	Cgem6y1Wjj531RC3L4	192.168.248.254	8	192.168.248.165	0	icmp	-	10.723371	40	0	OTH	-	0	-	2	96	0	0	(empty)
+1349360811.760080	C34zRE1yZooyidTZL7	192.168.248.165	68	192.168.248.254	67	udp	dhcp	9.760162	0	1200	SHR	-	0	d	0	0	4	1312	(empty)
+1349360823.852758	C4EQwc14EdowMLQo38	192.168.248.165	123	65.55.56.206	123	udp	-	0.104175	48	48	SF	-	0	Dd	1	76	1	76	(empty)
+1349360859.379676	C4z8tI1XcWXFZuudH3	192.168.248.174	51564	239.255.255.250	3702	udp	-	0.159514	1248	0	S0	-	0	D	2	1304	0	0	(empty)
+1349360859.208185	CMTJFSud3p4K4lz84	192.168.248.174	61082	239.255.255.250	1900	udp	-	6.025495	678	0	S0	-	0	D	6	846	0	0	(empty)
+1349360976.708708	CYlnbGR2oZR5W71c3	192.168.248.165	1112	176.119.0.216	80	tcp	http	1.343024	455	688	SF	-	0	ShADadfF	6	703	6	932	(empty)
+1349360903.925489	C75cAi1vyYtGojMx56	192.168.248.165	53	8.8.8.8	53	udp	dns	72.777408	5321	14378	SF	-	0	Dd	129	8933	129	17990	(empty)
+1349360903.925622	CHHAWMpe7uHX5pCf6	192.168.248.165	53	4.2.2.2	53	udp	dns	72.810644	5321	14378	SF	-	0	Dd	129	8933	129	17990	(empty)
+1349361023.118090	CGWOCk1ghXxMN4Wlk5	192.168.248.165	1113	176.119.0.216	80	tcp	http	0.956630	455	191	SF	-	0	ShADadfF	6	703	6	435	(empty)
+#close	2014-03-09-10-22-12

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smtp
+#open	2014-03-09-10-21-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	helo	mailfrom	rcptto	date	from	to	reply_to	msg_id	in_reply_to	subject	x_originating_ip	first_received	second_received	last_reply	path	user_agent	fuids	is_webmail
+#types	time	string	addr	port	addr	port	count	string	string	table[string]	string	string	table[string]	string	string	string	string	addr	string	string	string	vector[addr]	string	vector[string]	bool
+1359930094.988497	CTnh6S15ye0PetpT37	172.16.253.129	1043	63.250.193.228	587	1	DELLXT	<linux06400@yahoo.com>	<linux06400@yahoo.com>	Thu, 6 Jun 2013 9:46:41 --0400	<linux06400@yahoo.com>	<linux06400@yahoo.com>	-	-	-	Logs from "Laura"	-	-	-	250 OK , completed	63.250.193.228,172.16.253.129	Microsoft Outlook Express 6.00.2900.2527	FzYuGG1z0tXTRdpYYa,FhyrAm2El1XO5EppKb,Fl1Nbz4c5Ag7IkkCIe,FV5WjX3ojSfKZfqkue,F8tJ993kf9VSnuwfp3,FbSVW30Bs3gQdJ3o7,FRq6nF2rlCUXuKL67,Fl435w1ci2O31ibW9d,Fo9LsTbfUyLi8YeO1,Fambo82yWafhPOPttd,F6pRcx6Dh4BKq2JEb,FeiDaP2YMelNz6teoc,FiXwly2qL0G528Itk3,FeuJliyGwu6GuP0a2,FsilfH11WN3cML4452,Fu0uwX2Oi6yF4AjHch,Fmis1fQz9ZhYXi1b1,FOJpl03bIkYrLdWRsk,F5BT5y1otHMSiSj4Ij,FYdRNO2jHEhxgqsw7l,FTNBwD3bjGqqpDw4Af,F9Zq3M1l2UjPHb0V4a,FH7NZn3SgKkuwnw2a5,F2YP0A4APU2FD4thTa,Frkc9G4BkynwKHUhm1,FcyzLl22NssP3DqThl,FQ2Kx73wiVQVo5bka7	F
+#close	2014-03-09-10-21-15

@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349620446.552332	CXaDeMbnBznA51D65	172.16.253.129	53	4.2.2.2	53	udp	54613	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.24	3268.000000,88.000000	F
+1349620492.647413	C3S8qf1RBcVbkDr8Sc	172.16.253.129	53	8.8.8.8	53	udp	26791	nasa.usnewssite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.209.161.13	83.000000	F
+1349620492.647526	C89m1t4osCe1DSA0Zb	172.16.253.129	53	4.2.2.2	53	udp	26791	nasa.usnewssite.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	205.209.161.13	3600.000000	F
+#close	2014-03-09-10-21-10

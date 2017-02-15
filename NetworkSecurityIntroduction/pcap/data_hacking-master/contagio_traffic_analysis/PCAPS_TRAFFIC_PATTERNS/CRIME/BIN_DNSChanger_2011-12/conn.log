@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1324940826.646602	CPEWOw1zCZlhO4xko1	172.29.0.111	1444	66.228.54.181	80	tcp	-	2.954324	0	0	S0	-	0	S	2	96	0	0	(empty)
+1324940826.447110	CL82j34tFEdor9Abjj	172.29.0.111	1062	68.87.73.246	53	udp	dns	0.196567	85	213	SF	-	0	Dd	3	169	3	297	(empty)
+1324940835.609548	CLeStZ2OpN4JSIpIDd	172.29.0.111	1444	66.228.54.181	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1324940844.500609	CAWJPDlCvRd57FbD2	172.29.0.111	1446	172.29.0.105	139	tcp	-	0.076107	1381	1211	SF	-	0	ShDdFfA	9	1749	8	1539	(empty)
+1324940844.497794	CRI0oB24NiqaYljmEh	172.29.0.111	1062	68.87.73.246	53	udp	dns	-	-	-	S0	-	0	D	1	73	0	0	(empty)
+1324940844.499851	C3hnbk2vTp9zsKu0M5	172.29.0.105	137	172.29.0.111	137	udp	-	1.102806	160	0	S0	-	0	D	2	216	0	0	(empty)
+1324940845.493804	CgYgib3RwEtDCuQltk	172.29.0.111	1062	68.87.71.230	53	udp	dns	2.206184	122	298	SF	-	0	Dd	3	206	3	382	(empty)
+1324940844.497402	Crrv51IrNmwJBGcg5	172.29.0.111	137	172.29.0.255	137	udp	dns	25.859126	2800	0	S0	-	0	D	56	4368	0	0	(empty)
+1324940847.702578	CyrJIH1e68xwqu1ni8	172.29.0.111	1447	96.126.106.156	80	tcp	http	0.059480	527	0	S1	-	0	ShADa	3	655	2	80	(empty)
+1324940835.780218	C7aXHPTFCAt8Md7qf	172.29.0.111	138	172.29.0.255	138	udp	-	34.559359	1425	0	S0	-	0	D	8	1649	0	0	(empty)
+1324940844.499985	C7ZxGo4uiIcepma9pc	172.29.0.111	8	172.29.0.105	0	icmp	-	1.102957	64	64	OTH	-	0	-	2	120	2	120	(empty)
+#close	2014-03-09-10-21-22

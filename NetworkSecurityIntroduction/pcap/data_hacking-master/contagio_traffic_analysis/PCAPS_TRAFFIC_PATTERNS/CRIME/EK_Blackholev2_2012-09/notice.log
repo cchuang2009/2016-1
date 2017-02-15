@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-22-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1348022553.741111	CsqDmdy8HR8A6AnHg	192.168.106.131	1428	84.246.225.142	80	FtTsbd351GyRtpxIh	application/x-dosexec	http://www.cppiledefrance3.info/diJPN.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-01-17 10:23:10	https://www.virustotal.com/en/search/?query=46d19d8f4f1061da3b75c430105febb86c20c09d	192.168.106.131	84.246.225.142	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348022610.645589	CVcx13M5sDENCP7l	192.168.106.131	1429	112.78.2.145	80	FVInCU3Apz8kf10UJg	application/x-dosexec	http://www.pve-sc.vn/hRm83qfq.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-01-17 10:23:10	https://www.virustotal.com/en/search/?query=46d19d8f4f1061da3b75c430105febb86c20c09d	192.168.106.131	112.78.2.145	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1348022610.645589	CaeNOk3tPVxveoJn13	192.168.106.131	1436	64.71.131.88	80	Fz5GBS2FfbJ7Isvcb8	application/x-dosexec	http://imperialindiatours.com/p1ywt.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 41%  Last seen: 2013-01-17 10:23:10	https://www.virustotal.com/en/search/?query=46d19d8f4f1061da3b75c430105febb86c20c09d	192.168.106.131	64.71.131.88	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-22-09

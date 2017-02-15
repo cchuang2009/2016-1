@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1362653779.124737	CLcVW34oed6XD3XQW1	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000559	637	0	S0	-	0	D	2	693	0	0	(empty)
+1362653782.443406	C2gDrj3awTo3N1mpXa	10.0.2.15	1037	239.255.255.250	1900	udp	-	6.010539	399	0	S0	-	0	D	3	483	0	0	(empty)
+1362653801.413685	Co0ab92hCNsLbrVrWh	10.0.2.15	68	10.0.2.2	67	udp	dhcp	-	-	-	S0	-	0	D	1	347	0	0	(empty)
+1362653779.124764	CFuycw5MjNFTPdTjg	255.255.255.255	68	10.0.2.2	67	udp	dhcp	22.288937	0	1644	SHR	-	0	d	0	0	3	1728	(empty)
+1362653858.635080	CrQ5CZ3mkGCXcK1Zt1	10.0.2.15	1039	10.0.2.3	53	udp	dns	0.030398	34	50	SF	-	0	Dd	1	62	1	78	(empty)
+1362653919.992035	CKgpfh3UW59EVZLqka	10.0.2.15	1041	193.109.247.77	44279	tcp	ftp-data	0.489880	1736	0	SF	-	0	ShADaFf	6	1984	5	204	(empty)
+1362653858.942737	CD9RqvrS2B3ppkDXf	10.0.2.15	1040	193.109.247.77	21	tcp	ftp	61.658836	159	901	SF	-	0	ShAdDaFfRr	14	727	21	1745	(empty)
+#close	2014-03-09-10-21-55

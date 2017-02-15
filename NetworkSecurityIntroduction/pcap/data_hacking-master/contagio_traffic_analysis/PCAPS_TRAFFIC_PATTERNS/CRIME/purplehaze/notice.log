@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-22-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1327980102.771986	Ce6e4w151rJVd0Pi8k	172.29.0.116	1633	46.21.155.86	80	Fgawe7c9LdhDCXjTf	application/jar	http://abccup.net/?68fcd2fcca4f9782347ee16dfc3bf85e	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-01-21 16:31:03	https://www.virustotal.com/en/search/?query=14fe92c6bfc82829422800bc72ec563e2772b9bb	172.29.0.116	46.21.155.86	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327980102.771986	C5Iufb4aeTUS44MZ08	172.29.0.116	1634	46.21.155.86	80	Fv2D2qYRY8H4GIPzj	application/jar	http://abccup.net/?68fcd2fcca4f9782347ee16dfc3bf85e	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-01-21 16:31:03	https://www.virustotal.com/en/search/?query=14fe92c6bfc82829422800bc72ec563e2772b9bb	172.29.0.116	46.21.155.86	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327980104.156630	C1V0Ra2BhuF8HXkaQh	172.29.0.116	1638	46.21.155.86	80	FL3DRA23ISf2uqImR8	application/jar	http://abccup.net/?68fcd2fcca4f9782347ee16dfc3bf85e	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-01-21 16:31:03	https://www.virustotal.com/en/search/?query=14fe92c6bfc82829422800bc72ec563e2772b9bb	172.29.0.116	46.21.155.86	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327980416.879261	CSdNMl1sWYKPnaBxFk	172.29.0.116	3108	91.230.143.143	80	FDL8ND1oxRbl8DTddc	application/jar	http://1h8.ru/refjko/mqwgtqr.jar?5c2bd163	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 32%  Last seen: 2012-12-01 05:16:09	https://www.virustotal.com/en/search/?query=60aba9c012db041d391ca742442373e6d1c26c82	172.29.0.116	91.230.143.143	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327980423.908790	CuXkrk1lSPrqT6UQJk	172.29.0.116	3106	91.230.143.143	80	FDXDSC1c7oXfy9tjwh	application/jar	http://1h8.ru/refjko/wlyyp.jar?33023ffb	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 27%  Last seen: 2012-12-01 02:31:03	https://www.virustotal.com/en/search/?query=36b16ea1dbc584648d3fe4f7469e827e2a39b6ab	172.29.0.116	91.230.143.143	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1327980472.648837	CPnFgB2bVkzuxhrQI4	172.29.0.116	3219	91.230.143.143	80	F0ZXDs2OIGtFJ2nmm5	application/x-dosexec	http://1h8.ru/a.exe?s=0nir&	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 24%  Last seen: 2012-02-06 12:06:50	https://www.virustotal.com/en/search/?query=714b2d237eea3730679eef2bf6c58b8b58a6d7e2	172.29.0.116	91.230.143.143	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-22-52

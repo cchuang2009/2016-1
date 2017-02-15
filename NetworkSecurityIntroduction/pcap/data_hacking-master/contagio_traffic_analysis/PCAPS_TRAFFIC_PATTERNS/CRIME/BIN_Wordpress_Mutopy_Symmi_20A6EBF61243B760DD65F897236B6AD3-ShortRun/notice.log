@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-21-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1368387157.858525	CW9jYca3AjxLiqdT	172.16.253.129	1058	95.163.104.94	80	FWDus51DtHxZWSRIU6	application/x-dosexec	http://gettrial.store-apps.org/d/conh11.jpg	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 36%  Last seen: 2013-06-01 07:16:06	https://www.virustotal.com/en/search/?query=c4d80a9de4c3cd773b66ceb2bb9d0d9007a2d0f7	172.16.253.129	95.163.104.94	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-21-58

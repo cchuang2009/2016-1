@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349616960.741108	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1349617026.652397	Co5k8oBCzhggfmWL7	172.16.253.131	1179	208.83.223.34	80	bad_HTTP_request	-	F	bro
+1349617026.652397	Co5k8oBCzhggfmWL7	172.16.253.131	1179	208.83.223.34	80	line_terminated_with_single_CR	-	F	bro
+1349617029.627019	CvrRaUZKoeV0w82n2	172.16.253.131	3680	5.39.76.105	80	bad_HTTP_request	-	F	bro
+1349617029.627019	CvrRaUZKoeV0w82n2	172.16.253.131	3680	5.39.76.105	80	line_terminated_with_single_CR	-	F	bro
+1349617029.653337	CFHz3Z2qrRQXsn2ZX	172.16.253.131	3685	94.254.1.254	22	malformed_ssh_identification	-	F	bro
+1349617029.792126	CFHz3Z2qrRQXsn2ZX	172.16.253.131	3685	94.254.1.254	22	line_terminated_with_single_CR	-	F	bro
+#close	2014-03-09-10-21-52

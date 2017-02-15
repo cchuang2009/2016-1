@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1349643237.447662	C7Q2Kd1ZFoo5LTQF0h	172.16.253.240	1146	216.146.38.70	80	0	-	-	-	-	-	0	105	200	OK	-	-	-	(empty)	-	-	-	-	-	F93DIn4mdRsvqRK8R6	text/html
+1349643270.934265	C3vNW22SLqkXMtX0Za	172.16.253.240	1777	216.146.38.70	80	0	-	-	-	-	-	0	105	200	OK	-	-	-	(empty)	-	-	-	-	-	F0TSwxnyEiN9U1Pza	text/html
+1349643325.547580	CN1mEIi6xp7Z0X2L4	172.16.253.240	1813	173.194.74.147	80	0	-	-	-	-	-	0	111648	200	OK	-	-	-	(empty)	-	-	-	-	-	FfjpVZ3or4sfzvnP5g	text/html
+#close	2014-03-09-10-21-54

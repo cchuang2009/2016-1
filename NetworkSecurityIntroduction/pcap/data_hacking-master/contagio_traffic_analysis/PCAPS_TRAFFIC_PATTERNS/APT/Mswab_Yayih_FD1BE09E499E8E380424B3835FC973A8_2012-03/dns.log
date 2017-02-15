@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1330843544.259019	CGe4ic25TpDInpClv	10.0.2.15	52226	4.2.2.4	53	udp	24088	documents.mypicture.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	199.192.156.134	31.000000	F
+1330843544.387765	Cn55XY3NmOHVH7YiI2	10.0.2.15	51030	4.2.2.4	53	udp	39637	www.documents.mypicture.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	40.10.43.0	31.000000	F
+1330843604.469281	C6iXwA3MF0B88MtQjg	10.0.2.15	61830	4.2.2.4	53	udp	59616	xpsp3-ofc2007-r.hsd1.va.comcast.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1330843604.511523	CVoQMN1Wk9CjFAw33f	10.0.2.15	65040	4.2.2.4	53	udp	51917	xpsp3-ofc2007-r.hsd1.va.comcast.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-13

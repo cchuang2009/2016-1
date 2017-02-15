@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-21-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+14.719839	CdnTUu3gdOAm8lIbLc	10.0.2.15	1046	173.194.41.73	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	10.0.2.15	173.194.41.73	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+15.367336	C6eum11r5hGTeJcNH	10.0.2.15	1048	173.194.41.79	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	10.0.2.15	173.194.41.79	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+16.500337	C2nqx83nnCWWVBfv4b	10.0.2.15	1050	74.125.132.99	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (certificate is not yet valid)	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	10.0.2.15	74.125.132.99	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-21-23

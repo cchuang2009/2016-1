@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1366685014.693281	Cp0oph4JV7T08RFHG9	192.168.254.194	60350	8.8.8.8	53	udp	40269	update.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	update.microsoft.com.nsatc.net,65.55.138.126	3445.000000,145.000000	F
+1366685014.825058	CK6TAR1FeyDFIqRRHl	192.168.254.194	60351	8.8.4.4	53	udp	9923	seantit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.175.143.42,202.180.52.3,67.174.162.23,5.175.142.32	7.000000,7.000000,7.000000,7.000000	F
+1366685014.859971	CArwlT2oVS2qkh9H79	192.168.254.194	60352	8.8.4.4	53	udp	9955	seantit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.175.143.42,202.180.52.3,67.174.162.23,5.175.142.32	7.000000,7.000000,7.000000,7.000000	F
+1366685016.184515	Cic2ks4wwvU20rmNLj	192.168.254.194	60353	8.8.4.4	53	udp	11281	seantit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.175.143.42,202.180.52.3,67.174.162.23,5.175.142.32	6.000000,6.000000,6.000000,6.000000	F
+1366685016.468585	CliNKt2i2PkFk6v4C2	192.168.254.194	60354	8.8.4.4	53	udp	11561	seantit.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	5.175.143.42,202.180.52.3,67.174.162.23,5.175.142.32	5.000000,5.000000,5.000000,5.000000	F
+#close	2014-03-09-10-21-15

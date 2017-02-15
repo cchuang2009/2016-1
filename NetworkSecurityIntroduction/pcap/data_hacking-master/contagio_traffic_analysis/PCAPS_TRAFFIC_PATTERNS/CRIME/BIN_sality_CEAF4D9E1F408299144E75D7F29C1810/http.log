@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-22-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1359930055.378401	CYoIad4srmsUcUCmV1	172.16.253.129	1044	98.139.183.24	80	1	GET	yahoo.com	/setting.doc	-	-	0	2450	200	OK	-	-	-	(empty)	-	-	-	-	-	F5lSyT34aXaCXDieEh	text/html
+1359930056.494474	CYoIad4srmsUcUCmV1	172.16.253.129	1044	98.139.183.24	80	2	GET	yahoo.com	/setting.doc	-	-	0	2450	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc39km1ax9sBQHMz3c	text/html
+1359930056.677007	CVI7mf3pLsyVQqIX01	172.16.253.129	1046	98.139.180.149	80	1	GET	www.yahoo.com	/setting.doc	-	-	0	176	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FJ9zs52lfC5tHfaks3	text/plain
+1359930252.283577	C0lccL2R8ddZV1dxXd	172.16.253.129	1050	62.116.143.18	80	1	GET	hayatspa.com	/images/logos.gif?114bbc=9068000	-	KUKU v5.06exp =9355466431	0	162	403	Forbidden	-	-	-	(empty)	-	-	-	-	-	FnRy942nTxJlXfdHl3	text/html
+1359930252.573644	CxBpo60Wu41vgPopg	172.16.253.129	1051	97.74.182.1	80	1	GET	www.livelife-eg.com	/mainh.gif?114ce4=11337960	-	KUKU v5.06exp =9355466431	0	0	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	-	-
+1359930252.872550	CzOpmrferyll46lXj	172.16.253.129	1052	97.74.182.1	80	1	GET	livelife-eg.com	/mainh.gif?114ce4=11337960	-	KUKU v5.06exp =9355466431	0	5291	404	Not Found	-	-	-	(empty)	-	-	-	-	-	F93RRr11hsvwlohxsj	text/html
+1359930254.004305	CgLuaw1mT2QWArpw4i	172.16.253.129	1054	195.22.26.231	80	1	GET	www.ald-transports-express.eu	/images/mainfp.gif?1151c6=11350460	-	KUKU v5.06exp =9355466431	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1359930253.223961	CI7j1s1AjvMXL28m6l	172.16.253.129	1053	208.73.210.210	80	1	GET	elaswany.com	/logos.gif?114f65=2268874	-	KUKU v5.06exp =9355466431	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+1359930354.393056	CL7cEDuVePC7nKTW1	172.16.253.129	1056	108.175.9.189	80	1	GET	www.kjwre9fqwieluoi.info	/?12da89=12355930	-	KUKU v5.06exp =9355466431	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1359930354.553228	CUqSAf37J7w1tvjRW	172.16.253.129	1057	108.175.9.189	80	1	GET	kukutrustnet777.info	/?12db64=1235812	-	KUKU v5.06exp =9355466431	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1359930354.829882	CAmPw93qE8xlF7SGV7	172.16.253.129	1058	109.74.196.143	80	1	GET	kjwre77638dfqwieuoi.info	/?12dc00=8651776	-	KUKU v5.06exp =9355466431	0	0	-	-	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-03-09-10-22-05

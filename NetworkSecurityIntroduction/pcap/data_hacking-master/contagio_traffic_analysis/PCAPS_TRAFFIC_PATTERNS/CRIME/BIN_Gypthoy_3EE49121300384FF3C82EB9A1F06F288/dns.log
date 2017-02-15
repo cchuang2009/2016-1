@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368387797.358913	CSIuKG1nG0ptDA7rb	172.16.253.131	53	8.8.8.8	53	udp	22819	www.samair.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.76.239.85	20008.000000	F
+1368387797.461668	CSIuKG1nG0ptDA7rb	172.16.253.131	53	8.8.8.8	53	udp	63040	sonunigam.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.26.106.189	7079.000000	F
+1368387797.461675	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	63040	sonunigam.us	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	37.26.106.189	14400.000000	F
+1368387797.359011	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	22819	www.samair.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	94.76.239.85	38400.000000	F
+1368387795.895367	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	58816	www.sendsmsfree.co.uk	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1368387796.885362	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	58816	www.sendsmsfree.co.uk	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1368387797.249669	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	43300	www.sendsmsfree.co.uk.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1368387796.885362	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	58816	www.sendsmsfree.co.uk	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1368387797.249669	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	43300	www.sendsmsfree.co.uk.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1368387796.885362	CN5z1kZ8Ifz7duXw9	172.16.253.131	53	4.2.2.2	53	udp	58816	www.sendsmsfree.co.uk	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1368387796.885256	CSIuKG1nG0ptDA7rb	172.16.253.131	53	8.8.8.8	53	udp	58816	www.sendsmsfree.co.uk	1	C_INTERNET	1	A	2	SERVFAIL	F	F	T	F	0	-	-	T
+1368387797.249582	CSIuKG1nG0ptDA7rb	172.16.253.131	53	8.8.8.8	53	udp	43300	www.sendsmsfree.co.uk.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1368387797.249582	CSIuKG1nG0ptDA7rb	172.16.253.131	53	8.8.8.8	53	udp	43300	www.sendsmsfree.co.uk.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-23

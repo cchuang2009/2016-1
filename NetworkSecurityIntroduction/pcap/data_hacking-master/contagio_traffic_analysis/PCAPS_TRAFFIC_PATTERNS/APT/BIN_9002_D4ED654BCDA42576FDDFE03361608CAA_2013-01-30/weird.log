@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1357443696.951018	CbH3Rf1eTZNnvfSek7	172.16.253.129	1143	199.36.76.113	53	DNS_RR_unknown_type	-	F	bro
+1357443696.951018	CbH3Rf1eTZNnvfSek7	172.16.253.129	1143	199.36.76.113	53	DNS_label_too_long	-	F	bro
+1357443696.951018	CbH3Rf1eTZNnvfSek7	172.16.253.129	1143	199.36.76.113	53	DNS_label_forward_compress_offset	-	F	bro
+1357443696.951018	CbH3Rf1eTZNnvfSek7	172.16.253.129	1143	199.36.76.113	53	DNS_truncated_RR_rdlength_lt_len	-	F	bro
+1357443697.424715	CbH3Rf1eTZNnvfSek7	172.16.253.129	1143	199.36.76.113	53	DNS_Conn_count_too_large	-	F	bro
+1357443919.819761	CbH3Rf1eTZNnvfSek7	172.16.253.129	1143	199.36.76.113	53	DNS_truncated_len_lt_hdr_len	-	F	bro
+#close	2014-03-09-10-21-08

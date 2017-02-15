@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title></title>
+	<script type="text/javascript"   
+	   src="http://maps.google.com/maps/api/js?sensor=true&v=3&libraries=geometry"></script>
+		
+<style type="text/css">
+    body { 
+       margin: 10; 
+       padding: 10
+     }
+    #map_canvas { 
+        position: absolute;
+        width: 60%; 
+        height: 60%; 
+        left:20%;
+        right:20%;
+        top:30%;
+        overflow: auto
+    }
+    div.vertical-text {
+        -webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+    transform-origin: left top 0;
+    white-space:nowrap;
+	display:block;
+	bottom:0;
+	width:20px;
+	height:20px;
+    font-family: ‘Trebuchet MS’, Helvetica, sans-serif;
+	font-size:1em;
+	font-weight:normal;
+	text-shadow: 0px 0px 1px #333;
+    margin: 10px;
+    padding: 10px;
+    }
+</style>     
+</head>
+
+<body>
+
+	<div id="map_canvas"></div>
+	<br />
+	
+	  The distance from Chang-Gung University to Destination
+	  <select id="PosMenu">
+              <option value="0">library</option>
+              <option value="1">NSU</option>
+              <option value="2">PO</option>
+          </select>
+	   <div id="distanceAC"></div>
+	<br><h3>Description: </h3><div id="description" class="vertical-text"></div>
+<script type="text/javascript">
+// reference: https://developers.google.com/maps/documentation/javascript/symbols
+
+var myZoom = 16;
+var myMarkerIsDraggable = true;
+var myCoordsLenght = 6;
+var defaultLat = 25.035255529260443;
+var defaultLng = 121.389524;
+var loc1 = new google.maps.LatLng(25.035255529260443, 121.389524);
+var loc = [[25.034225,121.390168],[25.032047,121.386692],[25.032514, 121.390661]];
+var loctoLib=[[25.035236, 121.389524],[25.034225,121.390168]];
+var loctoPO=[[25.035236, 121.389524],[25.032514, 121.39066]];
+
+var loctoNSU=[[25.035236,121.389524],[25.034750,121.389245],[25.033991,121.388494],[25.034147,121.388237], [25.033350,121.387013],[25.032125,121.388022],[25.0317170,121.387464],
+             [25.0319892,121.386692]];
+var stringNSU=" The University nearby Chang-Gung University.";
+
+
+
+var lineSymbol = {
+    path: google.maps.SymbolPath.CIRCLE,
+    scale: 8,
+    strokeColor: '#393'
+  };
+
+
+
+function initialize() {
+    var mapOptions = {
+          center: new google.maps.LatLng(defaultLat,defaultLng),
+          zoom: myZoom,
+          mapTypeId: google.maps.MapTypeId.ROADP
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
+    // creates a draggable marker to the given coords   -3.118-3.118
+    
+    var myMarker = new google.maps.Marker({
+    position: new google.maps.LatLng(defaultLat, defaultLng),
+    draggable: myMarkerIsDraggable,
+    animation: google.maps.Animation.DROP
+    }); 
+
+    google.maps.event.addListener(myMarker, 'click', toggleBounce);
+    
+    function toggleBounce() {
+       if (myMarker.getAnimation() != null) {
+          myMarker.setAnimation(null);
+       } else {
+        myMarker.setAnimation(google.maps.Animation.BOUNCE);
+       }
+    };
+
+    google.maps.event.addListener(myMarker, 'dragend', function(evt){  
+        var newLat=evt.latLng.lat();
+        var newLng=evt.latLng.lng().toFixed(myCoordsLenght);
+	document.getElementById('latitude').value = newLat;
+	document.getElementById('longitude').value = newLng;  
+	var loc2 = new google.maps.LatLng(newLat, newLng);
+        var distAB=Math.round(google.maps.geometry.spherical.computeDistanceBetween (loc1, loc2));
+        var timeestimated= Math.round(distAB/1.5/60);
+     
+	document.getElementById('distanceAB').innerHTML =
+	   distAB+'  m' + ' (about '+timeestimated+ ' by foot)' ;
+
+    });
+    
+    // centers the map on markers coords
+    map.setCenter(myMarker.position);
+  
+    //myPath.setMap(map);
+
+    // adds the marker on the map
+    myMarker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+document.getElementById('PosMenu').onchange = function() {
+  var index = this.value; // array indices start at 0
+  //alert(loc[index][0]);
+  var loc2 = new google.maps.LatLng(loc[index][0], loc[index][1]);
+  var distAB=Math.round(google.maps.geometry.spherical.computeDistanceBetween (loc1, loc2));
+  var timeestimated= Math.round(distAB/1.5/60);
+  document.getElementById('distanceAC').innerHTML = 
+	   distAB+'  m' + ' (about '+timeestimated+ ' minutes walk by foot)' ;
+  //document.getElementById('distanceAC').innerHTML =
+  //Math.round(google.maps.geometry.spherical.computeDistanceBetween (loc1, loc2))+'  m';
+  var newMarker = new google.maps.Marker({
+    position: new google.maps.LatLng(loc[index][0], loc[index][1]),
+    draggable: myMarkerIsDraggable
+  });
+
+  // centers the map on markers coords
+  var mapOptions = {
+          center: new google.maps.LatLng(defaultLat,defaultLng),
+          zoom: myZoom,
+          mapTypeId: google.maps.MapTypeId.ROADP
+    };
+
+   var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions)
+
+   google.maps.event.addListener(newMarker, 'dragend', function(evt){  
+        var newLat=evt.latLng.lat();
+        var newLng=evt.latLng.lng().toFixed(myCoordsLenght);
+	document.getElementById('latitude').value = newLat;
+	document.getElementById('longitude').value = newLng;
+	var loc2 = new google.maps.LatLng(newLat, newLng);
+	document.getElementById('distanceAB').innerHTML =
+	   Math.round(google.maps.geometry.spherical.computeDistanceBetween (loc1, loc2))+'  m';
+
+    });
+  // make the tracjectory
+  if (index==0) {
+    // Todo
+     var coord =[];
+     for (i = 0; i < loctoLib.length; i++) { 
+         coord.push(new google.maps.LatLng(loctoLib[i][0], loctoLib[i][1]));
+     };		     
+     document.getElementById('description').innerHTML="Welcome!";
+  } else if (index==1) {
+    var coord =[];
+    for (i = 0; i < loctoNSU.length; i++) { 
+        coord.push(new google.maps.LatLng(loctoNSU[i][0], loctoNSU[i][1]));
+        };
+     document.getElementById('description').innerHTML=stringNSU;
+  } else {
+       //Todo
+       var coord =[];
+       for (i = 0; i < loctoPO.length; i++) { 
+           coord.push(new google.maps.LatLng(loctoPO[i][0], loctoPO[i][1]));
+       };
+       document.getElementById('description').innerHTML="Welcome!";
+  }
+ 
+   var TrajPath= new google.maps.Polyline({
+      path: coord,
+      geodesic: true,
+      icons: [{
+         icon: lineSymbol,
+         offset: '100%'
+      }],
+      strokeColor: '#FF0000',
+      strokeOpacity: 0.8,
+      strokeWeight: 2,
+      map: map
+    });
+   //TrajPath.setMap(map);
+   animateCircle();
+  map.setCenter(newMarker.position);
+
+  // adds the marker on the map
+  newMarker.setMap(map);
+  
+  function animateCircle() {
+    var count = 0;
+    window.setInterval(function() {
+      count = (count + 1) % 200;
+
+      var icons = TrajPath.get('icons');
+      icons[0].offset = (count / 2) + '%';
+      TrajPath.set('icons', icons);
+  }, 20);
+};
+
+}
+</script>
+
+</body>
+</html>

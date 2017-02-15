@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="578" height="100"></canvas>
+    
+    <script>
+         
+      var canvas,context;
+      var x =  0;
+      var y = 15;
+      var speed = 5;
+      function init() {
+         canvas  = document.getElementById("myCanvas");
+         context = canvas.getContext("2d");
+      }
+
+      function animate() {
+
+        reqAnimFrame = window.requestAnimationFrame       || 
+           window.requestAnimationFrame ||
+           window.mozRequestAnimationFrame    ||
+           window.msRequestAnimationFrame     ||
+           window.oRequestAnimationFrame;
+        reqAnimFrame(animate);
+
+        draw();
+      }
+
+
+    function draw() {
+       x += speed;
+
+       if(x <= 0 || x >= canvas.width-25){
+          speed = -speed;
+       }
+
+       context.clearRect(0, 0, canvas.width, canvas.height);
+       context.fillStyle = "#ff00ff";
+       context.fillRect(x, y, 25, 25);
+    }
+    init();
+    animate();
+
+    </script>
+  </body>
+</html>
+
+    </script>
+  </body>
+</html>

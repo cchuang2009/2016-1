@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1362653858.635080	CrQ5CZ3mkGCXcK1Zt1	10.0.2.15	1039	10.0.2.3	53	udp	18556	jeck1072.ucoz.ru	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	193.109.247.77	14400.000000	F
+#close	2014-03-09-10-21-55

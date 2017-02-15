@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-22-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1368387143.869437	CMBNKn1fUpO79q291e	172.16.253.129	1056	69.43.161.152	80	0	-	-	-	-	-	0	91	400	Bad request	-	-	-	(empty)	-	-	-	-	-	FzliOo4m7qQLvQi7b	text/html
+1368387143.969210	CjC9IQ19IF8bGMnrW8	172.16.253.129	1057	69.43.161.152	80	1	GET	ldark.com	/socks/proxy.php?ip=172.16.253.129&port=41080&os=XP&iso=USA&smtp=0	-	Mozilla/5.0	0	0	302	Found	-	-	-	(empty)	-	-	-	-	-	-	-
+1368387144.350664	Cw9E1c3fnuDmDoi646	172.16.253.129	1059	141.8.224.79	80	1	GET	ww41.ldark.com	/socks/proxy.php?ip=172.16.253.129&port=41080&os=XP&iso=USA&smtp=0	-	Mozilla/5.0	0	3862	200	OK	-	-	-	(empty)	-	-	-	-	-	FVW2CA4oktTP2CGHpf	text/html
+#close	2014-03-09-10-22-11

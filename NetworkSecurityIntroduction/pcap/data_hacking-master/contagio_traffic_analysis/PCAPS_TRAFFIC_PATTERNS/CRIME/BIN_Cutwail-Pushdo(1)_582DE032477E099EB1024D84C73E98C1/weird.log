@@ -1,0 +1,23 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349360808.272485	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1349360829.402033	Ciuike5I7hLysUQy3	192.168.248.165	1151	208.106.129.24	25	line_terminated_with_single_CR	-	F	bro
+1349360829.402033	Ciuike5I7hLysUQy3	192.168.248.165	1151	208.106.129.24	25	NUL_in_line	-	F	bro
+1349360849.282844	CHds2P1LnS8WwYYRAl	192.168.248.165	1198	209.164.229.134	25	line_terminated_with_single_CR	-	F	bro
+1349360849.282844	CHds2P1LnS8WwYYRAl	192.168.248.165	1198	209.164.229.134	25	NUL_in_line	-	F	bro
+1349360849.406164	C3maXGDOgYTGboWOi	192.168.248.165	1199	64.40.115.5	25	line_terminated_with_single_CR	-	F	bro
+1349360881.414002	CK59qF3lxPMXo4iZ2c	192.168.248.165	1247	141.0.173.147	25	line_terminated_with_single_CR	-	F	bro
+1349360881.414002	CK59qF3lxPMXo4iZ2c	192.168.248.165	1247	141.0.173.147	25	NUL_in_line	-	F	bro
+1349360912.273877	Cp1CxvTppIKpdmDjb	192.168.248.165	1290	207.69.189.28	25	NUL_in_line	-	F	bro
+1349360912.273877	Cp1CxvTppIKpdmDjb	192.168.248.165	1290	207.69.189.28	25	line_terminated_with_single_CR	-	F	bro
+1349360912.298952	CLCD5n2Ll9qMOyf4Wa	192.168.248.165	1263	216.82.160.146	25	line_terminated_with_single_CR	-	F	bro
+1349360912.298952	CLCD5n2Ll9qMOyf4Wa	192.168.248.165	1263	216.82.160.146	25	NUL_in_line	-	F	bro
+1349360935.656628	CnKMmL2o1FHYzM7jh1	192.168.248.165	1314	141.0.173.147	25	NUL_in_line	-	F	bro
+1349360935.656628	CnKMmL2o1FHYzM7jh1	192.168.248.165	1314	141.0.173.147	25	line_terminated_with_single_CR	-	F	bro
+#close	2014-03-09-10-21-18

@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1359946185.139315	CaxuAx3MDGxkZRWjJc	172.16.253.130	1066	64.235.43.131	80	1	GET	64.235.43.131	/a.php?id=c2ViYWxpQGxpYmVyby5pdA==	-	-	0	1	200	OK	-	-	-	(empty)	-	-	-	-	-	FSzCGv4wj3Gzuo7o39	application/octet-stream
+#close	2014-03-09-10-21-13

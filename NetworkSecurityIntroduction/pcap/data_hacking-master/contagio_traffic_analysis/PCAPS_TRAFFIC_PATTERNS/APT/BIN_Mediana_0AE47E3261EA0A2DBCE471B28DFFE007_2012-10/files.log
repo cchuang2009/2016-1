@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-10
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1349646641.483734	FOvQBu21DhExBT6OAh	118.69.36.139	172.16.253.240	CtH2QO2HwW4Zu2gVl1	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	522	522	0	0	F	-	2e8ba2d348ff0ae9e930efd1c7218d25	ad5c88987c80091eff1cf7915ef346016dcd644b	-	-
+#close	2014-03-09-10-21-10

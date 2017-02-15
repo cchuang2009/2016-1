@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1311117904.054622	CG0xPS2iewtyYxIsvg	172.29.0.116	1026	68.87.73.246	53	udp	42537	mickeypluto.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	58.64.232.19	3600.000000	F
+1311117916.539207	CWTXRc45p2L1ygyzNf	172.29.0.116	1026	68.87.73.246	53	udp	50191	armmf.adobe.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-10

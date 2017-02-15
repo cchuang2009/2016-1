@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1354853703.012278	CaIq6u4PkUZToszc64	10.0.2.15	1042	222.186.36.128	443	1	GET	82747.ddnsd.at	/XEuPCLrf?e	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1)	0	184	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F4wYDE1zAMxFexElvk	text/html
+1354853703.017603	CaIq6u4PkUZToszc64	10.0.2.15	1042	222.186.36.128	443	2	GET	82747.ddnsd.at	/XEuPCLrf/?e	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1)	0	98304	200	OK	-	-	-	(empty)	-	-	-	-	-	FX8nm114Nu9ZyiKnS8	application/x-dosexec
+1354853751.178231	Cp6PIx3GmDaLD6X0nl	10.0.2.15	1043	222.186.36.128	443	1	GET	82747.ddnsd.at	/1/?e	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1)	0	74	200	OK	-	-	-	(empty)	-	-	-	-	-	FLklES2TwmcGVEE54g	binary
+1354853752.606810	Cp6PIx3GmDaLD6X0nl	10.0.2.15	1043	222.186.36.128	443	2	GET	82747.ddnsd.at	/wjAtBD/v4	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1)	0	184	301	Moved Permanently	-	-	-	(empty)	-	-	-	-	-	F9UTZf1oSEPsOP2ggd	text/html
+1354853752.995812	Cp6PIx3GmDaLD6X0nl	10.0.2.15	1043	222.186.36.128	443	3	GET	82747.ddnsd.at	/wjAtBD/v4/	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1)	0	270615	200	OK	-	-	-	(empty)	-	-	-	-	-	Fh9kkQ1BPdVxb1Xnid	application/x-dosexec
+#close	2014-03-09-10-21-55

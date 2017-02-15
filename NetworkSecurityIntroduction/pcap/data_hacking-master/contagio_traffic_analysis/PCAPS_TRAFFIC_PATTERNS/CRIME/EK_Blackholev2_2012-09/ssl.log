@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-22-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1348022516.948983	CPbN174Ynr66GJqZV1	192.168.106.131	1417	63.245.217.81	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=crash-reports.mozilla.com,OU=IT,O=Mozilla Corporation,L=Mountain View,ST=California,C=US,serialNumber=I/NLylLN/RFXXDCnJI1gjuoDEIL5dktV	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1328053969.000000	1393957859.000000	-	-	-	e0ae520743d60096eda6b787c3f23a93	ok
+1348022553.219572	CI31rO1uAAE3l3JtNc	192.168.106.131	1430	63.245.217.81	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=crash-reports.mozilla.com,OU=IT,O=Mozilla Corporation,L=Mountain View,ST=California,C=US,serialNumber=I/NLylLN/RFXXDCnJI1gjuoDEIL5dktV	CN=GeoTrust SSL CA,O=GeoTrust\, Inc.,C=US	1328053969.000000	1393957859.000000	-	-	-	e0ae520743d60096eda6b787c3f23a93	ok
+#close	2014-03-09-10-22-09

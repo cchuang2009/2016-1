@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1349621060.065256	C08zJSiBnoBrUJtr6	172.16.253.130	53	8.8.8.8	53	udp	dns	0.017717	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1349621060.065317	CGaz8A2bcS1JVsd8ll	172.16.253.130	53	4.2.2.2	53	udp	dns	0.022223	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1349621105.120745	CmxC0Hpn5Y1Ov3wIe	172.16.253.130	1081	114.244.44.115	80	tcp	-	3.031790	0	0	S0	-	0	S	2	96	0	0	(empty)
+1349621106.579097	CLFo954iFn6vxSIxee	172.16.253.130	1084	114.244.44.115	8080	tcp	http	4.604595	2734	0	S0	-	0	SAD	13	3262	0	0	(empty)
+1349621104.985163	C7247a2JsJzVl6YJi	172.16.253.130	53	8.8.8.8	53	udp	dns	0.125349	72	118	SF	-	0	Dd	2	128	2	174	(empty)
+1349621104.985273	C0gZfC3nlUaGOw8oU6	172.16.253.130	53	4.2.2.2	53	udp	dns	1.148407	72	118	SF	-	0	Dd	2	128	2	174	(empty)
+1349621105.841557	CkbPd02aN8yzNsKO82	172.16.253.130	1083	168.95.1.1	53	udp	dns	0.308104	37	53	SF	-	0	Dd	1	65	1	81	(empty)
+1349621057.812434	CHkcup2cqSyyBDkw8l	172.16.253.130	68	172.16.253.254	67	udp	dhcp	0.001575	0	600	SHR	-	0	d	0	0	2	656	(empty)
+1349621056.810768	CIpa5d245UrtylF181	0.0.0.0	68	255.255.255.255	67	udp	dhcp	1.002184	613	0	S0	-	0	D	2	669	0	0	(empty)
+1349621056.811273	CTXxDI3lxP3wiC5VY5	172.16.253.254	8	172.16.253.130	0	icmp	-	1.020034	40	0	OTH	-	0	-	2	96	0	0	(empty)
+1349621114.168598	CAihyO3ecS0kYA0R88	172.16.253.130	1081	114.244.44.115	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1349621060.096293	CLPb491yMp2Lf7sm7f	172.16.253.130	123	65.55.21.20	123	udp	-	0.105995	48	48	SF	-	0	Dd	1	76	1	76	(empty)
+1349621126.460870	CuAfzN2PzDSJYgtZmk	172.16.253.130	1086	114.244.44.115	80	tcp	-	2.910229	0	0	S0	-	0	S	2	96	0	0	(empty)
+1349621135.386092	CPzG7NoF3JFZGG83i	172.16.253.130	1086	114.244.44.115	80	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1349621105.023969	ClpERK2U3EJh2Sp7zj	172.16.253.130	1080	82.96.118.210	80	tcp	http	62.393398	197	735	RSTO	-	0	ShADadR	5	405	4	1634	(empty)
+1349621113.794754	CT8XiP151mgSdNdNU1	172.16.253.130	1084	114.244.44.115	8080	tcp	-	363.280436	60110	0	OTH	-	0	DA	357	74390	0	0	(empty)
+#close	2014-03-09-10-21-08

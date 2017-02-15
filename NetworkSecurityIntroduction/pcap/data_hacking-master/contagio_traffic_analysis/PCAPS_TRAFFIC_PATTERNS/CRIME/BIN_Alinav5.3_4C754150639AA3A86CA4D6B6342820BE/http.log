@@ -1,0 +1,18 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1376198808.335184	CQkf9j2wEI8v9Uxhp4	172.16.253.129	1135	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	163	35	666	OK	-	-	-	(empty)	-	-	-	FyE8FbNxvPF6psHkd	binary	FYJj813WYw0umjht24	binary
+1376198920.402726	CFepRnNz3JeZzqfak	172.16.253.129	1136	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	2980	35	666	OK	-	-	-	(empty)	-	-	-	FEvnz43eCqTPYYeAug	binary	FBLOH422QxfKgJ2sM3	binary
+1376199161.344020	Ca2bl43cDssCTFtb8g	172.16.253.129	1140	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	226	35	666	OK	-	-	-	(empty)	-	-	-	FQEgOx4mYB35jmXPzi	binary	FNWQfF1d44AWAqT99i	binary
+1376199401.929087	CpWW3T2vZEJ0wH3dWh	172.16.253.129	1143	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	82	35	666	OK	-	-	-	(empty)	-	-	-	F3dbW41t8OJ65131Mf	binary	FULWfo2RXmORDigJAk	binary
+1376199642.595979	CuV42w4y2ROKopTmN	172.16.253.129	1144	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	82	35	666	OK	-	-	-	(empty)	-	-	-	FIXqQjOFoDEeZ1Vd5	binary	FoH4Jv2UWRu0EjsJWl	binary
+1376199883.098384	CULrsRLLY4Pe5Zlr8	172.16.253.129	1145	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	82	35	666	OK	-	-	-	(empty)	-	-	-	Fsfa792Xhox0T7Ybm7	binary	F7nBqLLYEqf1yZEr5	binary
+1376200123.568903	CpGgr12zEVBnY3hB13	172.16.253.129	1148	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	355	35	666	OK	-	-	-	(empty)	-	-	-	FrRhUk4YpzTkrNachc	binary	Fl1yhrq1mzelzxwF5	binary
+1376200364.073948	Co45a6WHlNfC9NBvl	172.16.253.129	1149	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	82	35	666	OK	-	-	-	(empty)	-	-	-	FWxDg741FfUCXzSUJk	binary	F7HHs94eVkuk8xihcc	binary
+1376200604.505122	CUfbL24nOafzTNS7vc	172.16.253.129	1150	91.229.76.97	80	1	POST	91.229.76.97	/adobe/version_check.php	-	Alina v5.3	82	35	666	OK	-	-	-	(empty)	-	-	-	FqHXuO3hByyW0VDJD7	binary	FdhtN5332hREPukEV1	binary
+#close	2014-03-09-10-21-14

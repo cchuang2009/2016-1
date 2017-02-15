@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1366685014.693281	Cp0oph4JV7T08RFHG9	192.168.254.194	60350	8.8.8.8	53	udp	dns	0.023626	38	98	SF	-	0	Dd	1	66	1	126	(empty)
+1366685014.825058	CK6TAR1FeyDFIqRRHl	192.168.254.194	60351	8.8.4.4	53	udp	dns	0.033021	28	92	SF	-	0	Dd	1	56	1	120	(empty)
+1366685014.859971	CArwlT2oVS2qkh9H79	192.168.254.194	60352	8.8.4.4	53	udp	dns	0.029913	28	92	SF	-	0	Dd	1	56	1	120	(empty)
+1366685016.184515	Cic2ks4wwvU20rmNLj	192.168.254.194	60353	8.8.4.4	53	udp	dns	0.281873	28	92	SF	-	0	Dd	1	56	1	120	(empty)
+1366685016.468585	CliNKt2i2PkFk6v4C2	192.168.254.194	60354	8.8.4.4	53	udp	dns	0.026879	28	92	SF	-	0	Dd	1	56	1	120	(empty)
+1366685014.721892	CVgWpkLiW11F40eq	192.168.254.194	53249	65.55.138.126	80	tcp	-	0.182433	0	0	RSTR	-	0	ShAFr	3	132	2	92	(empty)
+1366685014.892686	CW2XVcYCmmKwNwJzc	192.168.254.194	53250	5.175.143.42	80	tcp	http	1.288934	281	258	SF	-	0	ShADadfF	6	533	6	510	(empty)
+1366685016.498276	Ch0ryk20lnbeI5Eh85	192.168.254.194	53252	5.175.143.42	80	tcp	http	1.068188	237	200	S1	-	0	ShADad	4	409	4	372	(empty)
+#close	2014-03-09-10-21-15

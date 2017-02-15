@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="400" height="300" style= "border:2px solid blue"></canvas>
+    
+    <script>
+      var x =  0;
+      var y = 15;
+      var xspeed = 5;
+      var yspeed = 3;
+      var c= '#'+Math.random().toString(16).substr(-6);
+      
+      function init() {
+         canvas  = document.getElementById("myCanvas");
+         context = canvas.getContext("2d");
+      }
+
+      function animate() {
+        reqAnimFrame = window.requestAnimationFrame       || 
+           window.requestAnimationFrame ||
+           window.mozRequestAnimationFrame    ||
+           window.msRequestAnimationFrame     ||
+           window.oRequestAnimationFrame;
+        reqAnimFrame(animate);
+        draw();
+      }
+
+
+      function draw() {
+        context.clearRect(0, 0, 400, 300);
+        context.fillStyle = c;/*"#ff00ff";*/
+        context.fillRect(x, y, 25, 25);
+        
+        x += xspeed;
+        y += yspeed;
+
+        if(x <= 0 || x >= 375){
+           xspeed = -xspeed;
+           //c= '#'+Math.random().toString(16).substr(-6);
+        }
+        if(y <= 0 || y >= 285){
+           yspeed = -yspeed;
+           //c= '#'+Math.random().toString(16).substr(-6);
+        }
+      }
+      init();
+      animate();
+    </script>
+  </body>
+</html>
+
+    </script>
+  </body>
+</html>

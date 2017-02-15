@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-22-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1359941448.537574	CoW4m2179c2s63Dlmc	172.16.253.132	1052	188.129.243.106	80	1	GET	188.129.243.106	/index.htm	-	Mozilla/5.0 (Windows NT 6.1; WOW64; rv:21.0) Gecko/20130331 Firefox/21.0	164	229	200	(empty)	-	-	-	(empty)	-	-	-	FIE0da2aOre19kXPcd	binary	F1xvMF4xzWQRsFgGY8	binary
+1359941450.199851	CoW4m2179c2s63Dlmc	172.16.253.132	1052	188.129.243.106	80	2	GET	188.129.243.106	/search.htm	-	Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_7; da-dk) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1	1721	5709	200	(empty)	-	-	-	(empty)	-	-	-	Fi9EuwtBwwaYetLb	binary	FRXvVc1rkUIiIijQhj	binary
+1359942053.256628	CnCZSd2LcbdfCQUZ77	172.16.253.132	1940	95.69.159.200	80	1	GET	95.69.159.200	/login.htm	-	Opera/9.80 (Windows NT 5.1; U; zh-sg) Presto/2.9.181 Version/12.00	164	229	200	(empty)	-	-	-	(empty)	-	-	-	FKWqMM3SXrw6dyJHVa	binary	FNVP7924frtGJqrbj6	binary
+1359942054.865448	CnCZSd2LcbdfCQUZ77	172.16.253.132	1940	95.69.159.200	80	2	GET	95.69.159.200	/setup.htm	-	Mozilla/5.0 (X11; Linux i686; rv:21.0) Gecko/20100101 Firefox/21.0	2349	5447	200	(empty)	-	-	-	(empty)	-	-	-	FE5aSuJCHoXLPBM0a	binary	FKXMbN1Mxe8S6RUMmk	binary
+#close	2014-03-09-10-22-11

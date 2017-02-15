@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1359946289.732932	CuQ1ak48NbnTkgkln4	172.16.253.130	1067	213.57.77.220	80	1	POST	real-newslife.com	/postnuke/blog.php	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1)	84	78	200	OK	-	-	-	(empty)	-	-	-	FFMuAhCHJLu5iXfke	binary	FdPRbP3dYfbd02aErf	binary
+1359946290.216496	CGoTXO752W95YIjWl	172.16.253.130	1069	69.49.96.18	80	1	GET	valeriemesedahl.com	/images/cacax.exe	-	Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022)	0	119296	200	OK	-	-	-	(empty)	-	-	-	-	-	FvZWaG3PzpGJqq0BGb	application/x-dosexec
+1359946290.797525	CuQ1ak48NbnTkgkln4	172.16.253.130	1067	213.57.77.220	80	2	POST	real-newslife.com	/postnuke/blog.php	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; InfoPath.1)	63	4	200	OK	-	-	-	(empty)	-	-	-	FMan241SfoTDvnXifj	binary	FCNIvu27jVs7OSd7n6	text/plain
+1359946297.864242	CSFT784KdcrOzIcKq5	172.16.253.130	1070	37.0.122.142	80	1	POST	37.0.122.142	/alfa/gateway.php	-	Mozilla/4.0(compatible; MSIE 7.0b; Windows NT 6.0)	153	0	200	OK	-	-	-	(empty)	-	-	-	FPC7tz1rQu2l6YsZ0j	text/plain	-	-
+#close	2014-03-09-10-21-36

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1330843714.887905	Ck57L623Pc18KtDwg1	10.0.2.15	1380	199.192.156.134	443	1	POST	199.192.156.134	/bbs/info.asp	-	-	100	12	200	OK	-	-	-	(empty)	-	-	-	FygYEC2epMmwwcSqT8	binary	FDf77i3yCoRFwCEhJi	binary
+1330843722.245087	CjRS9R3lXpmpB3zoM1	10.0.2.15	1381	199.192.156.134	443	1	POST	199.192.156.134	/bbs/info.asp	-	-	165	26	200	OK	-	-	-	(empty)	-	-	-	F9yUg43sGQB4UuFe3e	binary	FBshN13czZ5yZDBt41	binary
+1330843723.003033	CS0m4G3M6ZhmPLzxyf	10.0.2.15	1382	199.192.156.134	443	1	POST	199.192.156.134	/bbs/info.asp	-	-	42	0	200	OK	-	-	-	(empty)	-	-	-	FFYZU44NNFf2TlSdnc	binary	-	-
+1330843733.363386	C3FABV11p86Xu9B7lk	10.0.2.15	1383	199.192.156.134	443	1	POST	199.192.156.134	/bbs/info.asp	-	-	181	27	200	OK	-	-	-	(empty)	-	-	-	F94IDAy1Do8AampDb	binary	FpTOoP1hHIJuwmyTKf	binary
+1330843734.121257	Cxqr6TYwQcPhFqVD6	10.0.2.15	1384	199.192.156.134	443	1	POST	199.192.156.134	/bbs/info.asp	-	-	43	0	200	OK	-	-	-	(empty)	-	-	-	F4qPdUZYjFrf551v	binary	-	-
+1330843746.304909	CXlgny2zTDDnpTUzal	10.0.2.15	1386	199.192.156.134	443	1	POST	199.192.156.134	/bbs/info.asp	-	-	28	12	200	OK	-	-	-	(empty)	-	-	-	FpA1eR2JaoWJOroRh2	binary	FuLMBu1c1WYfNomEN7	binary
+#close	2014-03-09-10-21-13

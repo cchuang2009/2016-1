@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-21-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+14.671382	CdnTUu3gdOAm8lIbLc	10.0.2.15	1046	173.194.41.73	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1351118013.000000	1370652207.000000	-	-	-	681c36235ee750a008bd3e0142a154d2	certificate is not yet valid
+15.322660	COviva37hytqYPC7f1	10.0.2.15	1047	173.194.41.73	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	4d088bd92ab04544daf93819adb57ea8cc2e9a04e410f55b4306c12956ac20fb	-	-	-	-	-	-	-	-	-
+15.336075	C6eum11r5hGTeJcNH	10.0.2.15	1048	173.194.41.79	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=*.gstatic.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Google Internet Authority,O=Google Inc,C=US	1351118045.000000	1370652207.000000	-	-	-	5f098a370d4164c7b84f7f27de5bcaf7	certificate is not yet valid
+16.441362	C2nqx83nnCWWVBfv4b	10.0.2.15	1050	74.125.132.99	443	SSLv3	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.google.com,O=Google Inc,L=Mountain View,ST=California,C=US	CN=Thawte SGC CA,O=Thawte Consulting (Pty) Ltd.,C=ZA	1319605200.000000	1380603599.000000	-	-	-	7d7c837f0a8d739d1a1494d0be1f82ea	certificate is not yet valid
+#close	2014-03-09-10-21-23

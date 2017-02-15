@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+28.997037	CRokXe1CtBEXDqw8Ud	10.0.2.15	1047	98.139.183.24	80	tcp	http	0.192064	75	372	SF	-	0	ShADadfF	5	283	5	576	(empty)
+29.198554	CtdS224usTnUS7V9Sl	10.0.2.15	1048	98.139.183.24	80	tcp	http	0.192213	75	372	SF	-	0	ShADadfF	5	283	5	576	(empty)
+31.774488	CN4hMo2fSJHLMtb6s3	10.0.2.15	1051	69.197.63.60	8080	tcp	-	2.935533	0	0	S0	-	0	S	2	96	0	0	(empty)
+40.719258	Cz5nBz1bXWNU0pbDda	10.0.2.15	1051	69.197.63.60	8080	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+17.675819	CPIL7Y2pUwvY0jy40k	10.0.2.15	137	10.0.2.255	137	udp	dns	24.285141	1782	0	S0	-	0	D	27	2538	0	0	(empty)
+17.609011	CTWbE82kkFgqR9NGo7	10.0.2.15	1025	8.8.8.8	53	udp	dns	14.146624	268	668	SF	-	0	Dd	8	492	8	892	(empty)
+51.889057	CxeHK83mSeYkhlyLNb	10.0.2.15	1052	69.197.63.60	8080	tcp	-	2.950028	0	0	S0	-	0	S	2	96	0	0	(empty)
+51.783483	CfWIecm9XvgyDzCoi	10.0.2.15	1025	8.8.8.8	53	udp	dns	0.101312	33	49	SF	-	0	Dd	1	61	1	77	(empty)
+60.847459	CPQXQt4Hs3txxVhvc8	10.0.2.15	1052	69.197.63.60	8080	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+15.462987	Cf3wc81ZG6w3I49VF2	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000447	637	0	S0	-	0	D	2	693	0	0	(empty)
+15.463127	ClrKhO1mduefjdHlkh	10.0.2.15	68	10.0.2.2	67	udp	dhcp	0.000354	0	1096	SHR	-	0	d	0	0	2	1152	(empty)
+72.023225	C9swsi2d200jryVQFd	10.0.2.15	1053	69.197.63.60	8080	tcp	-	2.944704	0	0	S0	-	0	S	2	96	0	0	(empty)
+17.605288	CrkLui3klJe6sQ8cXc	10.0.2.15	1039	239.255.255.250	1900	udp	-	-	-	-	S0	-	0	D	1	161	0	0	(empty)
+17.616300	CJy4QNjrGwnCkgM3b	10.0.2.15	123	65.55.21.24	123	udp	-	0.144649	48	48	SF	-	0	Dd	1	76	1	76	(empty)
+71.899549	CHUxVCPv4TrFYTN3	10.0.2.15	1025	8.8.8.8	53	udp	dns	0.119874	33	49	SF	-	0	Dd	1	61	1	77	(empty)
+17.617149	CheHnD4FtG9i4OzLdj	10.0.2.15	1043	239.255.255.250	1900	udp	-	6.016931	399	0	S0	-	0	D	3	483	0	0	(empty)
+17.605364	CHDH0j40Z7bwUCGsM	10.0.2.2	11	10.0.2.15	0	icmp	-	6.028778	564	0	OTH	-	0	-	4	676	0	0	(empty)
+80.976557	C97nc94FVTKqivcxwg	10.0.2.15	1053	69.197.63.60	8080	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+92.205287	CzPtOX1OPgmUjRknk6	10.0.2.15	1054	69.197.63.60	8080	tcp	-	2.992169	0	0	S0	-	0	S	2	96	0	0	(empty)
+92.034178	CbXhpt3iaU3MXXQVV1	10.0.2.15	1025	8.8.8.8	53	udp	dns	0.166639	33	49	SF	-	0	Dd	1	61	1	77	(empty)
+101.206150	CLZIS3WVkwIHuiKS2	10.0.2.15	1054	69.197.63.60	8080	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+98.162722	CjyAzXe2Q9TxqM8Sa	10.0.2.15	137	10.0.2.255	137	udp	dns	1.500532	150	0	S0	-	0	D	3	234	0	0	(empty)
+112.388655	C59Spx2Xei2RX0U9se	10.0.2.15	1055	69.197.63.60	8080	tcp	-	2.937896	0	0	S0	-	0	S	2	96	0	0	(empty)
+112.207892	CjUaRG1lkSx4HsPYel	10.0.2.15	1025	8.8.8.8	53	udp	dns	0.176611	33	49	SF	-	0	Dd	1	61	1	77	(empty)
+121.334762	CpgtvU3JfvFs8DKcM4	10.0.2.15	1055	69.197.63.60	8080	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+27.169795	CZDLSwkY8FmI98ek5	10.0.2.15	1046	206.190.36.45	80	tcp	http	16.648615	142	5940	S3	-	0	ShADadf	10	550	12	6424	(empty)
+26.693151	CFphoH366rrabEevl8	10.0.2.15	138	10.0.2.255	138	udp	-	76.025145	2916	0	S0	-	0	D	15	3336	0	0	(empty)
+17.675923	CzRRqJ2XOjBdrkTdMf	10.0.2.2	3	10.0.2.15	0	icmp	-	85.042449	5208	0	OTH	-	0	-	45	6468	0	0	(empty)
+#close	2014-03-09-10-21-24

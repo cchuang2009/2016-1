@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1324940844.499851	C3hnbk2vTp9zsKu0M5	172.29.0.105	137	172.29.0.111	137	DNS_label_len_gt_pkt	-	F	bro
+1324940844.499851	C3hnbk2vTp9zsKu0M5	172.29.0.105	137	172.29.0.111	137	DNS_truncated_ans_too_short	-	F	bro
+#close	2014-03-09-10-21-22

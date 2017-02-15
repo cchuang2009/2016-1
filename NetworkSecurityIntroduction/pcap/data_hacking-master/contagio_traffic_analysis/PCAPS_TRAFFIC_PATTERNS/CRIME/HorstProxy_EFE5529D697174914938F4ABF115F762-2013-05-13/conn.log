@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-22-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1368387143.691702	CMBNKn1fUpO79q291e	172.16.253.129	1056	69.43.161.152	80	tcp	-	0.177735	0	188	SF	-	0	ShAFafR	4	168	3	312	(empty)
+1368387143.886362	CjC9IQ19IF8bGMnrW8	172.16.253.129	1057	69.43.161.152	80	tcp	http	0.238618	125	289	SF	-	0	ShADafF	5	333	4	453	(empty)
+1368387144.260176	Cw9E1c3fnuDmDoi646	172.16.253.129	1059	141.8.224.79	80	tcp	http	0.442926	154	4356	RSTO	-	0	ShADadR	5	362	5	4560	(empty)
+1368387146.781048	CPInmm2cix11lrhY5b	172.16.253.129	1063	194.67.23.111	25	tcp	-	2.904267	0	0	S0	-	0	S	2	96	0	0	(empty)
+1368387143.588169	COWUxs27kSpnGQsDu9	172.16.253.129	53	8.8.8.8	53	udp	dns	0.698045	59	91	SF	-	0	Dd	2	115	2	147	(empty)
+1368387143.588236	CzUbH53B5Rt604fGac	172.16.253.129	53	4.2.2.2	53	udp	dns	0.670404	59	91	SF	-	0	Dd	2	115	2	147	(empty)
+1368387155.700900	CbCWaj1ssxBl7hGd5f	172.16.253.129	1063	194.67.23.111	25	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+1368387113.407058	C2e3dP1BOP0xRP6rYb	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.001327	613	0	S0	-	0	D	2	669	0	0	(empty)
+1368387113.407708	CvywGp1LO0wzGFKdv5	172.16.253.129	68	172.16.253.254	67	udp	dhcp	0.001996	0	600	SHR	-	0	d	0	0	2	656	(empty)
+1368387222.320594	Cy81iW1gFwh4aPcEE8	172.16.253.129	1063	194.67.23.111	25	tcp	-	-	-	-	RSTRH	-	0	r	0	0	1	40	(empty)
+1368387487.755763	CG4E5z2CWmSVClmQve	0.0.0.0	68	255.255.255.255	67	udp	dhcp	1.464075	613	0	S0	-	0	D	2	669	0	0	(empty)
+1368387485.559076	C5pYzY2kXD9WqviRn6	172.16.253.240	1038	239.255.255.250	1900	udp	-	5.986910	399	0	S0	-	0	D	3	483	0	0	(empty)
+1368387487.755955	CXkZm22Ibo9E1jXkDb	172.16.253.254	8	172.16.253.131	0	icmp	-	-	-	-	OTH	-	0	-	1	48	0	0	(empty)
+#close	2014-03-09-10-22-11

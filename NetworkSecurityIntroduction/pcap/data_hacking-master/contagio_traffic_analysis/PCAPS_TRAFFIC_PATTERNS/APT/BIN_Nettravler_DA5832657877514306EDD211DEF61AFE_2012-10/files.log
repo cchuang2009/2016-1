@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-10
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1349503963.342394	Fgd79j1f72q81JOIG2	65.55.57.27	172.16.253.130	CB9knB2k1qrWqt0pWg	HTTP	0	MD5,SHA1	text/html	-	0.179582	-	F	13478	13478	0	0	F	-	586e55de274077638ec92cbe0a8474a6	877730d04db98d58a3cde85e2c4179d7449ba9d4	-	-
+1349504024.826524	FG31M42Z0ocmum26Sb	110.34.193.13	172.16.253.130	CFzj5vgnPSFo72hS6	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	12	12	0	0	F	-	067f0f13cf021ca43ef28d70b8a99344	927b1554376709e6c0ba935e2983fa5600343ce4	-	-
+1349504025.097448	Fhzple3JMiESmZLJWd	110.34.193.13	172.16.253.130	CUgUeN2CI9DPBectla	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	12	12	0	0	F	-	b3134fa4e4dd52076515e854af233d63	99751d24ef5ca01a81c30bb7924f39441d2edcb9	-	-
+1349504025.556475	FiWqWl1aqFG1upPpNi	110.34.193.13	172.16.253.130	C7nZZWcYwKzleEcj2	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	10	10	0	0	F	-	d20d2456ee7ad2afcc00be3d9d56cc4a	d50d3f527efa05a1b1ede7330a56a1cab1f18a77	-	-
+1349504025.765221	FlD8a02CvtvGwDBe5c	110.34.193.13	172.16.253.130	CIDwTQ3YyW0PdA7P8d	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	769	769	0	0	F	-	a1ead84bd6f9ed373aaef9074fe7b086	e20a5c4ad618d8f3974fc6776d0d75ccc779fb5e	-	-
+1349504086.365711	F9kMzK3EJY4NSJrGM4	110.34.193.13	172.16.253.130	Cd9mpd2qNAn0fSkvk4	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	769	769	0	0	F	-	a1ead84bd6f9ed373aaef9074fe7b086	e20a5c4ad618d8f3974fc6776d0d75ccc779fb5e	-	-
+1349504147.031635	FpCoWG13nQ7QQviQee	110.34.193.13	172.16.253.130	CEvhNG1z0bjFznUKZ1	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	769	769	0	0	F	-	a1ead84bd6f9ed373aaef9074fe7b086	e20a5c4ad618d8f3974fc6776d0d75ccc779fb5e	-	-
+1349504207.602618	FKjuYZ3bGG4Sfmp2zj	110.34.193.13	172.16.253.130	CLUXCw4L4SNLuUGEag	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	769	769	0	0	F	-	a1ead84bd6f9ed373aaef9074fe7b086	e20a5c4ad618d8f3974fc6776d0d75ccc779fb5e	-	-
+#close	2014-03-09-10-21-11

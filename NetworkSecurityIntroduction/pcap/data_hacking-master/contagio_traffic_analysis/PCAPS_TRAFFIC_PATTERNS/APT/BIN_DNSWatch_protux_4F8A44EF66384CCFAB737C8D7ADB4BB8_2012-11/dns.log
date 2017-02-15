@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349621060.065256	C08zJSiBnoBrUJtr6	172.16.253.130	53	8.8.8.8	53	udp	57893	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.20	2226.000000,203.000000	F
+1349621060.065317	CGaz8A2bcS1JVsd8ll	172.16.253.130	53	4.2.2.2	53	udp	57893	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.23	1373.000000,1.000000	F
+1349621104.985163	C7247a2JsJzVl6YJi	172.16.253.130	53	8.8.8.8	53	udp	43671	www.dnswatch.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dnswatch.info,82.96.118.210	21318.000000,2521.000000	F
+1349621104.988482	C7247a2JsJzVl6YJi	172.16.253.130	53	8.8.8.8	53	udp	48518	vcvcvcvc.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	114.244.44.115	60.000000	F
+1349621104.988571	C0gZfC3nlUaGOw8oU6	172.16.253.130	53	4.2.2.2	53	udp	48518	vcvcvcvc.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	114.244.44.115	60.000000	F
+1349621104.985273	C0gZfC3nlUaGOw8oU6	172.16.253.130	53	4.2.2.2	53	udp	43671	www.dnswatch.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	dnswatch.info,82.96.118.210	86400.000000,3600.000000	F
+1349621105.841557	CkbPd02aN8yzNsKO82	172.16.253.130	1083	168.95.1.1	53	udp	43496	vcvcvcvc.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	114.244.44.115	60.000000	F
+#close	2014-03-09-10-21-08

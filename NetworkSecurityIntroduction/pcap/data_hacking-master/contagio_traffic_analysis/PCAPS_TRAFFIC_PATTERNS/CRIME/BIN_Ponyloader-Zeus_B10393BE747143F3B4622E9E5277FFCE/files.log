@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-36
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1359933020.469269	FrkrN92Kvg5Fspzdwj	172.16.253.131	212.58.4.13	Cfxrkl8pcCvtvoqL3	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	273	273	0	0	F	-	024a1e75591d6e53c53af1fa2e2c70c9	c0c1e0bdec9eeebd0a82c667f3173e4300d288f2	-	-
+1359933021.369025	F0Vpmv37b4MMAjpLri	212.58.4.13	172.16.253.131	Cfxrkl8pcCvtvoqL3	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	20	-	0	0	F	-	c6932e7d02bdfe5b9fd54ce466bbd9a0	d3132d9670497ff3e46bdfd60327d2f4a425bab3	-	-
+1359933021.704720	FboL88YJAZjo8IBEe	64.90.61.19	172.16.253.131	CeoaGw4WvVGOAY5Bm9	HTTP	0	MD5,SHA1	application/x-dosexec	-	0.636663	-	F	307200	307200	0	0	F	-	e57d1405893f48bacad8acfc6e0f677e	e799c03e455aa0f6e2a12a7017eea97c24cbaf09	-	-
+1359933097.036771	FUKfB72MpIH36Yqydd	74.125.128.147	172.16.253.131	C8olEWTnFrMQUrZU	HTTP	0	MD5,SHA1	text/html	-	0.010815	-	F	11650	-	0	0	F	-	46404d0bb49274d0b6635a38a33b7c4c	e6c5374e430ac8d8dc0a2d4d2c6e3a854174994e	-	-
+1359933111.255305	FlACmB6pWwQzM8zdj	74.125.128.147	172.16.253.131	CNmeAm4dtDYKawcQti	HTTP	0	MD5,SHA1	text/html	-	0.001044	-	F	5450	-	0	0	F	-	843870bc8c21270b4e4a242cf680f017	1a49e227d0d208f1801d94eee2a31f13458dd513	-	-
+1359933126.776090	F7gGm841fkajFElCNf	74.125.128.147	172.16.253.131	CPLUz8t3fa0BaIHtb	HTTP	0	MD5,SHA1	text/html	-	0.001218	-	F	11650	-	0	0	F	-	0b25120d833aec11921d5a486b7d6f49	7cf35c2a6cd5c6961ebbe2490b9fb984384b4132	-	-
+1359933142.326937	F32qpR1xdtPOgWKeUl	74.125.128.147	172.16.253.131	COJTAd0BHopchf1n4	HTTP	0	MD5,SHA1	text/html	-	0.001884	-	F	11650	-	0	0	F	-	3f23bf9e2e998838c604e907655649c8	c6adc135286f42127a1961d2295d5505e425fdfe	-	-
+#close	2014-03-09-10-21-36

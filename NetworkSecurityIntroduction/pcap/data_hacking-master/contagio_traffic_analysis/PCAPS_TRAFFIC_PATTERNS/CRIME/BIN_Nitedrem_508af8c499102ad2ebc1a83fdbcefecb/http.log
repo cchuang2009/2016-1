@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1376938182.890363	CQhjpo3V0h6E6PBqh8	172.16.148.184	1034	103.20.193.157	99	1	GET	bucks.onepiecedream.com	/down.asp?action=install&u=cpmcpm&p=2366A64BAA384EA6AB9CEF73E8E2BE12&t=7393	-	fucking	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	F9QUiZ1y5uoC0MR74	text/plain
+1376938215.098040	CEjTVn26yeCApPOQgd	172.16.148.184	1035	103.20.193.157	99	1	GET	bucks.onepiecedream.com	/down.asp?action=down&u=cpmcpm&p=2366A64BAA384EA6AB9CEF73E8E2BE12&Vcode=atem&t=1122	-	fucking	0	55	200	OK	-	-	-	(empty)	-	-	-	-	-	FAyL6n3t7fNOO3yUta	binary
+1376938215.804541	C48RbdAsLZCN3cH5i	172.16.148.184	1036	103.20.193.231	88	1	GET	103.20.193.231	/upx/kod.txt?k=123&t=7215	-	fucking	0	18432	200	OK	-	-	-	(empty)	-	-	-	-	-	FVOtg23aFCuu1Rw1Xe	binary
+1376938231.419725	CR9ihH2lphsjWMONYb	172.16.148.184	1038	103.20.193.158	99	1	GET	in.onepiecedream.com	/config.txt?&t=4593	-	Update	0	328	200	OK	-	-	-	(empty)	-	-	-	-	-	FrgGgHEbaUkiEdGjf	text/plain
+1376938236.105150	C92C5uR4UWu2nQoNg	172.16.148.184	1039	173.193.138.245	80	1	GET	www.dianwofacai.com	/fish.jpg?&t=4426	-	Update	0	856659	200	OK	-	-	-	(empty)	-	-	-	-	-	FbV1lK2D9twjHjY8s3	application/x-dosexec
+#close	2014-03-09-10-21-36

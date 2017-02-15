@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-22-07
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1331173909.949907	CpJkjwrQXhynV5wM	10.0.2.15	1599	88.85.99.44	8080	1	GET	88.85.99.44	/showthread.php?t=d7ad916d1c0396ff	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1)	0	18648	200	OK	-	-	-	(empty)	-	-	-	-	-	FMgmnl3b3JijNGvwO5	text/html
+1331173911.968605	CpJkjwrQXhynV5wM	10.0.2.15	1599	88.85.99.44	8080	2	GET	88.85.99.44	/data/ap2.php?f=ba33e	http://88.85.99.44:8080/showthread.php?t=d7ad916d1c0396ff	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; InfoPath.1)	0	47976	200	OK	-	-	-	(empty)	-	-	-	-	-	F5cwVA1LaFwW9qwWM4	application/pdf
+1331173912.671041	C8IJKu1TspZyNMycs6	10.0.2.15	1600	88.85.99.44	8080	1	GET	88.85.99.44	/data/Pol.jar	-	Mozilla/4.0 (Windows XP 5.1) Java/1.6.0_26	0	14765	200	OK	-	-	-	(empty)	-	-	-	-	-	FJglRS1uQTTyzDPk1e	application/zip
+1331173914.094156	COYD9m7cVBG6QzAml	10.0.2.15	1601	88.85.99.44	8080	1	GET	88.85.99.44	/q.php?f=ba33e&e=0	-	Java/1.6.0_26	0	150569	200	OK	-	-	-	(empty)	-	-	-	-	-	Fl5brC152ihre6LJm6	application/x-dosexec
+1331173917.916364	CadDU84bAoyVrtvMU8	10.0.2.15	1602	50.56.208.113	8080	1	POST	50.56.208.113	/pony/gate.php	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	330	16	200	OK	-	-	-	(empty)	-	-	-	FbylKU2EMd5HJlny49	binary	FvGllW1rOMcgXhpF8c	text/plain
+1331173918.786180	CNo0fi2NTHwFTb92Tc	10.0.2.15	1603	94.199.204.136	80	1	GET	fragmanist.com	/ngjYq.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	319528	200	OK	-	-	-	(empty)	-	-	-	-	-	F58FGe3yfSEmBR8aYk	application/x-dosexec
+1331173921.415346	CViVFM3To9BlpNKqdi	10.0.2.15	1604	74.220.207.178	80	1	GET	genxlogistics.com	/wE68.exe	-	Mozilla/4.0 (compatible; MSIE 5.0; Windows 98)	0	319528	200	OK	-	-	-	(empty)	-	-	-	-	-	FQCkgu49Ky3Biigqwb	application/x-dosexec
+#close	2014-03-09-10-22-07

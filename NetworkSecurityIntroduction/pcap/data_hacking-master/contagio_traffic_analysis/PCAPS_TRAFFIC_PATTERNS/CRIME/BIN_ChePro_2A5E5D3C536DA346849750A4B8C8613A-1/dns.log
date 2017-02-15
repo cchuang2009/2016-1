@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1380162152.271701	CU6Vvc4Aa4Ul0K5Ctk	172.16.253.129	53	4.2.2.2	53	udp	54166	www.aspramece.com.br	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	aspramece.com.br,186.202.153.58	3600.000000,3600.000000	F
+#close	2014-03-09-10-21-16

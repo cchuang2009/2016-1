@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1359946215.374429	CqcpsR3E0F34E9Qu45	172.16.253.130	1067	198.199.75.95	443	1	GET	gorush.dyndns-web.com	/29af9cdc/page_12082223.html	-	Mozilla/4.0 (compatible; MSIE 8.0; Win32)	0	312	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FCqbGD34afmA274WOa	text/html
+1359946216.822555	CO75cRRjj4O7QU0xb	172.16.253.130	1069	96.17.148.40	80	1	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootseq.txt	-	Microsoft-CryptoAPI/5.131.2600.5512	0	18	200	OK	-	-	-	(empty)	-	-	-	-	-	F2xUfo277O7qmN19ng	text/plain
+1359946216.944630	CO75cRRjj4O7QU0xb	172.16.253.130	1069	96.17.148.40	80	2	GET	www.download.windowsupdate.com	/msdownload/update/v3/static/trustedr/en/authrootstl.cab	-	Microsoft-CryptoAPI/5.131.2600.5512	0	52521	200	OK	-	-	-	(empty)	-	-	-	-	-	FYP1lFtAsJ9XqTfX9	application/vnd.ms-cab-compressed
+#close	2014-03-09-10-21-13

@@ -1,0 +1,42 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2014-03-09-10-21-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1349643242.382675	CQrIkR2i7VWTpWyED7	172.16.253.240	1738	96.44.189.102	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.398002	C8UQ1q4Um9nRMQ34B4	172.16.253.240	1731	192.43.244.42	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.422632	C6zaG94FyOZA6xA1c	172.16.253.240	1739	96.47.226.20	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.422734	CBgeB22N99qnnNqnbk	172.16.253.240	1742	173.252.194.190	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.427626	CE5lTpHVs0ddYMZA	172.16.253.240	1736	37.130.227.133	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.432623	CqNy561HnNsCrLb1L3	172.16.253.240	1729	209.250.2.254	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.437809	CUCDry3xneyZzTol2i	172.16.253.240	1735	31.172.30.1	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.437871	CKSyrn4FHuZBMa9iUl	172.16.253.240	1732	91.208.34.12	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.440595	CEcFCk10n0MjhCfBxh	172.16.253.240	1737	80.237.226.74	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.450323	CIZYNGYRY61ZYqKPd	172.16.253.240	1730	195.191.16.63	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.450356	Cc0m5f3e9two8oXz72	172.16.253.240	1733	82.96.35.5	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.452630	CAIeug2hgOssLvjke9	172.16.253.240	1728	31.172.30.3	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.462223	CeAcKR1Sy0789h1Plj	172.16.253.240	1727	82.96.35.6	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.462269	Ctqq6V3a9MVgrCN47a	172.16.253.240	1725	78.108.63.46	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.462655	CpVVeUO1sDXvBBrT2	172.16.253.240	1740	77.247.181.162	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.507672	C7zKrc4o3GyUOU834l	172.16.253.240	1748	176.28.51.238	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.507682	CakAyR2hHmAdHjwc3c	172.16.253.240	1751	85.25.154.219	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.562712	CrQ9Nq34BGCi2g3E3i	172.16.253.240	1749	85.214.62.48	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.572662	C4eDJy32nteUWYBT56	172.16.253.240	1750	188.165.201.112	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643242.611007	C0aaY9dEBt0OLBS82	172.16.253.240	1752	82.96.35.4	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.212266	C5y4oK2W6vcZ787hwb	172.16.253.240	1795	173.242.125.5	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.225588	CTQ1uq34ReyIAKNLGe	172.16.253.240	1793	192.95.25.113	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.225597	C3UoT42l5oAOtMIzyi	172.16.253.240	1791	38.229.70.61	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.230560	CdlPvU9HIe0U5tw2l	172.16.253.240	1789	96.47.226.20	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.250150	CpiKcc4twV5CqPHdo8	172.16.253.240	1790	96.44.189.101	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.290184	CnN8Sw6st4FMAsopg	172.16.253.240	1799	96.44.189.102	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.302726	CvW9cF3fjwBaJi0wz6	172.16.253.240	1783	195.191.16.63	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.335960	C17AOu2ZOuDmd10961	172.16.253.240	1786	88.198.100.230	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.354049	CmiOPc3gMsFYF5HIJ3	172.16.253.240	1805	96.47.226.21	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.418381	CKd9lf3RBuftpHodRd	172.16.253.240	1803	68.169.35.102	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.446105	C67PJp4hV3rbaAwwkj	172.16.253.240	1794	62.220.135.129	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.465116	CcV1Mn4GPHIBYchNf9	172.16.253.240	1801	83.140.59.2	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+1349643272.467620	C05jL62oyBxlkR2Hgl	172.16.253.240	1807	46.4.88.84	443	tcp	SSL	unexpected Handshake message SERVER_HELLO from responder in state INITIAL
+#close	2014-03-09-10-21-54

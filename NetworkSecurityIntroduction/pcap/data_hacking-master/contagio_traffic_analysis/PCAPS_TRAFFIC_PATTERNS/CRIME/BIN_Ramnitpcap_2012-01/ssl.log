@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-21-37
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1312000718.347774	CPwHFe3pF9i96gUMJg	172.29.0.116	2144	66.220.158.53	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=www.facebook.com,O=Facebook\, Inc.,L=Palo Alto,ST=California,C=US	OU=www.verisign.com/CPS Incorp.by Ref. LIABILITY LTD.(c)97 VeriSign,OU=VeriSign International Server CA - Class 3,OU=VeriSign\, Inc.,O=VeriSign Trust Network	1321509600.000000	1342241999.000000	-	-	-	d543c4e76843b8c1deb1c95a5b29a0c7	certificate is not yet valid
+1312000718.988725	CShP1y2g7MFE6YMTj8	172.29.0.116	2145	184.26.50.132	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s-static.ak.facebook.com,ST=CALIFORNIA,OU=*.s-static.ak.facebook.com,O=*.s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1309395218.000000	1341017618.000000	-	-	-	423d9f7cbaf8ac8884ff20f25966e9f8	ok
+1312000718.993352	Cw1XWW2brWZgTERl9i	172.29.0.116	2146	184.26.50.132	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=*.s-static.ak.facebook.com,ST=CALIFORNIA,OU=*.s-static.ak.facebook.com,O=*.s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1309395218.000000	1341017618.000000	-	-	-	423d9f7cbaf8ac8884ff20f25966e9f8	ok
+1312000719.131066	CQsm9lj8MIv8Xkwpl	172.29.0.116	2147	184.26.50.132	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	5f38cfe53cfb445f5c05dd11735e715e39088c8aa700a2489d954e492ab9be5a	-	-	-	-	-	-	-	-	-
+1312000719.418445	C20rbT36WueEB7uYs5	172.29.0.116	2149	23.13.146.110	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1311993164.000000	1343615564.000000	-	-	-	26d4cf12413e9813cd7c69a490306301	ok
+1312000719.413036	CO2wm21eNmjjE7I8R1	172.29.0.116	2148	23.13.146.110	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=s-static.ak.facebook.com,ST=California,OU=s-static.ak.facebook.com,O=s-static.ak.facebook.com,L=Palo Alto,C=US	CN=Akamai Subordinate CA 3,O=Akamai Technologies Inc,C=US	1311993164.000000	1343615564.000000	-	-	-	26d4cf12413e9813cd7c69a490306301	ok
+1312000719.570066	Cez7QE4FKg1F39dc2c	172.29.0.116	2150	23.13.146.110	443	SSLv3	TLS_RSA_WITH_RC4_128_MD5	-	0c9e25c6a51248c0c1812005d42f158402f9b23eda9505cde10cec63fa85741f	-	-	-	-	-	-	-	-	-
+#close	2014-03-09-10-21-51

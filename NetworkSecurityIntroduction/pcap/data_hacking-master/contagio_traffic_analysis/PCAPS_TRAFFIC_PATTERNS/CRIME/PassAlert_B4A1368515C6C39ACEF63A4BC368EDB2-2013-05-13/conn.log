@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-22-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1368389621.270894	CVqoBA4tMUnI5KFHqg	172.16.253.240	1033	64.74.223.10	80	tcp	http	0.026999	91	0	RSTR	-	0	ShADar	3	219	3	124	(empty)
+1368389621.237980	CXpaze2TD5nXkogpt5	172.16.253.240	53	8.8.8.8	53	udp	dns	0.082201	72	143	SF	-	0	Dd	2	128	2	199	(empty)
+1368389621.238039	Ct1hoj1FLYHzqtn5eb	172.16.253.240	53	4.2.2.2	53	udp	dns	0.098457	72	143	SF	-	0	Dd	2	128	2	199	(empty)
+1368389621.664799	Czcg0E3MtaY3fsTg0f	172.16.253.240	1038	239.255.255.250	1900	udp	-	5.986826	399	0	S0	-	0	D	3	483	0	0	(empty)
+#close	2014-03-09-10-22-12

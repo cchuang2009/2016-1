@@ -1,0 +1,28 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1359933007.387489	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1359933022.114884	CNEsuq3tFHrpaan4oe	172.16.253.131	1046	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933022.115180	CNEsuq3tFHrpaan4oe	172.16.253.131	1046	197.163.56.70	336	data_before_established	-	F	bro
+1359933043.015793	CvxbUA47qvK5ufydMj	172.16.253.131	1047	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933043.021582	CvxbUA47qvK5ufydMj	172.16.253.131	1047	197.163.56.70	336	data_before_established	-	F	bro
+1359933205.317188	CKfGns4WdeqbIQiKAk	172.16.253.131	1049	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933205.317378	CKfGns4WdeqbIQiKAk	172.16.253.131	1049	197.163.56.70	336	data_before_established	-	F	bro
+1359933205.816125	CkGYrPJwyMfpj3Svj	172.16.253.131	1050	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933205.816298	CkGYrPJwyMfpj3Svj	172.16.253.131	1050	197.163.56.70	336	data_before_established	-	F	bro
+1359933206.349126	CKLekCy3CuZCUm4h5	172.16.253.131	1051	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933206.349328	CKLekCy3CuZCUm4h5	172.16.253.131	1051	197.163.56.70	336	data_before_established	-	F	bro
+1359933207.313661	CKLekCy3CuZCUm4h5	172.16.253.131	1051	197.163.56.70	336	inappropriate_FIN	-	F	bro
+1359933228.673543	CkiGDG4PrINwTgN0Xd	172.16.253.131	1052	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933228.673701	CkiGDG4PrINwTgN0Xd	172.16.253.131	1052	197.163.56.70	336	data_before_established	-	F	bro
+1359933259.396967	CgeRWt3LZhyyzoY4D9	172.16.253.131	1053	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933259.397135	CgeRWt3LZhyyzoY4D9	172.16.253.131	1053	197.163.56.70	336	data_before_established	-	F	bro
+1359933261.545681	CgeRWt3LZhyyzoY4D9	172.16.253.131	1053	197.163.56.70	336	inappropriate_FIN	-	F	bro
+1359933323.600593	Cvg78i4Es9OmY0kSbl	172.16.253.131	1054	197.163.56.70	336	possible_split_routing	-	F	bro
+1359933323.600752	Cvg78i4Es9OmY0kSbl	172.16.253.131	1054	197.163.56.70	336	data_before_established	-	F	bro
+#close	2014-03-09-10-21-14

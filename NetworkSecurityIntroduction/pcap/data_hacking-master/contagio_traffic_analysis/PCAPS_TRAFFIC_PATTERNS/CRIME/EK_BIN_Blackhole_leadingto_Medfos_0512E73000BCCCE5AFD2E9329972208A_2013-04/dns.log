@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-22-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1366138263.000000	CCnq121LQBAxmzkMH2	10.0.2.15	1087	198.224.179.135	53	udp	5080	-	-	-	-	-	0	NOERROR	F	F	F	T	0	198.100.45.44	3600.000000	F
+1366138283.000000	C2tFMP1BJOHipMSYO5	10.0.2.15	1087	198.224.179.135	53	udp	52333	activex.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	activex.windowsmedia.com.akadns.net,64.4.52.169	1933.000000,3.000000	F
+1366138284.000000	C2tFMP1BJOHipMSYO5	10.0.2.15	1087	198.224.179.135	53	udp	3552	codecs.microsoft.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	codecs.windowsmedia.com.akadns.net,65.55.13.243	3323.000000,323.000000	F
+1366138271.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33539	WORKGROUP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1366138271.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33539	WORKGROUP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1366138272.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33539	WORKGROUP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1366138273.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33539	WORKGROUP	1	C_INTERNET	32	NB	-	-	F	F	F	F	1	-	-	F
+1366138274.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33540	\x01\x02__MSBROWSE__\x02	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1366138274.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33540	\x01\x02__MSBROWSE__\x02	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1366138275.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33540	\x01\x02__MSBROWSE__\x02	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1366138276.000000	COVIUy2skiyPHzlhma	10.0.2.15	137	10.0.2.255	137	udp	33540	\x01\x02__MSBROWSE__\x02	1	C_INTERNET	32	NB	-	-	F	F	F	F	1	-	-	F
+1366138294.000000	CSesIN3I0zuNP3Cud5	10.0.2.15	1087	198.224.179.135	53	udp	10316	cdn172.filesbest4upload.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	78.131.140.159	3600.000000	F
+1366138335.000000	CMpmp84Nnh9qXzSZ0h	10.0.2.15	1087	198.224.179.135	53	udp	34857	fpdownload2.macromedia.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	fpdownload2.wip4.adobe.com,fpdownload.macromedia.com.edgesuite.net,a1293.d.akamai.net,23.67.253.160,23.67.253.170	8129.000000,69.000000,1454.000000,20.000000,20.000000	F
+#close	2014-03-09-10-22-06

@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-34
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+17.210943	CWa4K04teLm7fWhs22	10.0.2.15	1049	78.140.165.153	80	1	GET	takeinfo.ru	/get_xml?file_id=25227372	-	tiny-dl/nix	0	1143	200	OK	-	-	-	(empty)	-	-	-	-	-	FGIvAz2VkNMuGRT5Zk	application/xml
+17.336632	CXhROl3uisnvnvRlyj	10.0.2.15	1052	217.69.133.27	80	1	GET	binupdate.mail.ru	/dwnld/url?u=http://minecraft-goldmods.ru/engine/download.php?id=536	-	tiny-dl	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FAwPdK11JhXxe7Rara	text/html
+17.342396	Cp7z2L19H5a22uE6Qe	10.0.2.15	1053	94.100.181.201	80	1	HEAD	r.mail.ru	/cln5491/exe.agent.mail.ru/sputnik/mailrusputnik.exe	-	tiny-dl/nix	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+17.346836	CLU3rR778p45iShDa	10.0.2.15	1054	217.69.131.112	80	1	HEAD	internetmailru.cdnmail.ru	/Internet.exe	-	tiny-dl/nix	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+17.504288	CDNxEx4XsBAGCDmsLj	10.0.2.15	1055	94.100.187.142	80	1	HEAD	exe.agent.mail.ru	/sputnik/mailrusputnik.exe	-	tiny-dl/nix	0	0	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	-	-
+17.666291	Ccgibh3C7BXZYFPnPa	10.0.2.15	1057	128.140.169.68	80	1	HEAD	sputnikmailru.cdnmail.ru	/mailrusputnik.exe	-	tiny-dl/nix	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+17.813766	CqVwiE4WwOEgwc9hwe	10.0.2.15	1058	94.100.181.201	80	1	GET	r.mail.ru	/cln5491/exe.agent.mail.ru/sputnik/mailrusputnik.exe	-	tiny-dl/nix	0	160	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	F64cWMHKfdEb5AS9h	text/html
+17.967621	CuQXIMZCTgnfh8LZ7	10.0.2.15	1059	94.100.187.142	80	1	GET	exe.agent.mail.ru	/sputnik/mailrusputnik.exe	-	tiny-dl/nix	0	160	302	Moved Temporarily	-	-	-	(empty)	-	-	-	-	-	FbNN2u3J7fQkuG8Jyh	text/html
+18.118762	CD42654vAZOMwY8iRb	10.0.2.15	1060	128.140.169.68	80	1	GET	sputnikmailru.cdnmail.ru	/mailrusputnik.exe	-	tiny-dl/nix	0	4763168	200	OK	-	-	-	(empty)	-	-	-	-	-	FIy97U2X7QEZ7hhJl8	application/x-dosexec
+40.377275	CtxwHF2IOhWiZXA0Wb	10.0.2.15	1063	94.100.187.138	80	1	GET	mrb.mail.ru	/update/2/version.txt?type=install&GUID={D2909D82-AB1E-4FB0-B74F-58F8C518623F}&rfr=profitraf5&standalone=1&bgn=1	-	FULLSTUFF	0	172	502	Bad Gateway	-	-	-	(empty)	-	-	-	-	-	F5fgSmtGWOnF5exq7	text/html
+40.417051	CS110aETYiMskUPT7	10.0.2.15	1066	94.100.187.138	80	1	GET	mrb.mail.ru	/update/2/version.txt?type=install&GUID={D2909D82-AB1E-4FB0-B74F-58F8C518623F}&rfr=profitraf5&success=1&ieovr=0&ffovr=0&br=ie&brver=6.00&bfr=0&aftr=1&bfr2=aHR0cDovL3d3dy5taWNyb3NvZnQuY29tL2lzYXBpL3JlZGlyLmRsbD9wcmQ9aWUmcHZlcj02JmFyPW1zbmhvbWU[&aftr2=aHR0cDovL3d3dy5tYWlsLnJ1L2NudC85NTE2	-	FULLSTUFF	0	172	502	Bad Gateway	-	-	-	(empty)	-	-	-	-	-	FpjWU54qhpkjiqlCd6	text/html
+40.598351	CGI2764t5dBdL0GJD1	10.0.2.15	1069	94.100.187.138	80	1	GET	mrb.mail.ru	/update/2/version.txt?type=install&GUID={D2909D82-AB1E-4FB0-B74F-58F8C518623F}&rfr=profitraf5&standalone=1&uacenabled=0&uacpass=1	-	FULLSTUFF	0	172	502	Bad Gateway	-	-	-	(empty)	-	-	-	-	-	F8suZD453isOMnEFE9	text/html
+58.067071	CIAszj1qY1UpUWn984	10.0.2.15	1071	94.100.189.33	80	1	GET	mra.mail.ru	/update_guard/version.xml?ver=1.0.0.548&guid={D2909D82-AB1E-4FB0-B74F-58F8C518623F}&blocked=&allowed=&new=1&adblk=0	-	GuardMailRu	0	172	502	Bad Gateway	-	-	-	(empty)	-	-	-	-	-	FphanIEPsArmKoED1	text/html
+70.110159	CZtStQ1RkoTvZ5voqe	10.0.2.15	1072	217.69.133.27	80	1	GET	binupdate.mail.ru	/guard/verinfo.xml?hash=wN3bydmX0diJwd7Owt6Um52I2M3Il5mOyNvEyJbR7ZqWnpTok5iE6e2f6IGf7OuYguyamO2HnJDplu6ZmpKfmpzo0Irb2MjN28HfxcrElJiJ38TczN/I2suTnYrdz9uVnoCdgpuEnJyX	-	GaurdMailRu	0	162	404	Not Found	-	-	-	(empty)	-	-	-	-	-	FGCtonHKCxDqKCqcg	text/html
+17.506869	CKiPKR19QaVZD9vZd4	10.0.2.15	1056	217.69.131.112	80	1	GET	internetmailru.cdnmail.ru	/Internet.exe	-	tiny-dl/nix	0	23370491	200	OK	-	-	-	(empty)	-	-	-	-	-	Fc9mjw1qdRmdUg8wi1	application/x-dosexec
+#close	2014-03-09-10-21-35

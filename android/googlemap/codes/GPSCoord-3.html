@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script type="text/javascript"   
+	   src="http://maps.google.com/maps/api/js?sensor=true&v=3&libraries=geometry"></script>
+</head>
+
+
+<body>
+
+	<div id="map_canvas" style="width: 600px;height: 400px;"></div>
+	<br />
+	<label for="latitude">Latitude:</label>
+	<input id="latitude" type="text" value="" />
+	<label for="longitude">Longitude:</label>
+	<input id="longitude" type="text" value="" />
+	
+	<br><label>	
+	The distance from Chang-Gung University to Destination: <div id="distanceAB"></div>
+	<label>
+	<br>	
+	  The distance from Chang-Gung University to Destination
+	  <select id="PosMenu">
+              <option value="0">library</option>
+              <option value="1">NSU</option>
+              <option value="2">PO</option>
+          </select>
+	   <div id="distanceAC"></div>
+	
+<script type="text/javascript">
+var myZoom = 16;
+var myMarkerIsDraggable = true;
+var myCoordsLenght = 6;
+var defaultLat = 25.035255529260443;
+var defaultLng = 121.389524;
+var loc1 = new google.maps.LatLng(25.035255529260443, 121.389524);
+
+var loc = [[25.034225,121.390168],[25.032047,121.386692],[25.032514, 121.390661]];
+
+function initialize() {
+    var mapOptions = {
+          center: new google.maps.LatLng(defaultLat,defaultLng),
+          zoom: myZoom,
+          mapTypeId: google.maps.MapTypeId.ROADP
+    };
+    var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions);
+    // creates a draggable marker to the given coords   -3.118-3.118
+    
+    var myMarker = new google.maps.Marker({
+    position: new google.maps.LatLng(defaultLat, defaultLng),
+    draggable: myMarkerIsDraggable
+    }); 
+
+
+    google.maps.event.addListener(myMarker, 'dragend', function(evt){  
+        var newLat=evt.latLng.lat();
+        var newLng=evt.latLng.lng().toFixed(myCoordsLenght);
+	document.getElementById('latitude').value = newLat;
+	document.getElementById('longitude').value = newLng;
+	var loc2 = new google.maps.LatLng(newLat, newLng);
+	document.getElementById('distanceAB').innerHTML =
+	   Math.round(google.maps.geometry.spherical.computeDistanceBetween (loc1, loc2))+'  m';
+
+    });
+    
+    // centers the map on markers coords
+    map.setCenter(myMarker.position);
+
+    // adds the marker on the map
+    myMarker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+document.getElementById('PosMenu').onchange = function() {
+  var index = this.value; // array indices start at 0
+  //alert(loc[index][0]);
+  var loc2 = new google.maps.LatLng(loc[index][0], loc[index][1]);
+  document.getElementById('distanceAC').innerHTML =
+  Math.round(google.maps.geometry.spherical.computeDistanceBetween (loc1, loc2))+'  m';
+  var newMarker = new google.maps.Marker({
+    position: new google.maps.LatLng(loc[index][0], loc[index][1]),
+    draggable: myMarkerIsDraggable
+  });
+
+  // centers the map on markers coords
+  var mapOptions = {
+          center: new google.maps.LatLng(defaultLat,defaultLng),
+          zoom: myZoom,
+          mapTypeId: google.maps.MapTypeId.ROADP
+    };
+
+   var map = new google.maps.Map(document.getElementById("map_canvas"),mapOptions)
+
+   google.maps.event.addListener(newMarker, 'dragend', function(evt){  
+        var newLat=evt.latLng.lat();
+        var newLng=evt.latLng.lng().toFixed(myCoordsLenght);
+	document.getElementById('latitude').value = newLat;
+	document.getElementById('longitude').value = newLng;
+	var loc2 = new google.maps.LatLng(newLat, newLng);
+	document.getElementById('distanceAB').innerHTML =
+	   Math.round(google.maps.geometry.spherical.computeDistanceBetween (loc1, loc2))+'  m';
+
+    });
+
+  map.setCenter(newMarker.position);
+
+  // adds the marker on the map
+  newMarker.setMap(map)
+
+}
+</script>
+
+</body>
+</html>

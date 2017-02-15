@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1314111196.686908	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	1	GET	re.policy-forums.org	/ol/yahoo/banner4.php?jpg=../yahoo	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	0	33	200	OK	-	-	-	(empty)	-	-	-	-	-	F9EvmblDMwAGMPf3j	text/plain
+1314111197.647807	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	2	GET	re.policy-forums.org	/ol/yahoo/banner3.php?jpg=../(L2xq1Q3)	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	FiSr44iXmgynQtVqa	text/plain
+1314111198.661193	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	3	GET	re.policy-forums.org	/ol/yahoo/banner3.php?jpg=../(L2xq1Q3)/(eGAz1DMtdmlydGVhbDBx	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	F9X78Y1xMEx8JecgGi	text/plain
+1314111199.384260	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	4	GET	re.policy-forums.org	/ol/yahoo/banner3.php?jpg=../(L2xq1Q3)/(eGAz1DMtdmlydGVhbDBx/(MSAfMSUcWzIyWzHc	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+1314111200.078349	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	5	POST	re.policy-forums.org	/ol/yahoo/banner1.php	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	484	264	200	OK	-	-	-	(empty)	-	-	-	F9gXlv3ixmZAsU5Msf,FWZmqP2Yx55dq92JFk	text/plain,binary	FmUK3d3LJiYm8BAZZ6	text/plain
+1314111201.007570	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	6	GET	re.policy-forums.org	/ol/yahoo/banner3.php?jpg=../(L2xq1Q3)	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	FZt4YD1Zo0cNcdCqbb	text/plain
+1314111203.880215	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	7	GET	re.policy-forums.org	/ol/yahoo/banner3.php?jpg=../(L2xq1Q3)/{ZUdAejFESWRHbXxJZEdXak5E3nhZZyHq	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	FTC7mO3i911jkVTUM8	text/plain
+1314111204.537390	CCwiICNBWBgWhsO0a	10.155.22.95	1613	112.137.167.188	80	8	GET	re.policy-forums.org	/ol/yahoo/banner4.php?jpg=../(L2xq1Q3)/{ZUdAejFESWRHbXxJZEdXak5E3nhZZyHq	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1;)	0	0	200	OK	-	-	-	(empty)	-	-	-	-	-	-	-
+#close	2014-03-09-10-21-12

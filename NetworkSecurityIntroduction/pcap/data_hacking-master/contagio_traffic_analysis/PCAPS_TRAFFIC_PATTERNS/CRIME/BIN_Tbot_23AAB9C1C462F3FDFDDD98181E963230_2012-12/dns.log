@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349616960.757186	CDijQD2MNFVn7p8wY4	172.16.253.131	53	4.2.2.2	53	udp	34912	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.13	937.000000,291.000000	F
+1349617025.859475	C6R7HP3oJEp11sRqna	172.16.253.131	53	8.8.8.8	53	udp	21033	checkip.dyndns.org	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	checkip.dyndns.com,216.146.39.70,91.198.22.70,216.146.38.70	356.000000,356.000000,356.000000,356.000000	F
+1349617025.859578	CjkUrK2IuEk5q8oUdg	172.16.253.131	53	4.2.2.2	53	udp	21033	checkip.dyndns.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-52

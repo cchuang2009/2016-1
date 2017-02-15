@@ -1,0 +1,29 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2014-03-09-10-22-01
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1328382957.068099	Cq2IKf1wZsnaLwYRZa	172.29.0.116	1507	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328382957.519888	CrL0gX3hV7C7cyjozl	172.29.0.116	1508	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328382958.249658	CBUA9F3LP82IrkLU0b	172.29.0.116	1511	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328382958.892106	CcQWAZ2LjR0i5nvxdk	172.29.0.116	1513	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328382959.137038	CaUzWg17eLlDw9jOO8	172.29.0.116	1516	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328383323.679354	Ck12Y34jReuBGVdPRc	172.29.0.116	1551	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328383323.704526	CInFRL3Y4oA57QGXuk	172.29.0.116	1552	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328383323.770207	CTNhwL3r8gLJ11qZtk	172.29.0.116	1555	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328383323.819343	CtTFp42lyiwi6RHf37	172.29.0.116	1557	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328383323.886467	CX0qbM1fG4yKdupVx3	172.29.0.116	1560	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384193.449665	CLNTk911de1ZIamIca	172.29.0.116	1583	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384193.473703	Ct8H6RIdyNtLALqc1	172.29.0.116	1584	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384193.579233	Cew9TQ9EjsWjEJIa1	172.29.0.116	1587	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384193.639674	CHbl9h30bwc9Wrqvxl	172.29.0.116	1589	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384193.724838	CkDTWg3xK8n9uU5zwl	172.29.0.116	1592	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384565.152377	CC2Vdd1SbkDhuEwLS	172.29.0.116	1599	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384565.173024	CAzatv1tKF9LFj5OJ9	172.29.0.116	1600	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384565.280248	C9wdj44DI0Xit8mPIl	172.29.0.116	1603	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384565.352110	COuEqM3Hr0utDwEDxb	172.29.0.116	1605	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1328384565.427148	CCZuGb7nIxbYnKIG5	172.29.0.116	1608	172.29.0.1	2869	tcp	HTTP	not a http reply line
+#close	2014-03-09-10-22-02

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-22-05
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1349360808.455894	CFsE7y2PT27ZDJSk8a	192.168.248.165	53	8.8.8.8	53	udp	46603	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,64.4.10.33	3334.000000,34.000000	F
+1349360808.455952	CDMVYw4fAPO4Q8wwk	192.168.248.165	53	4.2.2.2	53	udp	46603	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,64.4.10.33	1140.000000,141.000000	F
+1349360839.504071	C34yXz4yT1PMhteXC	192.168.248.165	53	8.8.8.8	53	udp	50660	mine.pool-x.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.33.111.19	16334.000000	F
+1349360839.504190	CJKG0Z1IoJLpI38wr1	192.168.248.165	53	4.2.2.2	53	udp	50660	mine.pool-x.eu	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	178.33.111.19	43200.000000	F
+#close	2014-03-09-10-22-06

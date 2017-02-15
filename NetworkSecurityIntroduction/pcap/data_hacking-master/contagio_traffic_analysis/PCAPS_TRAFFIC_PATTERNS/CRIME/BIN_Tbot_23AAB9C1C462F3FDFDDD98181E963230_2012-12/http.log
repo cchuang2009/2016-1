@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-52
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1349617025.992015	CRm98v1MCSPO7lz1Cl	172.16.253.131	1172	216.146.39.70	80	1	GET	checkip.dyndns.org	/	-	-	0	105	200	OK	-	-	-	(empty)	-	-	-	-	-	FcFkKq2j971RfD6OJc	text/html
+1349617354.886980	CyBXjf3UWJtSJYhAmd	172.16.253.131	3749	188.173.32.149	91	1	GET	188.173.32.149	/test.txt	-	-	0	3	200	OK	-	-	-	(empty)	-	-	-	-	-	FlKiH02kKRtfk2WMgj	text/plain
+1349617356.917141	C4P5e924gYqzI1b1Yi	172.16.253.131	3750	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user4	-	-	F1oaQF2qo109aLWWW8	text/plain	Fr0mN8xWI5Tk54299	text/plain
+1349617357.469239	CXxflXIgB9l5CCWyd	172.16.253.131	3752	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user4	-	-	FFLOFq215oJHpcwtSl	text/plain	F75l1C4rjZcRne00gk	text/plain
+1349617357.469278	ClCyQUqbUX8HPUjMi	172.16.253.131	3751	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user4	-	-	FRm0FN1wD45mavnrE	text/plain	FX8hB1McJHpZWhf0b	text/plain
+1349617419.123422	CSLqUl3Yd2CDKoR7D2	172.16.253.131	3753	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user4	-	-	F6t14gpcbfMQrwJya	text/plain	F86e804VRMZe2TpXf3	text/plain
+1349617475.100616	CVrOTo4fzs5b5P8d7c	172.16.253.131	3754	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user4	-	-	FZooit1oafDlbB2OUl	text/plain	Fm41ii4yClBwN5Ojdg	text/plain
+1349617475.563678	CPVCoP1dEmuGgxtonh	172.16.253.131	3755	188.173.32.149	91	1	POST	188.173.32.149	/	-	cgminer 2.7.5	45	591	200	OK	-	-	-	(empty)	user4	-	-	F1ISWx3CbwY37saSn6	text/plain	F3UoiI3Ln2zZXwHBsh	text/plain
+#close	2014-03-09-10-21-52

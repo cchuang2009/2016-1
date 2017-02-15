@@ -1,0 +1,36 @@
+<html> 
+   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+   <style type="text/css">
+      form {
+            font-family:  Georgia, serif;
+            background-color:gainsboro; 
+            border:solid black; 
+            width:300px; 
+            padding:20px;
+      }
+      input {
+            font-family:  Georgia, serif;
+      } 
+   </style>
+    
+   <body>
+      <form action="#">
+     Input:
+     <input id="real" type="numeric" name="real"
+            min="0" max="100" step="1" value="6"> 
+     <p />
+        Squre of input = <b id="boldStuff">36</b>
+     <br>
+     <input value="Calculate"
+        onclick="calcSquare(this.form.real.value)" 
+        type="button"> 
+   </form>
+   <script type="text/javascript">
+        function calcSquare(real)
+        {          
+          var result=real*real;
+          document.getElementById('boldStuff').innerHTML = result; 
+        }  
+    </script>  
+   </body> 
+</html>

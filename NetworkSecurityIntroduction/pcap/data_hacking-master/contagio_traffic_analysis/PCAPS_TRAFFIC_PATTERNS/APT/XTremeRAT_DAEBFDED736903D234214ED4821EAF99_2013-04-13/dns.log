@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359933021.612693	CZgfQV1jwEg3JDA24a	172.16.253.131	53	8.8.8.8	53	udp	47611	shittway.zapto.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1359933021.612755	ClwXAm3wrzXKUeGGra	172.16.253.131	53	4.2.2.2	53	udp	47611	shittway.zapto.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1359933204.707997	CZItJJfuO9hnTWWx4	172.16.253.131	53	8.8.8.8	53	udp	17472	shittway.zapto.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1359933204.708081	CrBsRv47tFfXGncuh4	172.16.253.131	53	4.2.2.2	53	udp	17472	shittway.zapto.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1359933322.961019	C6HqOg3yflo60ZJxWe	172.16.253.131	53	8.8.8.8	53	udp	62142	shittway.zapto.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1359933322.961103	CUAmjZ19Wsqo6AlUv3	172.16.253.131	53	4.2.2.2	53	udp	62142	shittway.zapto.org	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-14

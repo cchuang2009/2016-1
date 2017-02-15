@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359946289.389714	CK2GhbCeUGU0Zcgti	172.16.253.130	53	8.8.8.8	53	udp	34738	real-newslife.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.57.77.220	21600.000000	F
+1359946289.389769	CsjiuG33uxhE2fSfNk	172.16.253.130	53	4.2.2.2	53	udp	34738	real-newslife.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	213.57.77.220	43200.000000	F
+1359946290.128156	CK2GhbCeUGU0Zcgti	172.16.253.130	53	8.8.8.8	53	udp	29700	valeriemesedahl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.49.96.18	14400.000000	F
+1359946290.128262	CsjiuG33uxhE2fSfNk	172.16.253.130	53	4.2.2.2	53	udp	29700	valeriemesedahl.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	69.49.96.18	14400.000000	F
+#close	2014-03-09-10-21-36

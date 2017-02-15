@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+15.759203	Cc5afUcbKyx4kMVBc	10.0.2.15	1049	74.125.132.99	443	tcp	-	0.021295	0	0	RSTO	-	0	ShR	2	88	1	44	(empty)
+9.152157	CUFGkU1fXH1STVxjsh	10.0.2.15	1025	8.8.8.8	53	udp	dns	6.598777	132	475	SF	-	0	Dd	4	244	4	587	(empty)
+9.214770	CrlsGe2MrmjaHxc3r2	10.0.2.15	137	10.0.2.255	137	udp	dns	24.285382	1632	0	S0	-	0	D	24	2304	0	0	(empty)
+15.265233	COviva37hytqYPC7f1	10.0.2.15	1047	173.194.41.73	443	tcp	ssl	31.603650	1696	130390	S1	-	0	ShADad	67	4384	108	134714	(empty)
+14.644459	CdnTUu3gdOAm8lIbLc	10.0.2.15	1046	173.194.41.73	443	tcp	ssl	1.780999	1517	45037	S1	-	0	ShADad	33	2845	51	47081	(empty)
+15.320656	C6eum11r5hGTeJcNH	10.0.2.15	1048	173.194.41.79	443	tcp	ssl	0.203656	1264	2972	S1	-	0	ShADad	7	1552	8	3296	(empty)
+16.412223	C2nqx83nnCWWVBfv4b	10.0.2.15	1050	74.125.132.99	443	tcp	ssl	30.657202	1181	2269	S1	-	0	ShADad	9	1549	10	2673	(empty)
+7.022681	Cb92eh2oJJqzL9fk9j	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000578	637	0	S0	-	0	D	2	693	0	0	(empty)
+9.184603	CFZAr749ORGjFcsLN5	10.0.2.15	123	65.55.21.24	123	udp	-	0.154251	48	48	SF	-	0	Dd	1	76	1	76	(empty)
+9.145554	CEKzKt4EdElnQtkmx7	10.0.2.15	1038	239.255.255.250	1900	udp	-	-	-	-	S0	-	0	D	1	161	0	0	(empty)
+18.227937	CNpNno32OBrBYpJdf2	10.0.2.15	138	10.0.2.255	138	udp	-	20.349140	2526	0	S0	-	0	D	13	2890	0	0	(empty)
+9.156893	CUEmNr4KmgOVpBnCEi	10.0.2.15	1042	239.255.255.250	1900	udp	-	6.046252	399	0	S0	-	0	D	3	483	0	0	(empty)
+7.022862	Cld9Zd471QBcYwxBBh	10.0.2.15	68	10.0.2.2	67	udp	dhcp	0.000528	0	1096	SHR	-	0	d	0	0	2	1152	(empty)
+9.145687	CCCBs12kvo4f5Rh407	10.0.2.2	11	10.0.2.15	0	icmp	-	6.057527	564	0	OTH	-	0	-	4	676	0	0	(empty)
+9.214880	CvnTWGrvXluVG8gzb	10.0.2.2	3	10.0.2.15	0	icmp	-	29.362283	4454	0	OTH	-	0	-	37	5490	0	0	(empty)
+#close	2014-03-09-10-21-23

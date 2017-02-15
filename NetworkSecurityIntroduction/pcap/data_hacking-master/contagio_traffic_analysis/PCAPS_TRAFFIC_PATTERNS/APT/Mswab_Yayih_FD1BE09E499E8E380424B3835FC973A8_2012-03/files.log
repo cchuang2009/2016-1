@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-13
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1330843714.887905	FygYEC2epMmwwcSqT8	10.0.2.15	199.192.156.134	Ck57L623Pc18KtDwg1	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	100	100	0	0	F	-	8b8aac0609aa69489c549fc86547a32a	b0122bc7cedf885857e61764806ada3cf40c0934	-	-
+1330843714.887905	FDf77i3yCoRFwCEhJi	199.192.156.134	10.0.2.15	Ck57L623Pc18KtDwg1	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	12	12	0	0	F	-	bb2adc391a3594cabcc3b1baa2a1c799	d01e7d3c2358aea02008176834b5e9f37404a7bc	-	-
+1330843722.245087	F9yUg43sGQB4UuFe3e	10.0.2.15	199.192.156.134	CjRS9R3lXpmpB3zoM1	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	165	165	0	0	F	-	5c5c2e744646a8367ffbb25a0684cc37	6dac3f9397e89d9a5db495f78f66007533f59fcd	-	-
+1330843722.245087	FBshN13czZ5yZDBt41	199.192.156.134	10.0.2.15	CjRS9R3lXpmpB3zoM1	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	26	26	0	0	F	-	03b93c15309c27951cc382ffb8b44b70	c83da355ebfc8f842c45216621062719394ff106	-	-
+1330843723.003033	FFYZU44NNFf2TlSdnc	10.0.2.15	199.192.156.134	CS0m4G3M6ZhmPLzxyf	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	42	42	0	0	F	-	328f9672ee080e265545e3fb4a18bd4d	dfc7310ffd971d36fe1d84c1b6eba0c0025cc4db	-	-
+1330843733.363386	F94IDAy1Do8AampDb	10.0.2.15	199.192.156.134	C3FABV11p86Xu9B7lk	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	181	181	0	0	F	-	631dc00a3c513fedbfc55f9815941fc1	2c7a0c7577bfefd2cc52677671a423de81328876	-	-
+1330843733.363386	FpTOoP1hHIJuwmyTKf	199.192.156.134	10.0.2.15	C3FABV11p86Xu9B7lk	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	27	27	0	0	F	-	d552eb37071b0cff1061018435ffe355	abbbfc0234d408498b344bcd899ae5f4081e6da6	-	-
+1330843734.121257	F4qPdUZYjFrf551v	10.0.2.15	199.192.156.134	Cxqr6TYwQcPhFqVD6	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	43	43	0	0	F	-	c71df6cee4caaa309cb324f992322c91	bd201fad1039536e84ce0019a03db6fa2f52f4d3	-	-
+1330843746.304909	FpA1eR2JaoWJOroRh2	10.0.2.15	199.192.156.134	CXlgny2zTDDnpTUzal	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	28	28	0	0	F	-	2711066b7d034b4e543452480cfc1269	c21f5b7fa4023f68861c11ec4b8fea98595ea8f6	-	-
+1330843746.304909	FuLMBu1c1WYfNomEN7	199.192.156.134	10.0.2.15	CXlgny2zTDDnpTUzal	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	12	12	0	0	F	-	7c13126c794354ae7f15e64955fb099c	5bbf8274b821c61c578b6d3fe9578b6a169767be	-	-
+#close	2014-03-09-10-21-13

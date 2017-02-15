@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1330843544.259019	CGe4ic25TpDInpClv	10.0.2.15	52226	4.2.2.4	53	udp	dns	0.125911	42	58	SF	-	0	Dd	1	70	1	86	(empty)
+1330843544.387765	Cn55XY3NmOHVH7YiI2	10.0.2.15	51030	4.2.2.4	53	udp	dns	0.082212	46	62	SF	-	0	Dd	1	74	1	90	(empty)
+1330843604.469281	C6iXwA3MF0B88MtQjg	10.0.2.15	61830	4.2.2.4	53	udp	dns	0.040638	53	133	SF	-	0	Dd	1	81	1	161	(empty)
+1330843604.511523	CVoQMN1Wk9CjFAw33f	10.0.2.15	65040	4.2.2.4	53	udp	dns	0.019511	53	133	SF	-	0	Dd	1	81	1	161	(empty)
+1330843604.650157	Ck57L623Pc18KtDwg1	10.0.2.15	1380	199.192.156.134	443	tcp	http	110.425918	228	142	SF	-	0	ShADadfF	5	436	5	346	(empty)
+1330843715.076742	CjRS9R3lXpmpB3zoM1	10.0.2.15	1381	199.192.156.134	443	tcp	http	7.229701	293	156	SF	-	0	ShADadfF	5	501	5	360	(empty)
+1330843722.307001	CS0m4G3M6ZhmPLzxyf	10.0.2.15	1382	199.192.156.134	443	tcp	http	0.750663	169	129	SF	-	0	ShADadfF	5	377	5	333	(empty)
+1330843723.058368	C3FABV11p86Xu9B7lk	10.0.2.15	1383	199.192.156.134	443	tcp	http	10.364044	309	157	SF	-	0	ShADadfF	5	517	5	361	(empty)
+1330843733.423183	Cxqr6TYwQcPhFqVD6	10.0.2.15	1384	199.192.156.134	443	tcp	http	0.698435	170	129	RSTO	-	0	ShADadfR	5	378	4	293	(empty)
+1330843734.173660	CKUKDE2iM6ee26hKt7	10.0.2.15	1385	199.192.156.134	443	tcp	-	8.462028	1434	148	SF	-	0	ShADadfF	6	1682	6	392	(empty)
+1330843742.636412	CXlgny2zTDDnpTUzal	10.0.2.15	1386	199.192.156.134	443	tcp	http	69.328551	155	142	RSTO	-	0	ShADadfR	5	363	4	306	(empty)
+#close	2014-03-09-10-21-13

@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1359933021.708585	CNEsuq3tFHrpaan4oe	172.16.253.131	1046	197.163.56.70	336	tcp	-	4.193702	323	0	S0	-	0	SAD	32	1611	0	0	(empty)
+1359933021.612693	CZgfQV1jwEg3JDA24a	172.16.253.131	53	8.8.8.8	53	udp	dns	-	-	-	S0	-	0	D	1	64	0	0	(empty)
+1359933021.612755	ClwXAm3wrzXKUeGGra	172.16.253.131	53	4.2.2.2	53	udp	dns	-	-	-	S0	-	0	D	1	64	0	0	(empty)
+1359933028.527196	CtUVNQ1wlCgfoO9dQ4	172.16.253.131	1046	197.163.56.70	336	tcp	-	13.475741	0	0	SH	-	0	AF	52	2080	0	0	(empty)
+1359933042.583844	CvxbUA47qvK5ufydMj	172.16.253.131	1047	197.163.56.70	336	tcp	-	3.349255	18250	0	S0	-	0	SAD	28	19378	0	0	(empty)
+1359933204.806724	CKfGns4WdeqbIQiKAk	172.16.253.131	1049	197.163.56.70	336	tcp	-	3.588178	304	0	S0	-	0	SAD	7	592	0	0	(empty)
+1359933205.215152	CkGYrPJwyMfpj3Svj	172.16.253.131	1050	197.163.56.70	336	tcp	-	3.933557	338	0	S0	-	0	SAD	7	626	0	0	(empty)
+1359933205.726077	CKLekCy3CuZCUm4h5	172.16.253.131	1051	197.163.56.70	336	tcp	-	1.587584	256	0	SH	-	0	SADF	8	584	0	0	(empty)
+1359933204.707997	CZItJJfuO9hnTWWx4	172.16.253.131	53	8.8.8.8	53	udp	dns	-	-	-	S0	-	0	D	1	64	0	0	(empty)
+1359933204.708081	CrBsRv47tFfXGncuh4	172.16.253.131	53	4.2.2.2	53	udp	dns	-	-	-	S0	-	0	D	1	64	0	0	(empty)
+1359933228.269957	CkiGDG4PrINwTgN0Xd	172.16.253.131	1052	197.163.56.70	336	tcp	-	4.877197	254118	0	S0	-	0	SAD	193	261846	0	0	(empty)
+1359933258.985906	CgeRWt3LZhyyzoY4D9	172.16.253.131	1053	197.163.56.70	336	tcp	-	2.559775	214	0	SH	-	0	SADF	10	622	0	0	(empty)
+1359933323.139980	Cvg78i4Es9OmY0kSbl	172.16.253.131	1054	197.163.56.70	336	tcp	-	4.970985	248750	0	S0	-	0	SAD	183	256079	0	0	(empty)
+1359933322.961019	C6HqOg3yflo60ZJxWe	172.16.253.131	53	8.8.8.8	53	udp	dns	-	-	-	S0	-	0	D	1	64	0	0	(empty)
+1359933322.961103	CUAmjZ19Wsqo6AlUv3	172.16.253.131	53	4.2.2.2	53	udp	dns	-	-	-	S0	-	0	D	1	64	0	0	(empty)
+1359933050.491558	CXXhPF0B1B6pXHP9k	172.16.253.131	1047	197.163.56.70	336	tcp	-	440.838918	409678	0	OTH	-	0	DA	417	426358	0	0	(empty)
+1359933328.251917	CNdPsXn1xAgla6bul	172.16.253.131	1054	197.163.56.70	336	tcp	-	41.578141	1521566	0	OTH	-	0	DA	1059	1563940	0	0	(empty)
+1359933233.310378	CMYW2L1QSpH6x2iVHa	172.16.253.131	1052	197.163.56.70	336	tcp	-	24.405734	1028518	0	OTH	-	0	DA	719	1057287	0	0	(empty)
+#close	2014-03-09-10-21-14

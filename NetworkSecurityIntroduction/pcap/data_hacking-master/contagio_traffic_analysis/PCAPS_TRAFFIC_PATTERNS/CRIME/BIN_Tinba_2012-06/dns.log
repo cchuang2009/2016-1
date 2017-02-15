@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-55
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1336619625.559273	CXErFKsVrSgSB0QH8	10.0.2.15	1026	8.8.8.8	53	udp	59209	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.22	3345.000000,45.000000	F
+1336619679.330766	CxhUPQOvFT1xPSGxd	10.0.2.15	1026	8.8.8.8	53	udp	26356	dak1otavola1ndos.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.37.127	60.000000	F
+1336619679.346111	CHPXi4HltEOCY2df9	10.0.2.15	1053	8.8.8.8	53	udp	36606	dak1otavola1ndos.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	82.165.37.127	60.000000	F
+1336619679.253725	CxhUPQOvFT1xPSGxd	10.0.2.15	1026	8.8.8.8	53	udp	37388	dakotavolandos.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336619679.287372	CxhUPQOvFT1xPSGxd	10.0.2.15	1026	8.8.8.8	53	udp	60686	dakotavolandos.com.hsd1.va.comcast.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336619679.287372	CxhUPQOvFT1xPSGxd	10.0.2.15	1026	8.8.8.8	53	udp	60686	dakotavolandos.com.hsd1.va.comcast.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336619679.287725	CHPXi4HltEOCY2df9	10.0.2.15	1053	8.8.8.8	53	udp	28828	dakotavolandos.com.hsd1.va.comcast.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336619679.261738	CHPXi4HltEOCY2df9	10.0.2.15	1053	8.8.8.8	53	udp	59449	dakotavolandos.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336619679.261738	CHPXi4HltEOCY2df9	10.0.2.15	1053	8.8.8.8	53	udp	59449	dakotavolandos.com	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336619855.539629	CWgBFATGw4GWSC1Fc	10.0.2.15	1026	8.8.8.8	53	udp	30177	mila-pc.hsd1.va.comcast.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1336619855.473829	CWgBFATGw4GWSC1Fc	10.0.2.15	1026	8.8.8.8	53	udp	11145	mila-pc.hsd1.va.comcast.net	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-55

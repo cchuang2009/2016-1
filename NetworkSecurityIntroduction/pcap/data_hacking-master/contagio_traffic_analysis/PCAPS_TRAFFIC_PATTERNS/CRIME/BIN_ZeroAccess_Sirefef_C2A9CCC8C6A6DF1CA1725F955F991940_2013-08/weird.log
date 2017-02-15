@@ -1,0 +1,37 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-59
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349360808.272485	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1349360836.014798	CtQnnZ1ig28Q3x37t7	192.168.248.165	1112	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.019860	CdKmJQ1ucYJqcT8A7h	192.168.248.165	1113	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.128451	CWAmCu4xfEmc0Y5AXc	192.168.248.165	1114	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.130943	CWuFj13dHcY2RWU7z	192.168.248.165	1115	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.132742	CrNIHXFzt7RLELO21	192.168.248.165	1116	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.133919	CzsLx81L4ho9uuWLpd	192.168.248.165	1117	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.136140	CKZgUb3QLubRn1sLFh	192.168.248.165	1118	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.143873	CCxcuG4YPlBzVm0N28	192.168.248.165	1119	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.319015	CV3zQ22kKXKx2enDj8	192.168.248.165	1121	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.330394	CBLh2w18wgZdUXkcFk	192.168.248.165	1122	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349360836.333160	CQgX6z3bPY1isnHQPd	192.168.248.165	1123	194.165.17.4	53	DNS_Conn_count_too_large	-	F	bro
+1349361160.952402	CEH2Pf1tstBUGvLfm3	192.168.248.165	1185	74.125.228.27	80	unescaped_special_URI_char	-	F	bro
+1349361162.273429	CyIlbO2bB0nYB7KJSc	192.168.248.165	1193	96.6.20.46	80	unescaped_%_in_URI	-	F	bro
+1349361162.823262	CALxRu4Ymnes0UlXBh	192.168.248.165	1195	204.154.111.33	80	unescaped_%_in_URI	-	F	bro
+1349361426.175796	CU44P33PICI9MWrvHd	192.168.248.165	1319	8.30.89.71	80	unescaped_special_URI_char	-	F	bro
+1349361562.173801	ClWu3j2ZA2shZuDicj	192.168.248.165	1341	204.13.194.222	80	unescaped_special_URI_char	-	F	bro
+1349361562.239875	C2CHJl40evAjLKZWbc	192.168.248.165	1343	204.13.194.222	80	unescaped_special_URI_char	-	F	bro
+1349361562.266176	CQVGur3IO3AFTjJVB2	192.168.248.165	1344	173.194.74.95	80	unescaped_special_URI_char	-	F	bro
+1349361566.463183	CIosP81WD1Z2syerod	192.168.248.165	1349	108.162.197.34	80	unescaped_special_URI_char	-	F	bro
+1349361620.962219	C6ky7Z3qkBuKxOD7ri	192.168.248.165	1353	67.201.62.127	80	unescaped_special_URI_char	-	F	bro
+1349361630.828485	Cxm9yC2pHCb19ygckk	192.168.248.165	1396	54.244.28.73	80	unescaped_special_URI_char	-	F	bro
+1349361631.388682	CaBC6K8YGzpQdmKVb	192.168.248.165	1403	69.25.24.24	80	unescaped_special_URI_char	-	F	bro
+1349361638.305302	CVmaOF1wOzCRnTlJnl	192.168.248.165	1410	108.162.197.34	80	unescaped_special_URI_char	-	F	bro
+1349361638.865220	C0wDJa3LSDOzsrfEi1	192.168.248.165	1418	204.13.194.222	80	unescaped_special_URI_char	-	F	bro
+1349361695.514175	C9dtTN3CEYRqO1znNe	192.168.248.165	1514	208.71.122.1	80	unescaped_special_URI_char	-	F	bro
+1349361713.898017	CgD7RL2faEUWumLqz4	192.168.248.165	1555	108.162.197.34	80	unescaped_special_URI_char	-	F	bro
+1349361745.449187	Cvy6iG4svyIniKBF5h	192.168.248.165	1565	67.201.62.64	80	unescaped_special_URI_char	-	F	bro
+#close	2014-03-09-10-22-01

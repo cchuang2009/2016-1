@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1368387116.355816	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1368387264.846334	CrmiF64v2r7QEK4td	172.16.253.129	53	8.8.8.8	53	dns_changed_number_of_responses	The declared number of responses changed from 0 to 7	F	bro
+#close	2014-03-09-10-21-58

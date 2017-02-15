@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1359946182.166498	Csk5S4smTsfDGeGLi	172.16.253.254	8	172.16.253.130	0	icmp	-	-	-	-	OTH	-	0	-	1	48	0	0	(empty)
+1359946183.173199	CI8U8B3hLYmczdpj32	172.16.253.130	68	172.16.253.254	67	udp	dhcp	0.018608	0	600	SHR	-	0	d	0	0	2	656	(empty)
+1359946289.389714	CK2GhbCeUGU0Zcgti	172.16.253.130	53	8.8.8.8	53	udp	dns	0.781525	72	104	SF	-	0	Dd	2	128	2	160	(empty)
+1359946289.389769	CsjiuG33uxhE2fSfNk	172.16.253.130	53	4.2.2.2	53	udp	dns	0.835145	72	104	SF	-	0	Dd	2	128	2	160	(empty)
+1359946290.171831	CGoTXO752W95YIjWl	172.16.253.130	1069	69.49.96.18	80	tcp	http	10.373179	291	119594	RSTO	-	0	ShADadfR	30	1499	86	123038	(empty)
+1359946289.542478	CuQ1ak48NbnTkgkln4	172.16.253.130	1067	213.57.77.220	80	tcp	http	21.002478	511	691	RSTO	-	0	ShADadfR	8	839	8	1706	(empty)
+1359946297.707876	CSFT784KdcrOzIcKq5	172.16.253.130	1070	37.0.122.142	80	tcp	http	65.601969	367	182	S3	-	0	ShADadf	5	575	5	568	(empty)
+#close	2014-03-09-10-21-36

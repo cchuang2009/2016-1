@@ -1,0 +1,24 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359946214.456080	CXVK9Y3QdRkVuFR2Gl	172.16.253.130	53	8.8.8.8	53	udp	34738	gorush.dyndns-web.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.199.75.95	60.000000	F
+1359946214.456159	CCn0CH2OMda9KOhFva	172.16.253.130	53	4.2.2.2	53	udp	34738	gorush.dyndns-web.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	198.199.75.95	60.000000	F
+1359946215.379493	CXVK9Y3QdRkVuFR2Gl	172.16.253.130	53	8.8.8.8	53	udp	6595	ncyellowhelloword.dyndns-web.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	96.44.136.98	60.000000	F
+1359946215.379584	CCn0CH2OMda9KOhFva	172.16.253.130	53	4.2.2.2	53	udp	6595	ncyellowhelloword.dyndns-web.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	96.44.136.98	60.000000	F
+1359946216.612327	CCn0CH2OMda9KOhFva	172.16.253.130	53	4.2.2.2	53	udp	46977	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,96.17.148.40,96.17.148.27	168.000000,91.000000,246.000000,85.000000,7972.000000,14.000000,14.000000	F
+1359946216.612230	CXVK9Y3QdRkVuFR2Gl	172.16.253.130	53	8.8.8.8	53	udp	46977	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,23.59.190.131,23.59.190.113	3585.000000,558.000000,224.000000,285.000000,21585.000000,5.000000,5.000000	F
+1359946216.473507	CXVK9Y3QdRkVuFR2Gl	172.16.253.130	53	8.8.8.8	53	udp	52200	wpad.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1359946216.473602	CCn0CH2OMda9KOhFva	172.16.253.130	53	4.2.2.2	53	udp	52200	wpad.localdomain	1	C_INTERNET	1	A	3	NXDOMAIN	F	F	T	F	0	-	-	F
+1359946430.365832	CORGVY2Vsruo9fMrT	172.16.253.1	137	172.16.253.255	137	udp	23750	\x01\x02__MSBROWSE__\x02	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1359946431.366439	CORGVY2Vsruo9fMrT	172.16.253.1	137	172.16.253.255	137	udp	23750	\x01\x02__MSBROWSE__\x02	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1359946432.367704	CORGVY2Vsruo9fMrT	172.16.253.1	137	172.16.253.255	137	udp	23750	\x01\x02__MSBROWSE__\x02	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1359946561.313728	Cvx3iR1lu5fhgUoK3c	172.16.253.130	53	4.2.2.2	53	udp	23013	ncyellowhelloword.dyndns-web.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	96.44.136.98	60.000000	F
+1359946757.724119	C64E8JbG8iVuKuKic	172.16.253.1	137	172.16.253.255	137	udp	23754	WORKGROUP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1359946758.724957	C64E8JbG8iVuKuKic	172.16.253.1	137	172.16.253.255	137	udp	23754	WORKGROUP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+1359946759.725279	C64E8JbG8iVuKuKic	172.16.253.1	137	172.16.253.255	137	udp	23754	WORKGROUP	1	C_INTERNET	32	NB	-	-	F	F	T	F	1	-	-	F
+#close	2014-03-09-10-21-13

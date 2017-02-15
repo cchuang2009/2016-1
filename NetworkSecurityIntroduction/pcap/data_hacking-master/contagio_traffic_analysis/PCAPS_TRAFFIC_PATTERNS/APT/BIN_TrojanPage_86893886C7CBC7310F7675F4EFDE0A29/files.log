@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-13
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1359946215.374429	FCqbGD34afmA274WOa	198.199.75.95	172.16.253.130	CqcpsR3E0F34E9Qu45	HTTP	0	MD5,SHA1	text/html	-	0.000000	-	F	312	312	0	0	F	-	cae32af6e1149834b53728b26b979494	89176c375dbec0a328ed1c93e909fb57a1ed589e	-	-
+1359946216.925788	F2xUfo277O7qmN19ng	96.17.148.40	172.16.253.130	CO75cRRjj4O7QU0xb	HTTP	0	MD5,SHA1	text/plain	-	0.000000	-	F	18	18	0	0	F	-	75d5804aecbafd2af943d4de036a46ae	53d118f68432f40a70788c610abe235bf80edc19	-	-
+1359946217.056254	FYP1lFtAsJ9XqTfX9	96.17.148.40	172.16.253.130	CO75cRRjj4O7QU0xb	HTTP	0	MD5,SHA1	application/vnd.ms-cab-compressed	-	0.560787	-	F	52521	52521	0	0	F	-	c63adfc2feeb9a8816f2b38c118b4746	3cae38ab276501f2998191c71f1a91eeaf1d44c6	-	-
+#close	2014-03-09-10-21-13

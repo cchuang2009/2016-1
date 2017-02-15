@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-22-11
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1359941448.537768	FIE0da2aOre19kXPcd	172.16.253.132	188.129.243.106	CoW4m2179c2s63Dlmc	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	164	164	0	0	F	-	d032623a6335561d165e7e2f05a1b61b	8e9d182b21958eca189b34d87e059b245b4a6e39	-	-
+1359941450.198759	F1xvMF4xzWQRsFgGY8	188.129.243.106	172.16.253.132	CoW4m2179c2s63Dlmc	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	229	229	0	0	F	-	f0c1a6dbd2cdb411ac06ec62f3b160c1	d675ae0e18b14a237f2459696611f16c985cafcc	-	-
+1359941450.200072	Fi9EuwtBwwaYetLb	172.16.253.132	188.129.243.106	CoW4m2179c2s63Dlmc	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	1721	1721	0	0	F	-	bea2dbbc72b57aec6d581bcc876643a9	1a6b547accff1fa281f3f209a4324a69faafbd6a	-	-
+1359941451.282352	FRXvVc1rkUIiIijQhj	188.129.243.106	172.16.253.132	CoW4m2179c2s63Dlmc	HTTP	0	MD5,SHA1	binary	-	0.350765	-	F	5709	5709	0	0	F	-	7b00e1102d94785028e8add32f0dd20a	bdded07055de0a3ec23700ac1c0c06e7ba1fe671	-	-
+1359942053.256796	FKWqMM3SXrw6dyJHVa	172.16.253.132	95.69.159.200	CnCZSd2LcbdfCQUZ77	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	164	164	0	0	F	-	5255d9ebe3d4913a650cd4436816d773	8ffcd67f4782be594884e52e53622907e60b0468	-	-
+1359942054.864267	FNVP7924frtGJqrbj6	95.69.159.200	172.16.253.132	CnCZSd2LcbdfCQUZ77	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	229	229	0	0	F	-	8487ee9ba30e37f7cdb43f47ddf1c2d7	4db3fae0c7474245ce899af9adfacb581c729c2f	-	-
+1359942054.865570	FE5aSuJCHoXLPBM0a	172.16.253.132	95.69.159.200	CnCZSd2LcbdfCQUZ77	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	2349	2349	0	0	F	-	fc17b0becd5f6b14e7d79879b571ae29	ac5de0152b96753c6556186a645adc24598c58e6	-	-
+1359942055.637886	FKXMbN1Mxe8S6RUMmk	95.69.159.200	172.16.253.132	CnCZSd2LcbdfCQUZ77	HTTP	0	MD5,SHA1	binary	-	0.277511	-	F	5447	5447	0	0	F	-	834710be7cc63afdb789b007885262e9	74e5b5ba281e42211234226ac3600c000a5635d5	-	-
+#close	2014-03-09-10-22-11

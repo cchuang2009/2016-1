@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1357443184.098269	CT7wlR3GXkelvHaQg	172.16.253.129	53	8.8.8.8	53	udp	dns	0.061051	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1357443184.098335	CbL89Y3G3b0zIzW7Ph	172.16.253.129	53	4.2.2.2	53	udp	dns	0.074671	34	89	SF	-	0	Dd	1	62	1	117	(empty)
+1357443231.943383	CA8hE83VihcR5GQhfl	172.16.253.129	1144	173.231.54.69	443	tcp	ssl	1.655472	408	1617	RSTO	-	0	ShADadfR	8	736	10	2064	(empty)
+1357443233.599648	CzpdEO1dnC8Zu1mLl	172.16.253.129	1146	173.231.54.69	443	tcp	ssl	0.676411	419	316	RSTO	-	0	ShADadfR	7	707	7	600	(empty)
+1357443231.345645	C3PCJ02VuNpeCfgjwa	172.16.253.129	53	8.8.8.8	53	udp	dns	1.582409	82	290	SF	-	0	Dd	2	138	2	346	(empty)
+1357443231.345741	C8wtgX2pjedqt9o5F9	172.16.253.129	53	4.2.2.2	53	udp	dns	1.596150	82	290	SF	-	0	Dd	2	138	2	346	(empty)
+1357443184.209297	CuhCgnILT6agH7QXg	172.16.253.129	123	65.55.21.13	123	udp	-	0.116372	48	48	SF	-	0	Dd	1	76	1	76	(empty)
+1357443186.781535	CEqpBy5bQN3zAIT9g	172.16.253.254	8	172.16.253.129	0	icmp	-	-	-	-	OTH	-	0	-	1	48	0	0	(empty)
+1357443187.781979	CJ6cVT1TjTYnT4k6Ef	172.16.253.129	68	172.16.253.254	67	udp	dhcp	0.002533	0	600	SHR	-	0	d	0	0	2	656	(empty)
+1357443354.804913	CLt3QHJn4jeFvP3h4	172.16.253.129	53	8.8.8.8	53	udp	dns	0.149095	34	50	SF	-	0	Dd	1	62	1	78	(empty)
+1357443354.805032	CGLLRh4DhkXhNM0j85	172.16.253.129	53	4.2.2.2	53	udp	dns	0.120776	34	50	SF	-	0	Dd	1	62	1	78	(empty)
+1357443355.179674	C8wxx64kUnuCg4QBH5	172.16.253.129	1147	173.231.54.69	443	tcp	ssl	0.491643	301	593	RSTO	-	0	ShADadfR	7	589	8	917	(empty)
+1357443355.840471	CjpllO2Q90pX7GUrd6	172.16.253.129	1148	173.231.54.69	443	tcp	ssl	0.595961	419	316	RSTO	-	0	ShADadfR	7	707	8	640	(empty)
+#close	2014-03-09-10-21-08

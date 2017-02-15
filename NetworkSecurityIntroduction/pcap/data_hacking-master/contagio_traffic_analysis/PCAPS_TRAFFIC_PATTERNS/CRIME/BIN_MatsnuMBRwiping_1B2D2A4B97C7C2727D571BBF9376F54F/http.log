@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1359941555.365905	ClNqum4if63qGyCM0d	172.16.253.132	1046	46.165.248.117	80	1	GET	nvufvwieg.com	/inbox.php?ltype=ld&ccr=1&id=E81B90884C4C45445458&stat=0&ver=2000803&loc=0x0409&os=Windows XP	-	Mozilla/4.0 (compatible; MSIE 6.0b; Windows NT 5.0; .NET CLR 1.0.2914)	0	144924	200	OK	-	-	-	(empty)	-	-	-	-	-	FJ3yC12T3TW7zhBYNi	binary
+1359941562.267007	CRQ3su1VNMlukW8ts1	172.16.253.132	1047	46.165.248.117	80	1	GET	nvufvwieg.com	/inbox.php?ltype=ld&ccr=1&id=E81B90884C4C45445458&cmd=report&idt=240&status=OK	-	Mozilla/4.0 (compatible; MSIE 6.0b; Windows NT 5.0; .NET CLR 1.0.2914)	0	4	200	OK	-	-	-	(empty)	-	-	-	-	-	FvgAeFRd2S8I4klea	text/plain
+1359941582.744674	C8g0uzRps4JIUWJ88	172.16.253.132	1048	217.174.211.1	80	1	GET	privat-tor-service.com	/inbox.php?ltype=ld&ccr=1&id=E81B90884C4C45445458&stat=0&ver=040613&loc=0x0409&os=Windows XP	-	Mozilla/4.0 (compatible; MSIE 6.0b; Windows NT 5.0; .NET CLR 1.0.2914)	0	236060	200	OK	-	-	-	(empty)	-	-	-	-	-	F2EGxI2f5H8l2UetH9	binary
+1359941585.620930	CHtaNM2NbkygrnSZTf	172.16.253.132	1049	217.174.211.1	80	1	GET	privat-tor-service.com	/inbox.php?ltype=ld&ccr=1&id=E81B90884C4C45445458&cmd=report&idt=242&status=OK	-	Mozilla/4.0 (compatible; MSIE 6.0b; Windows NT 5.0; .NET CLR 1.0.2914)	0	4	200	OK	-	-	-	(empty)	-	-	-	-	-	FWkCnV2jvrn1RRsc3b	text/plain
+1359941586.874484	C7hoKj1Pceatmnkdy	172.16.253.132	1050	74.125.228.49	80	1	GET	www.google.com	/	-	-	0	46267	200	OK	-	-	-	(empty)	-	-	-	-	-	FCIZNx4jFd10KHnvU6	text/html
+1359941587.263412	Cw2CDw38ADpDHOnFeg	172.16.253.132	1051	93.89.235.13	80	1	POST	twintrade.net	/f44/myse.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)	344	8	302	Found	-	-	-	(empty)	-	-	-	F3ru7v30yHxWfORElk	text/plain	FzSL4aYVU5fPcoUOl	binary
+#close	2014-03-09-10-21-35

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1349624353.886042	CjK9rL3Rf86oZLjOTe	172.16.253.129	1135	110.45.140.11	80	1	GET	board.nboard.net	/list.php?db=kbaksan_1&p=1	-	Mozilla/5.0 (Windows; U; Windows NT 5.1; ko; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	0	176376	200	OK	-	-	-	(empty)	-	-	-	-	-	FZU6CH3YmSTRdDIBfl	text/html
+1349624486.903484	CmUsUN1RKiyF3SJFn8	172.16.253.129	1137	110.45.140.11	80	1	POST	board.nboard.net	/write.php	http://board.nboard.net/form.php?db=kbaksan_1	Mozilla/5.0 (Windows; U; Windows NT 5.1; ko; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	5248	0	302	Found	-	-	-	(empty)	-	-	-	FzqRuq1fnTMbxzSZtc	text/plain	-	-
+1349624492.096731	CeGVoc3zHYXR7VmN9	172.16.253.129	1139	110.45.140.11	80	1	POST	board.nboard.net	/write.php	http://board.nboard.net/form.php?db=kbaksan_1	Mozilla/5.0 (Windows; U; Windows NT 5.1; ko; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	11328	0	302	Found	-	-	-	(empty)	-	-	-	F6QKZZ2fvUrpnXBVxa	text/plain	-	-
+1349624497.244412	C1Wkud1c9UknZqCz8c	172.16.253.129	1140	110.45.140.11	80	1	GET	board.nboard.net	/list.php?db=kbaksan_1&p=1	-	Mozilla/5.0 (Windows; U; Windows NT 5.1; ko; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	0	178004	200	OK	-	-	-	(empty)	-	-	-	-	-	FRzogg4YE7Rm6lEFl6	text/html
+1349624628.374147	CEt9NM332Nu20ShqGh	172.16.253.129	1141	110.45.140.11	80	1	GET	board.nboard.net	/list.php?db=kbaksan_1&p=1	-	Mozilla/5.0 (Windows; U; Windows NT 5.1; ko; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	0	178004	200	OK	-	-	-	(empty)	-	-	-	-	-	Fagzbi39pBT1IL4Zgb	text/html
+1349624758.883763	CKjgRBQdsS37ecjsk	172.16.253.129	1142	110.45.140.11	80	1	GET	board.nboard.net	/list.php?db=kbaksan_1&p=1	-	Mozilla/5.0 (Windows; U; Windows NT 5.1; ko; rv:1.8.1.20) Gecko/20081217 Firefox/2.0.0.20	0	178004	200	OK	-	-	-	(empty)	-	-	-	-	-	FjSs0F4oCV36zps3g5	text/html
+#close	2014-03-09-10-21-11

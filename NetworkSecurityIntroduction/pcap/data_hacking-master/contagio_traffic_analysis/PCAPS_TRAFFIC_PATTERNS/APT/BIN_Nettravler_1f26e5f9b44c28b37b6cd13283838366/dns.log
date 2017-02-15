@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357443648.750035	Cs2pKZ2xwnCh9DzoX2	172.16.253.130	53	8.8.8.8	53	udp	7195	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.15	3473.000000,173.000000	F
+1357443647.763492	C7aKET1O3NjhjNMBfk	172.16.253.130	53	4.2.2.2	53	udp	7195	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.13	188.000000,59.000000	F
+1357443648.750136	C7aKET1O3NjhjNMBfk	172.16.253.130	53	4.2.2.2	53	udp	7195	time.windows.com	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1357443822.583158	CxhQ9j4uq00UhXHz99	172.16.253.130	53	4.2.2.2	53	udp	11908	www.gami1.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.34.193.13	1800.000000	F
+1357443823.578188	CxhQ9j4uq00UhXHz99	172.16.253.130	53	4.2.2.2	53	udp	11908	www.gami1.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.34.193.13	1800.000000	F
+1357443823.577967	CdxzzDiVNMfvygEOk	172.16.253.130	53	8.8.8.8	53	udp	11908	www.gami1.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	110.34.193.13	1800.000000	F
+#close	2014-03-09-10-21-10

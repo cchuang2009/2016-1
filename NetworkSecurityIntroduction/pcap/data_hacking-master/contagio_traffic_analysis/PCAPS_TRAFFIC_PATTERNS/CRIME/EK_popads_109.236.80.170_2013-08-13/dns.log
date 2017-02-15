@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-22-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1376331367.021442	C0IjF63j9T1xYt8EHl	1.2.3.7	58695	109.236.80.170	53	udp	56093	fizv.11taglik.info	1	C_INTERNET	1	A	0	NOERROR	T	F	F	T	0	109.236.80.170	30.000000	F
+#close	2014-03-09-10-22-11

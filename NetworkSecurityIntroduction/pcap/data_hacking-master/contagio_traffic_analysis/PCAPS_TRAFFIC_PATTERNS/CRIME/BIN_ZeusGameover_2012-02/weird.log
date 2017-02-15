@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-22-02
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1328383516.784976	C0TYCK23khrYuoS0Af	172.29.0.1	2869	172.29.0.116	1564	connection_originator_SYN_ack	-	F	bro
+1328383516.784976	Cznjou2gj5oLSMR69e	172.29.0.116	2869	172.29.0.1	4013	connection_originator_SYN_ack	-	F	bro
+#close	2014-03-09-10-22-02

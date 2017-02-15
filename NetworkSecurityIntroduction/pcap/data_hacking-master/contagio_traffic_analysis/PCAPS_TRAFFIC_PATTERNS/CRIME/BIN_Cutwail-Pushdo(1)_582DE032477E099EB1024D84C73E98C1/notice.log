@@ -1,0 +1,12 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-21-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1349360826.802839	C3Z4pO1ogbk64yr3l3	192.168.248.165	1113	62.65.252.16	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	192.168.248.165	62.65.252.16	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349360828.004081	C5fEMu3jWZXIG0EGu5	192.168.248.165	1115	195.225.104.182	443	-	-	-	tcp	SSL::Invalid_Server_Cert	SSL certificate validation failed with (self signed certificate)	emailAddress=info@parallels.com,CN=Parallels Confixx,OU=Parallels Confixx,O=Parallels\, GmbH.,L=Herndon,ST=Virginia,C=US	192.168.248.165	195.225.104.182	443	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1349360866.210261	-	-	-	-	-	-	-	-	tcp	Scan::Address_Scan	192.168.248.165 scanned at least 25 unique hosts on port 25/tcp in 0m38s	remote	192.168.248.165	-	25	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-21-18

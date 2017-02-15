@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-21-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1349360826.545219	C3Z4pO1ogbk64yr3l3	192.168.248.165	1113	62.65.252.16	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	emailAddress=root@localhost.localdomain,CN=localhost.localdomain,OU=SomeOrganizationalUnit,O=SomeOrganization,L=SomeCity,ST=SomeState,C=--	1167712895.000000	1199248895.000000	-	-	-	368c6b9deaafec6a20c4cacd0aeafcb2	self signed certificate
+1349360827.788337	C5fEMu3jWZXIG0EGu5	192.168.248.165	1115	195.225.104.182	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	emailAddress=info@parallels.com,CN=Parallels Confixx,OU=Parallels Confixx,O=Parallels\, GmbH.,L=Herndon,ST=Virginia,C=US	emailAddress=info@parallels.com,CN=Parallels Confixx,OU=Parallels Confixx,O=Parallels\, GmbH.,L=Herndon,ST=Virginia,C=US	1264440351.000000	1295976351.000000	-	-	-	fbd9971284ed05f87529fdc9658b3172	self signed certificate
+#close	2014-03-09-10-21-18

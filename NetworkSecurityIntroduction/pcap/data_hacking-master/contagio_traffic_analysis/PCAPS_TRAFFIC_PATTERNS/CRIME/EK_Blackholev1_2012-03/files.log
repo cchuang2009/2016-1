@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-22-07
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1331173910.487663	FMgmnl3b3JijNGvwO5	88.85.99.44	10.0.2.15	CpJkjwrQXhynV5wM	HTTP	0	SHA1,MD5	text/html	-	0.456116	-	F	18648	-	0	0	F	-	313c1c9d6a4d2b9d913dd38788df84b9	749118c9a7eeb1169ebe7d6945b8770fa65047b9	-	-
+1331173912.490412	F5cwVA1LaFwW9qwWM4	88.85.99.44	10.0.2.15	CpJkjwrQXhynV5wM	HTTP	0	SHA1,MD5	application/pdf	19b9c.pdf	0.762051	-	F	47976	47976	0	0	F	-	94dac447f9e80cf861155efe2790305b	9ac30daa1b73f7aa7ddaf3c6c584e142071de03d	-	-
+1331173913.109050	FJglRS1uQTTyzDPk1e	88.85.99.44	10.0.2.15	C8IJKu1TspZyNMycs6	HTTP	0	SHA1,MD5	application/zip	-	0.303440	-	F	14765	14765	0	0	F	-	8e300391cb3011ed76390c021e20f728	f4c1470ae547cbf1e9a9ce3e020eda115f013faa	-	-
+1331173914.438087	Fl5brC152ihre6LJm6	88.85.99.44	10.0.2.15	COYD9m7cVBG6QzAml	HTTP	0	SHA1,MD5	application/x-dosexec	info.exe	1.215819	-	F	150569	150569	0	0	F	-	c1d691e2fce076e58463db5f5df441ca	5d247ad2572b92f766ca6beae19dd58a37e4ced2	-	-
+1331173917.916768	FbylKU2EMd5HJlny49	10.0.2.15	50.56.208.113	CadDU84bAoyVrtvMU8	HTTP	0	SHA1,MD5	binary	-	0.000000	-	T	330	330	0	0	F	-	2fb4825e0738af3239f6bd5e8b034d31	886383d05b711d6e2d61b9a3f062e4de056b70f1	-	-
+1331173918.463947	FvGllW1rOMcgXhpF8c	50.56.208.113	10.0.2.15	CadDU84bAoyVrtvMU8	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	16	-	0	0	F	-	577bc6b390440098715f9f474696778f	283475975cd97123b770b4a470e2d2408b95b88d	-	-
+1331173918.958934	F58FGe3yfSEmBR8aYk	94.199.204.136	10.0.2.15	CNo0fi2NTHwFTb92Tc	HTTP	0	SHA1,MD5	application/x-dosexec	-	1.254318	-	F	319528	319528	0	0	F	-	91b0baaaf6d3c870e8b09863b31c7823	e136de28fdaceea8a02b24bef6ea6ee9c6f09fe7	-	-
+1331173921.513141	FQCkgu49Ky3Biigqwb	74.220.207.178	10.0.2.15	CViVFM3To9BlpNKqdi	HTTP	0	SHA1,MD5	application/x-dosexec	-	0.958288	-	F	319528	319528	0	0	F	-	91b0baaaf6d3c870e8b09863b31c7823	e136de28fdaceea8a02b24bef6ea6ee9c6f09fe7	-	-
+#close	2014-03-09-10-22-07

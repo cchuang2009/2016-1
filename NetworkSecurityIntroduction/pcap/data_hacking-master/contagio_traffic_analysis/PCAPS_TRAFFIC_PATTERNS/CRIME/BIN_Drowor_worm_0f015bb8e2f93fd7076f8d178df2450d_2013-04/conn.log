@@ -1,0 +1,20 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+38.096875	C4a9cskhdVRxV4td	10.0.2.15	1025	8.8.8.8	53	udp	dns	5.475455	140	140	SF	-	0	Dd	4	252	4	252	(empty)
+9.385795	CWl6ypg0DZt6cTMHf	10.0.2.15	137	10.0.2.255	137	udp	dns	35.687667	2082	0	S0	-	0	D	33	3006	0	0	(empty)
+7.189544	Cgcn402k4gK5THiKJk	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000559	637	0	S0	-	0	D	2	693	0	0	(empty)
+7.189727	CrNqy81yQ8AXfFNMAd	10.0.2.15	68	10.0.2.2	67	udp	dhcp	0.000453	0	1096	SHR	-	0	d	0	0	2	1152	(empty)
+9.310831	CnId5v18sGFPa2glCh	10.0.2.15	1039	239.255.255.250	1900	udp	-	-	-	-	S0	-	0	D	1	161	0	0	(empty)
+65.878895	C3LjAw1Iz4q4n0nMSk	10.0.2.15	1025	8.8.8.8	53	udp	dns	4.565871	140	140	SF	-	0	Dd	4	252	4	252	(empty)
+65.913422	CnANL61sMuv7ImZALd	10.0.2.15	137	10.0.2.255	137	udp	dns	6.030678	450	0	S0	-	0	D	9	702	0	0	(empty)
+9.321587	CLjDlh1cxI90n8n4Ei	10.0.2.15	1043	239.255.255.250	1900	udp	-	6.019213	399	0	S0	-	0	D	3	483	0	0	(empty)
+18.395435	C9xqXLCCuxGgMYAOh	10.0.2.15	138	10.0.2.255	138	udp	-	40.930385	2526	0	S0	-	0	D	13	2890	0	0	(empty)
+9.310912	Cq62X2og6X4Q48bSb	10.0.2.2	11	10.0.2.15	0	icmp	-	6.029945	564	0	OTH	-	0	-	4	676	0	0	(empty)
+9.386012	C6A1Od2ctxjwMPS0Ij	10.0.2.2	3	10.0.2.15	0	icmp	-	62.561837	5498	0	OTH	-	0	-	55	7038	0	0	(empty)
+#close	2014-03-09-10-21-23

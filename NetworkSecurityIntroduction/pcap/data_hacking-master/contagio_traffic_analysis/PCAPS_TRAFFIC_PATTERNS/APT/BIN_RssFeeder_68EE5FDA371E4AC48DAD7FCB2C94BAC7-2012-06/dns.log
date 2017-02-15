@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357442437.052653	CzaiW92sNjEiFqXIHl	172.16.253.240	53	8.8.8.8	53	udp	53824	huming386.livejournal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.93.0.128	1800.000000	F
+1357442437.052718	CswJM84HLG75mWf4sj	172.16.253.240	53	4.2.2.2	53	udp	53824	huming386.livejournal.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	208.93.0.128	1800.000000	F
+1357442437.310103	CzaiW92sNjEiFqXIHl	172.16.253.240	53	8.8.8.8	53	udp	20742	killme.98.shoptupian.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.83.45.18	3600.000000	F
+1357442437.310202	CswJM84HLG75mWf4sj	172.16.253.240	53	4.2.2.2	53	udp	20742	killme.98.shoptupian.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	216.83.45.18	3600.000000	F
+#close	2014-03-09-10-21-11

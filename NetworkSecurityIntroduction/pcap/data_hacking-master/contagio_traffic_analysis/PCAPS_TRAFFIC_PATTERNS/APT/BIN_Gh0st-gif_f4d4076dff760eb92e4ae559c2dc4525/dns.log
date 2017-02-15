@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-09
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359946263.940614	CgKnj31m7JLw6cK0Li	172.16.253.130	53	8.8.8.8	53	udp	34738	godson355.vicp.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.85.136.181	3600.000000	F
+1359946263.940765	CYF21t2EJIqm2seWDl	172.16.253.130	53	4.2.2.2	53	udp	34738	godson355.vicp.cc	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	202.85.136.181	3600.000000	F
+#close	2014-03-09-10-21-09

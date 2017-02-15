@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368387154.023879	C7eC3z3Arecln2nqVi	172.16.253.129	53	8.8.8.8	53	udp	19539	www2.x3x4.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	92.243.30.75,95.142.174.238,92.243.21.207,95.142.174.239,95.142.168.57	1634.000000,1634.000000,1634.000000,1634.000000,1634.000000	F
+1368387154.023946	CY8dX546HtisQVNSHg	172.16.253.129	53	4.2.2.2	53	udp	19539	www2.x3x4.su	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	95.142.168.57,92.243.30.75,92.243.21.207,95.142.174.239,95.142.174.238	3600.000000,3600.000000,3600.000000,3600.000000,3600.000000	F
+#close	2014-03-09-10-21-16

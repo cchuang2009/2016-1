@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-35
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+1359941400.380374	CL29GUcgIcBKFEHE9	172.16.253.132	68	172.16.253.254	67	udp	dhcp	6.065890	301	900	SF	-	0	Dd	1	329	3	984	(empty)
+1359941405.440676	CYdpel3yx9uv9eGQMh	0.0.0.0	68	255.255.255.255	67	udp	dhcp	1.002351	613	0	S0	-	0	D	2	669	0	0	(empty)
+1359941405.441093	CUsj9bxvHyqZSxAc6	172.16.253.254	8	172.16.253.132	0	icmp	-	0.000076	40	0	OTH	-	0	-	2	96	0	0	(empty)
+1359941555.236779	ClNqum4if63qGyCM0d	172.16.253.132	1046	46.165.248.117	80	tcp	http	1.214905	315	145164	SF	-	0	ShADadfF	48	2243	105	149368	(empty)
+1359941554.118935	C5Io4C2bQHP9vnN25f	172.16.253.132	53	4.2.2.2	53	udp	dns	2.499738	62	158	SF	-	0	Dd	2	118	2	214	(empty)
+1359941555.112933	CGEOAV14ECkNYCT2v3	172.16.253.132	53	8.8.8.8	53	udp	dns	0.118393	31	79	SF	-	0	Dd	1	59	1	107	(empty)
+1359941562.139161	CRQ3su1VNMlukW8ts1	172.16.253.132	1047	46.165.248.117	80	tcp	http	0.353632	298	178	SF	-	0	ShADadfF	5	506	5	382	(empty)
+1359941582.523632	CtHHOISH4kc6pJPP8	172.16.253.132	53	8.8.8.8	53	udp	dns	4.556374	137	420	SF	-	0	Dd	4	249	4	532	(empty)
+1359941582.523710	CEXALV2aVYQvd6l1Hi	172.16.253.132	53	4.2.2.2	53	udp	dns	4.831403	137	436	SF	-	0	Dd	4	249	4	548	(empty)
+1359941585.522451	CHtaNM2NbkygrnSZTf	172.16.253.132	1049	217.174.211.1	80	tcp	http	0.693665	307	178	SF	-	0	ShADadfF	5	515	5	382	(empty)
+1359941587.080606	Cw2CDw38ADpDHOnFeg	172.16.253.132	1051	93.89.235.13	80	tcp	http	0.741140	579	199	SF	-	0	ShADadfF	5	787	5	403	(empty)
+1359941582.647401	C8g0uzRps4JIUWJ88	172.16.253.132	1048	217.174.211.1	80	tcp	http	2.791912	323	236691	SF	-	0	ShADadfF	85	3731	178	246578	(empty)
+1359941586.861535	C7hoKj1Pceatmnkdy	172.16.253.132	1050	74.125.228.49	80	tcp	http	0.177613	84	47052	RSTO	-	0	ShADadR	18	812	36	48496	(empty)
+1359941567.324936	CC1pZU3babdR2qHqmj	172.16.253.142	49179	239.255.255.250	1900	udp	-	15.044630	798	0	S0	-	0	D	6	966	0	0	(empty)
+1359941586.745903	Co7J4l26HssOkvPLl5	172.16.253.132	68	255.255.255.255	67	udp	dhcp	-	-	-	S0	-	0	D	1	328	0	0	(empty)
+1359941586.746372	CfWLky44ukCIRdnI4b	172.16.253.132	68	172.16.253.254	67	udp	dhcp	-	-	-	SHR	-	0	d	0	0	1	328	(empty)
+#close	2014-03-09-10-21-35

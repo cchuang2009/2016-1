@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1295296762.291158	CShQFU1BQiFRN6sup9	172.16.3.27	1040	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	318	200	OK	-	-	-	(empty)	-	-	-	-	-	Fw63Nn2OIfKy3udllc	text/html
+1295296794.962564	C6zqgO1NOBwpoKHd4	172.16.3.27	1041	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FYqhMh1EywQDuE3Cx6	text/html
+1295296826.115943	C3gGe42Xrk5g3UG49e	172.16.3.27	1042	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	F5HhC33qLVl1wG2yR	text/html
+1295296857.100620	CPRZ8c4zkRgdBlQskl	172.16.3.27	1043	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FRxkJ51N2PwWeTzt78	text/html
+1295296888.380972	CCUaOo3cD4Sl6Yipcg	172.16.3.27	1044	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FQH6bb3flJcgzk9TXj	text/html
+1295296919.580233	CgxhJD44mFYW3gesej	172.16.3.27	1045	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FZm9fw1wlvnjiUk7Ul	text/html
+1295296950.687289	CnrKMX2ZnQu4wqfBMf	172.16.3.27	1046	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FnJ60w1mIZhfQHvTag	text/html
+1295296981.745851	CgN8kv4dinRy9Vv9dk	172.16.3.27	1047	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FibF2c4XPPgrLrKuwj	text/html
+1295297012.845659	CV0DP73Wp7V7Ay675f	172.16.3.27	1048	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FZelZP2SEhRGmlDwGl	text/html
+1295297043.761890	C167Lm48rpvyzOAZRk	172.16.3.27	1049	195.189.226.193	80	1	GET	vkotalke.info	/index.php?uid=587609&ver=8g*XP	-	Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)	0	314	200	OK	-	-	-	(empty)	-	-	-	-	-	FclW2VaJ1vQRuQ1uk	text/html
+#close	2014-03-09-10-21-23

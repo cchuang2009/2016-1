@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-12
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1314111197.646683	F9EvmblDMwAGMPf3j	112.137.167.188	10.155.22.95	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	33	33	0	0	F	-	2f0938f6cd16c0222055a2eaa660cbe6	fd40b5570fa2cce2b36005aeda8ba834e1cd4521	-	-
+1314111198.476257	FiSr44iXmgynQtVqa	112.137.167.188	10.155.22.95	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	3	-	0	0	F	-	9135b222b6c0c06978788f3b9303be5e	9d2d58e74c050d93585cc0679c0884fa08e1ae56	-	-
+1314111199.000806	F9X78Y1xMEx8JecgGi	112.137.167.188	10.155.22.95	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	3	-	0	0	F	-	9135b222b6c0c06978788f3b9303be5e	9d2d58e74c050d93585cc0679c0884fa08e1ae56	-	-
+1314111200.078452	F9gXlv3ixmZAsU5Msf	10.155.22.95	112.137.167.188	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	T	54	-	0	0	F	-	84a553c84424f6159729dfb001dc7763	28123fd39c8854896d385735bf28539e35579ec4	-	-
+1314111200.078652	FWZmqP2Yx55dq92JFk	10.155.22.95	112.137.167.188	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	binary	-	0.000000	-	T	65	-	0	0	F	-	3612a56fe4a80601c9599209059399e1	e57e0cf6a09f6b4f9695eaa0a7b6db4c3bccf94c	-	-
+1314111200.974867	FmUK3d3LJiYm8BAZZ6	112.137.167.188	10.155.22.95	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	264	-	0	0	F	-	5d1a64830a7bc634e0dea3e2043ec02b	5c764e4dba82d4d89cf1dd7c0b00ecac0a340c76	-	-
+1314111201.535504	FZt4YD1Zo0cNcdCqbb	112.137.167.188	10.155.22.95	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	3	-	0	0	F	-	9135b222b6c0c06978788f3b9303be5e	9d2d58e74c050d93585cc0679c0884fa08e1ae56	-	-
+1314111204.226584	FTC7mO3i911jkVTUM8	112.137.167.188	10.155.22.95	CCwiICNBWBgWhsO0a	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	3	-	0	0	F	-	9135b222b6c0c06978788f3b9303be5e	9d2d58e74c050d93585cc0679c0884fa08e1ae56	-	-
+#close	2014-03-09-10-21-12

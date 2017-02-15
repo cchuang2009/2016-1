@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-22-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1345800676.679882	Cx5Th522G70Q5m5nkb	192.168.106.141	1250	65.55.27.220	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.update.microsoft.com,OU=WUPDS,O=Microsoft,L=Redmond,ST=Washington,C=US	CN=Microsoft Update Secure Server CA 1,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	1338456965.000000	1377942365.000000	-	-	-	8c521d51cafe67bc45c9b47e5da10584	unable to get local issuer certificate
+1345800685.481414	CIXnIk12uUXfqIp7wi	192.168.106.141	1253	65.55.27.220	443	TLSv10	TLS_RSA_WITH_RC4_128_SHA	-	-	CN=www.update.microsoft.com,OU=WUPDS,O=Microsoft,L=Redmond,ST=Washington,C=US	CN=Microsoft Update Secure Server CA 1,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US	1338456965.000000	1377942365.000000	-	-	-	8c521d51cafe67bc45c9b47e5da10584	unable to get local issuer certificate
+#close	2014-03-09-10-22-08

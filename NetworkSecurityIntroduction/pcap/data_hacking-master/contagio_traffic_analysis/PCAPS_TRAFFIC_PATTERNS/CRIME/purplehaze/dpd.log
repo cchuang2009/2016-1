@@ -1,0 +1,35 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dpd
+#open	2014-03-09-10-22-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	analyzer	failure_reason
+#types	time	string	addr	port	addr	port	enum	string	string
+1327980132.175372	Cu0OHg1ob2PfPHzhFl	172.29.0.116	1826	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980132.194059	Cvltor4yQabjcRymq6	172.29.0.116	1827	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980132.281071	CJD58L1HWf68WxVfzi	172.29.0.116	1830	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980132.327247	CejrXH2WHTjl2zAnG3	172.29.0.116	1832	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980132.420175	CofvG1TRVOiEeNTPf	172.29.0.116	1835	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980631.945341	CRaUPXNTUY6PoPbC2	172.29.0.116	3648	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980631.963308	C8aEWiMlWoRRBh1ze	172.29.0.116	3649	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980787.659748	ClC6574kxMXCt52uD7	172.29.0.116	4238	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980787.706454	CO5XGC3vQFIaHQ12Ja	172.29.0.116	4240	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327980993.185693	C9cjt01qG4uVIo2Wsh	172.29.0.116	4938	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981005.875711	CF5Xan40tHNMYbqLq7	172.29.0.116	4991	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981005.990124	CcY4jC1H8xNcN84olj	172.29.0.116	4992	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981087.998421	Ca8mam2XdP8MEeBnDe	172.29.0.116	1332	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981088.081191	CuZzDkYx3HOls2Lsk	172.29.0.116	1335	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981088.129480	CWfdEz1PKm70XxwhIa	172.29.0.116	1338	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981265.016329	CqfahZ3WcjOA0XC4j8	172.29.0.116	2369	216.74.32.80	80	tcp	HTTP	not a http reply line
+1327981508.368429	CDzR3c34qvE8QURX02	172.29.0.116	3022	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981508.534545	CEHI9tv5ycfrhOBp4	172.29.0.116	3023	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981508.690996	CMSB5y2qO2aeRGgF13	172.29.0.116	3026	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981508.820295	ChWTPOiUzfwhzLnRc	172.29.0.116	3028	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981688.405918	CUJ6Uu2d5M3W8MkA84	172.29.0.116	3408	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981879.423829	CKzpgD3BSQJtbqrhWa	172.29.0.116	4148	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981879.475377	C38a852LfaiOPFCBkh	172.29.0.116	4149	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981879.598525	CD3pPM1cTZlwvfEdHi	172.29.0.116	4152	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981879.673235	Cyrl8g1JpoIp46gfNl	172.29.0.116	4155	172.29.0.1	2869	tcp	HTTP	not a http reply line
+1327981879.739016	CAEz71OX3Ie898UXf	172.29.0.116	4158	172.29.0.1	2869	tcp	HTTP	not a http reply line
+#close	2014-03-09-10-22-52

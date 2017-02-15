@@ -1,0 +1,25 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-21
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1.000000	-	-	-	-	-	truncated_link_frame	-	F	bro
+9.721635	-	-	-	-	-	unknown_protocol_2	-	F	bro
+35.612782	CXpuGK2kAUchnRMyKa	10.0.2.15	1095	72.55.150.59	25	NUL_in_line	-	F	bro
+35.612782	CXpuGK2kAUchnRMyKa	10.0.2.15	1095	72.55.150.59	25	line_terminated_with_single_CR	-	F	bro
+35.929595	CmXxsx3vCxixtl43He	10.0.2.15	1100	199.44.84.4	25	line_terminated_with_single_CR	-	F	bro
+35.929595	CmXxsx3vCxixtl43He	10.0.2.15	1100	199.44.84.4	25	NUL_in_line	-	F	bro
+40.610417	Ckm2SI3MQudMLbGIH8	10.0.2.15	1129	203.190.58.241	80	bad_HTTP_request	-	F	bro
+40.610417	Ckm2SI3MQudMLbGIH8	10.0.2.15	1129	203.190.58.241	80	empty_http_request	-	F	bro
+56.564404	CSBylI1IwxFUggHm54	10.0.2.15	1165	64.6.229.109	25	line_terminated_with_single_CR	-	F	bro
+56.564404	CSBylI1IwxFUggHm54	10.0.2.15	1165	64.6.229.109	25	NUL_in_line	-	F	bro
+56.670802	Cha7v610VMIXd1r1p7	10.0.2.15	1169	195.77.216.130	25	NUL_in_line	-	F	bro
+56.670802	Cha7v610VMIXd1r1p7	10.0.2.15	1169	195.77.216.130	25	line_terminated_with_single_CR	-	F	bro
+56.698781	CcErAB1bKw8RkLRfj5	10.0.2.15	1167	74.52.118.186	25	NUL_in_line	-	F	bro
+56.698781	CcErAB1bKw8RkLRfj5	10.0.2.15	1167	74.52.118.186	25	line_terminated_with_single_CR	-	F	bro
+57.457123	CcQOat1Q0Sxdjkn44g	10.0.2.15	1174	184.168.81.139	25	NUL_in_line	-	F	bro
+57.457123	CcQOat1Q0Sxdjkn44g	10.0.2.15	1174	184.168.81.139	25	line_terminated_with_single_CR	-	F	bro
+#close	2014-03-09-10-21-22

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-17
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1336672206.771220	CJjad3I40ognetvQc	10.0.2.15	1665	82.165.39.88	80	line_terminated_with_single_CR	-	F	bro
+1336678618.678859	CqRLZc1zG0zgvEQmki	10.0.2.15	1672	82.165.39.88	80	line_terminated_with_single_CR	-	F	bro
+1336680856.065783	CkwZfI3JLZo1XCcF7i	10.0.2.15	1675	82.165.39.88	80	line_terminated_with_single_CR	-	F	bro
+1336684617.994566	Chh3pxtbRnO8PUaRb	10.0.2.15	1679	82.165.39.88	80	line_terminated_with_single_CR	-	F	bro
+1336692802.452242	CBF6xX2S9fHE4if7Z2	10.0.2.15	1689	82.165.39.88	80	line_terminated_with_single_CR	-	F	bro
+1336707202.686586	CrhOd14yYpU6apGFB6	10.0.2.15	1708	82.165.39.88	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-03-09-10-21-18

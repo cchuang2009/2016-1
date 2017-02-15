@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-33
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1379679782.590312	Cwykkr1tNVAb7Kn3D4	172.16.98.8	1034	174.140.169.145	80	1	POST	louvozza.com	/forum/viewtopic.php	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)	275	20	200	OK	-	-	-	(empty)	-	-	-	FXPivM2UZcz2TL6Duj	binary	FUJllf2Ww4NOSfJ9Dk	binary
+1379679783.662871	CPngHu3KAwwMs1ogt4	172.16.98.8	1035	174.123.99.194	80	1	GET	www.ishootyou.gr	/SpvumF.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)	0	313856	200	OK	-	-	-	(empty)	-	-	-	-	-	FBDw5LmL066K7SDh	application/x-dosexec
+1379679868.584429	C09b6oVM3nHtjp8A	172.16.98.8	1036	64.40.145.4	80	1	GET	meetandmatch.co.uk	/ZjZ5jJy.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)	0	295936	200	OK	-	-	-	(empty)	-	-	-	-	-	FFj3T64MQjMMk5niFi	application/x-dosexec
+1379679875.897032	CoLEdB2y2EwzJwsrbl	172.16.98.8	1037	205.178.152.33	80	1	GET	022395d.netsolhost.com	/ot4sExc.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)	0	313856	200	OK	-	-	-	(empty)	-	-	-	-	-	FIsQPg1DRx8IqikQIc	application/x-dosexec
+1379679882.646373	CTYRwi2rYU2oAHBbX7	172.16.98.8	1038	69.49.101.51	80	1	GET	richardsonlookoutcottages.nb.ca	/vkiMdL.exe	-	Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET4.0C; .NET4.0E)	0	313856	200	OK	-	-	-	(empty)	-	-	-	-	-	F9hTzN37jj4Ha2Vq7h	application/x-dosexec
+#close	2014-03-09-10-21-34

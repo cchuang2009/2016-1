@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-21-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1359946215.703398	CbjBsy1JWM4tZOK96h	172.16.253.130	1068	96.44.136.98	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=eric-office	CN=eric-office	1329134429.000000	1644494429.000000	-	-	-	b71150169f6bbe765d2541d79f92dc9b	unable to get local issuer certificate
+1359946221.179054	CDVrlh45zXZiyRAk1	172.16.253.130	1070	96.44.136.98	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	86fa3011a5067c08784216173fd4875767acdd401780afeb618d9e611818c2a1	CN=eric-office	CN=eric-office	1329134429.000000	1644494429.000000	-	-	-	b71150169f6bbe765d2541d79f92dc9b	unable to get local issuer certificate
+1359946222.566620	CucWJ22FhEbMtTFCr6	172.16.253.130	1071	96.44.136.98	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	55e8b22aa01e74f660c258481228df2adfa7adfd37b8fb7b2518f9b01c92cd69	CN=eric-office	CN=eric-office	1329134429.000000	1644494429.000000	-	-	-	b71150169f6bbe765d2541d79f92dc9b	unable to get local issuer certificate
+1359946561.610621	CIT6qa4p6GCG8iBAHh	172.16.253.130	1073	96.44.136.98	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	-	CN=eric-office	CN=eric-office	1329134429.000000	1644494429.000000	-	-	-	b71150169f6bbe765d2541d79f92dc9b	unable to get local issuer certificate
+1359946562.103156	Cn1FJX2LL7MndvfXb6	172.16.253.130	1074	96.44.136.98	443	TLSv10	TLS_RSA_WITH_RC4_128_MD5	-	224074173edc79daa2bd271f7c16ec706dd973168d937e884bc85cf6c9335973	CN=eric-office	CN=eric-office	1329134429.000000	1644494429.000000	-	-	-	b71150169f6bbe765d2541d79f92dc9b	unable to get local issuer certificate
+#close	2014-03-09-10-21-13

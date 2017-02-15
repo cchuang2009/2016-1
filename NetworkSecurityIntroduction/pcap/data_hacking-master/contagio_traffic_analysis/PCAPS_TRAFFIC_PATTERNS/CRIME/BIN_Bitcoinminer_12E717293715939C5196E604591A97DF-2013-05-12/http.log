@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-16
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1368387154.972964	CAEYqx3IoOgJGK57l4	172.16.253.129	1056	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	F1mTR13RtBcLO7qFPl	text/plain	FQrvy22Dvc9CryoVRd	text/plain
+1368387156.811897	CAEYqx3IoOgJGK57l4	172.16.253.129	1056	92.243.30.75	666	2	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FdNswFIuKw5SN3qu9	text/plain	Foak932Xblb7WkE0Pk	text/plain
+1368387174.065316	CAEYqx3IoOgJGK57l4	172.16.253.129	1056	92.243.30.75	666	3	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FejtG12x6ZY7P59Ht2	text/plain	FI9eCK38dGXJYHdA4l	text/plain
+1368387187.617363	CAEYqx3IoOgJGK57l4	172.16.253.129	1056	92.243.30.75	666	4	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	F8jrQi2lWjD5Gljr86	text/plain	FJHUnx2KTt7RhQ3uz7	text/plain
+1368387210.058980	Cx7cdSGiMMlWQjvzj	172.16.253.129	1058	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FufTS1SQWp2fqZqO1	text/plain	FpWQQu1UskdOFeL9f6	text/plain
+1368387229.349601	Cx7cdSGiMMlWQjvzj	172.16.253.129	1058	92.243.30.75	666	2	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FAKKrE1DXgpo65uwI3	text/plain	FrBEey335DG47SnZvh	text/plain
+1368387250.799945	CJaMt64MKexhvLL3Jl	172.16.253.129	1059	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	F2HEOQ311q1OH0a3Tg	text/plain	FDYvTE4zfVVjwt1ATc	text/plain
+1368387278.560117	CzvwhF4aLWI8ONOi71	172.16.253.129	1060	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	F9qwGc4PQYCHqbJoU1	text/plain	FIPULQ2Oy9fbcLLcXi	text/plain
+1368387295.087903	CzvwhF4aLWI8ONOi71	172.16.253.129	1060	92.243.30.75	666	2	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	F17gLE4wYu4A45ICL9	text/plain	FPfB1W3ZgjsNe80U3a	text/plain
+1368387315.147263	CzvwhF4aLWI8ONOi71	172.16.253.129	1060	92.243.30.75	666	3	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	F2ydez2IUeXluWv4Ue	text/plain	FZ0oZ5Qj0b7e6Zgy4	text/plain
+1368387336.528626	CQxzSgiuKxBw6U2I1	172.16.253.129	1061	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FB58lN1yjbY3nc95d1	text/plain	FoWk8W3GVbHnjAluZ4	text/plain
+1368387335.458519	CzvwhF4aLWI8ONOi71	172.16.253.129	1060	92.243.30.75	666	4	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	0	-	-	-	-	-	(empty)	qwerty123.1	-	-	F5N4Xg3OQJi4jrmzW	text/plain	-	-
+1368387357.775751	CQrRoiEp4rmcUSEh1	172.16.253.129	1062	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FZiqPa7vpO6MD5vQ4	text/plain	FLld7R1uxsbXPLJQEi	text/plain
+1368387384.512447	ClEjYeIiRsBjmmNn1	172.16.253.129	1063	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FkPDHm1aPFtqVGN8bg	text/plain	FMAimglpdlPhBsq1c	text/plain
+1368387400.253850	ClEjYeIiRsBjmmNn1	172.16.253.129	1063	92.243.30.75	666	2	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FJm5q5dJ7WDUvevde	text/plain	F5UwLB3J8dsg9RzjGc	text/plain
+1368387420.495745	ClEjYeIiRsBjmmNn1	172.16.253.129	1063	92.243.30.75	666	3	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FPr71d1aktzYcUJ3c1	text/plain	FIzFM0236e5VJ7fg5d	text/plain
+1368387441.870833	CNSasmmtgy0L2nAej	172.16.253.129	1064	92.243.30.75	666	1	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	635	200	OK	-	-	-	(empty)	qwerty123.1	-	-	FuFcAE3k8kmLLt4XJ5	text/plain	FERGDqU3Xay8dj9C	text/plain
+1368387440.952507	ClEjYeIiRsBjmmNn1	172.16.253.129	1063	92.243.30.75	666	4	POST	www2.x3x4.su	/	-	cpuminer 2.2.3	45	0	-	-	-	-	-	(empty)	qwerty123.1	-	-	FZZG5j3a1mNRNNmaWj	text/plain	-	-
+#close	2014-03-09-10-21-16

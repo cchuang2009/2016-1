@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	tunnel
+#open	2014-03-09-10-21-56
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	tunnel_type	action
+#types	time	string	addr	port	addr	port	enum	enum
+1369625241.195452	CDlYaUKSPEa6CZWm6	172.16.0.130	61856	157.56.149.60	3544	Tunnel::TEREDO	Tunnel::DISCOVER
+1369625284.331021	CDlYaUKSPEa6CZWm6	172.16.0.130	61856	157.56.149.60	3544	Tunnel::TEREDO	Tunnel::CLOSE
+#close	2014-03-09-10-21-56

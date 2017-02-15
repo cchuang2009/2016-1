@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dhcp
+#open	2014-03-09-10-21-18
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	mac	assigned_ip	lease_time	trans_id
+#types	time	string	addr	port	addr	port	string	addr	interval	count
+1336597245.237474	Cl5CKH25FACHsdwb6d	192.168.248.135	68	192.168.248.254	67	00:0c:29:76:d5:36	192.168.248.135	1800.000000	3635494577
+#close	2014-03-09-10-21-18

@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-22-12
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1349360976.868325	FsxuvKfk8PSiuqt61	192.168.248.165	176.119.0.216	CYlnbGR2oZR5W71c3	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	192	192	0	0	F	-	e4d22e8840086266650964fb42ef46cf	46a4f48deceffbb192d789e379070a957ee856cf	-	-
+1349360978.028300	F5tfSF1ZkOmwpZXf3j	176.119.0.216	192.168.248.165	CYlnbGR2oZR5W71c3	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	512	-	0	0	F	-	67b2aa48dcea04c72cb120ec591fa1aa	5f830f2eedfff66f2633a6ecd022550ec8a63b5e	-	-
+1349361023.304970	FeXlVf10PtSmSbZPo7	192.168.248.165	176.119.0.216	CGWOCk1ghXxMN4Wlk5	HTTP	0	MD5,SHA1	binary	-	0.000000	-	T	192	192	0	0	F	-	cacf92839e8f3e90c95f8ca096f8cdc6	cf3cd37bd6b7848223649d4af3546521d429e6bf	-	-
+1349361024.072438	FzzfoM2XzyzRHVO2R5	176.119.0.216	192.168.248.165	CGWOCk1ghXxMN4Wlk5	HTTP	0	MD5,SHA1	binary	-	0.000000	-	F	16	-	0	0	F	-	9f4fdf4ea0b6b838f3cb9984bf375227	e197c168889fade6b8c20fd5a02165701d33c571	-	-
+#close	2014-03-09-10-22-12

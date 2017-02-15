@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-22-03
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1334185446.319111	CO00J32o4BBsZxfcsg	192.168.254.194	49767	111.118.215.9	80	FiZOoA26BcFmzAcCte	application/x-dosexec	http://omegaartworld.com/admin/umcc.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 55%  Last seen: 2012-04-24 10:46:03	https://www.virustotal.com/en/search/?query=a120e8d9029b470e55477ed3125149cef1552a2d	192.168.254.194	111.118.215.9	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1334185466.754356	CWBVZF2ssG1WiwucHg	192.168.254.194	49769	72.9.248.146	80	F6nSNq1zUqkkUeL296	application/x-dosexec	http://www.redlinesys.net/like.exe	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 23%  Last seen: 2012-04-11 18:01:02	https://www.virustotal.com/en/search/?query=54e84c5ac67cad5ec5bc79f9701fe01291e10c5a	192.168.254.194	72.9.248.146	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-22-03

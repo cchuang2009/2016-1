@@ -1,0 +1,27 @@
+<html> 
+   <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+   <head></head>
+   <script type="text/javascript">
+      window.onload = function (){
+         var canvas=document.getElementById("a_canvas");
+         context = a_canvas.getContext("2d");
+         context.beginPath();
+         var dt =1;
+         var pi = Math.PI;
+         context.moveTo(175,100) 
+         for (var i=0; i<=360; i++){         
+             var t = i*dt*pi/180
+             var x= 100+(30+45*Math.cos(t))*(Math.cos(t));
+             var y= 100+(30+45*Math.cos(t))*(Math.sin(t));
+             context.lineTo(x,y);       
+     }
+     context.closePath();
+         context.strokeStyle="red"; 
+         context.stroke();
+        }
+   </script>
+  
+   <body>
+    <canvas id="a_canvas" width="200" height="200"></canvas>
+   </body> 
+</html>

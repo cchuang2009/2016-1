@@ -1,0 +1,19 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	files
+#open	2014-03-09-10-21-10
+#fields	ts	fuid	tx_hosts	rx_hosts	conn_uids	source	depth	analyzers	mime_type	filename	duration	local_orig	is_orig	seen_bytes	total_bytes	missing_bytes	overflow_bytes	timedout	parent_fuid	md5	sha1	sha256	extracted
+#types	time	string	table[addr]	table[addr]	table[string]	string	count	table[string]	string	string	interval	bool	bool	count	count	count	count	bool	string	string	string	string	string
+1357443824.274393	FPw1tG3r4KmYJYjiRh	110.34.193.13	172.16.253.130	CBAkfp35ay3MHkCJ85	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	5	5	0	0	F	-	9b9c6078ee1c788937a29147532f4d51	11ae5c698a59d456d5d3387543b2438552529090	-	-
+1357443824.635313	FocfLS3oHethSgt5h3	110.34.193.13	172.16.253.130	CpQ7g72vCMU15fYs1g	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	5	5	0	0	F	-	9b9c6078ee1c788937a29147532f4d51	11ae5c698a59d456d5d3387543b2438552529090	-	-
+1357443824.941942	Fk0U0j1ptT0WENqDUg	110.34.193.13	172.16.253.130	CI9rJr4438NMDXTfT9	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	5	5	0	0	F	-	9b9c6078ee1c788937a29147532f4d51	11ae5c698a59d456d5d3387543b2438552529090	-	-
+1357443825.378513	Ft6oUZ2cC4mbALKzm5	110.34.193.13	172.16.253.130	CNeB3G4lihExSrQVRa	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	10	10	0	0	F	-	d20d2456ee7ad2afcc00be3d9d56cc4a	d50d3f527efa05a1b1ede7330a56a1cab1f18a77	-	-
+1357443825.575340	FRtX0LaB2KYRsxZb9	110.34.193.13	172.16.253.130	CNsqj01zay6kfFMSXl	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	79	79	0	0	F	-	feff86415b75f49f53a43c3d50d2bcae	9979b8cca1992a4cdf59c5ecac23d573e3c1827a	-	-
+1357443886.048622	FButxbxOM4JgfNub3	110.34.193.13	172.16.253.130	CIZsij2DQ2kF1ovyLf	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	79	79	0	0	F	-	feff86415b75f49f53a43c3d50d2bcae	9979b8cca1992a4cdf59c5ecac23d573e3c1827a	-	-
+1357443946.520889	Fvpvgm1UPnnLHZRQik	110.34.193.13	172.16.253.130	CktSDZUE6Qm5ESJVl	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	79	79	0	0	F	-	feff86415b75f49f53a43c3d50d2bcae	9979b8cca1992a4cdf59c5ecac23d573e3c1827a	-	-
+1357444006.990810	FcI6hOJhxbOZvs1ia	110.34.193.13	172.16.253.130	CvxjLj2tdgQPaJqKQk	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	79	79	0	0	F	-	feff86415b75f49f53a43c3d50d2bcae	9979b8cca1992a4cdf59c5ecac23d573e3c1827a	-	-
+1357444067.490613	FvsooD4bNiFsvGOTOe	110.34.193.13	172.16.253.130	Cq4HM620iEneoY6fYf	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	79	79	0	0	F	-	feff86415b75f49f53a43c3d50d2bcae	9979b8cca1992a4cdf59c5ecac23d573e3c1827a	-	-
+1357444127.964803	FidR1m4iZpVIkW4N1e	110.34.193.13	172.16.253.130	CDfb061pdifYNmFqck	HTTP	0	SHA1,MD5	text/plain	-	0.000000	-	F	79	79	0	0	F	-	feff86415b75f49f53a43c3d50d2bcae	9979b8cca1992a4cdf59c5ecac23d573e3c1827a	-	-
+#close	2014-03-09-10-21-10

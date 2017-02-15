@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-14
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1380162188.001220	Cq57abBOTlgO7tgPb	172.16.253.129	53	8.8.8.8	53	udp	54166	godson355.vicp.cc	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1380162188.001300	COZgVK3qtGom0vP3c1	172.16.253.129	53	4.2.2.2	53	udp	54166	godson355.vicp.cc	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1380162925.208098	Cq4DCo49mkUFfZWCg	172.16.253.129	53	8.8.8.8	53	udp	34012	godson355.vicp.cc	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1380162925.208245	CwyUkr2lq8EYDKPws	172.16.253.129	53	4.2.2.2	53	udp	34012	godson355.vicp.cc	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1380163045.795570	CeDKjC3HsZI7pem3Y5	172.16.253.129	53	8.8.8.8	53	udp	33643	godson355.vicp.cc	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+1380163045.795640	Cqz4z1eyTHAsSG5Fb	172.16.253.129	53	4.2.2.2	53	udp	33643	godson355.vicp.cc	1	C_INTERNET	1	A	-	-	F	F	T	F	0	-	-	F
+#close	2014-03-09-10-21-14

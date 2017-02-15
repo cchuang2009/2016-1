@@ -1,0 +1,13 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-22-12
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1368389621.237980	CXpaze2TD5nXkogpt5	172.16.253.240	53	8.8.8.8	53	udp	34127	porno-video-free.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.74.223.10	1800.000000	F
+1368389621.238039	Ct1hoj1FLYHzqtn5eb	172.16.253.240	53	4.2.2.2	53	udp	34127	porno-video-free.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.74.223.10	1800.000000	F
+1368389621.304129	CXpaze2TD5nXkogpt5	172.16.253.240	53	8.8.8.8	53	udp	45008	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.23	3574.000000,274.000000	F
+1368389621.304287	Ct1hoj1FLYHzqtn5eb	172.16.253.240	53	4.2.2.2	53	udp	45008	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,64.4.10.33	3141.000000,286.000000	F
+#close	2014-03-09-10-22-12

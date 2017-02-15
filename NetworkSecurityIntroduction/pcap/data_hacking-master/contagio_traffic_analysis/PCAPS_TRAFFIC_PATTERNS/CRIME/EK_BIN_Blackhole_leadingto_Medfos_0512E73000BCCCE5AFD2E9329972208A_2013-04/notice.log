@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2014-03-09-10-22-06
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	suppress_for	dropped	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	table[enum]	interval	bool	string	string	string	double	double
+1366138368.000000	CaYw8j1pmYPXwlxwXj	10.0.2.15	3186	198.100.45.44	80	F9P9v34ckhPAHL3z49	application/x-shockwave-flash	http://autorepairgreeley.info/news/default-php-version.php?mdm=30:1g:2v:1f:1o&xguc=3b:3i:39:35&nze=1l:1f:30:1l:2v:30:1m:2v:1n:30&bhn=lixvdd	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 60%  Last seen: 2013-06-01 03:06:57	https://www.virustotal.com/en/search/?query=0d2425ac00c3785aefabbe3f7a631096b86da597	10.0.2.15	198.100.45.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+1366138368.000000	CaYw8j1pmYPXwlxwXj	10.0.2.15	3186	198.100.45.44	80	FWK4hp4Ea0xchf9Usj	application/x-shockwave-flash	http://autorepairgreeley.info/news/default-php-version.php?djl=30:1g:2v:1f:1o&wxbqlfn=3j:2w:3m:31:33&escy=1l:1f:30:1l:2v:30:1m:2v:1n:30&efor=ieuvvv	tcp	TeamCymruMalwareHashRegistry::Match	Malware Hash Registry Detection rate: 40%  Last seen: 2013-06-15 00:00:44	https://www.virustotal.com/en/search/?query=47f183a67ea4fe54851c842934dd14a6308c8cfc	10.0.2.15	198.100.45.44	80	-	bro	Notice::ACTION_LOG	3600.000000	F	-	-	-	-	-
+#close	2014-03-09-10-22-06

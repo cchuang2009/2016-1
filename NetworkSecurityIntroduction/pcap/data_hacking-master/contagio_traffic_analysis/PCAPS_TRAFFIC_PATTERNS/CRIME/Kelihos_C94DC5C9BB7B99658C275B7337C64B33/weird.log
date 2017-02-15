@@ -1,0 +1,22 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-22-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1359941407.411140	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1359941445.093542	CtP67X1Hb6L9kmk4z5	172.16.253.132	1051	98.211.244.7	80	bad_HTTP_request	-	F	bro
+1359941445.093542	CtP67X1Hb6L9kmk4z5	172.16.253.132	1051	98.211.244.7	80	line_terminated_with_single_CR	-	F	bro
+1359941628.946261	CYAiwe4PgtZnJa4QCh	172.16.253.132	1283	77.120.182.221	80	bad_HTTP_request	-	F	bro
+1359941628.946261	CYAiwe4PgtZnJa4QCh	172.16.253.132	1283	77.120.182.221	80	line_terminated_with_single_CR	-	F	bro
+1359941831.962900	ChFWRj1tlJ7wEIcIr8	172.16.253.132	1619	141.138.126.249	80	bad_HTTP_request	-	F	bro
+1359941831.962900	ChFWRj1tlJ7wEIcIr8	172.16.253.132	1619	141.138.126.249	80	line_terminated_with_single_CR	-	F	bro
+1359942017.296989	CdM18p2EcFJq3jo5t4	172.16.253.132	1896	95.69.159.200	80	bad_HTTP_request	-	F	bro
+1359942017.296989	CdM18p2EcFJq3jo5t4	172.16.253.132	1896	95.69.159.200	80	line_terminated_with_single_CR	-	F	bro
+1359942202.243257	Cbj1jq2LyHc8ROcJWe	172.16.253.132	2311	176.104.76.63	80	bad_HTTP_request	-	F	bro
+1359942202.243257	Cbj1jq2LyHc8ROcJWe	172.16.253.132	2311	176.104.76.63	80	line_terminated_with_single_CR	-	F	bro
+1359942387.413812	C3fTWl34D0jyE6Lco7	172.16.253.132	2703	202.142.93.110	80	bad_HTTP_request	-	F	bro
+1359942387.913065	C3fTWl34D0jyE6Lco7	172.16.253.132	2703	202.142.93.110	80	line_terminated_with_single_CR	-	F	bro
+#close	2014-03-09-10-22-11

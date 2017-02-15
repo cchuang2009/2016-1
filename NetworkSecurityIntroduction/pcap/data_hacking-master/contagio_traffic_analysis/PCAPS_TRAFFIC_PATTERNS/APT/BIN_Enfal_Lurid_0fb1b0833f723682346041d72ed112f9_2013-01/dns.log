@@ -1,0 +1,17 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-08
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1357443184.098269	CT7wlR3GXkelvHaQg	172.16.253.129	53	8.8.8.8	53	udp	8279	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.13	3330.000000,30.000000	F
+1357443184.098335	CbL89Y3G3b0zIzW7Ph	172.16.253.129	53	4.2.2.2	53	udp	8279	time.windows.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	time.microsoft.akadns.net,65.55.21.15	1208.000000,105.000000	F
+1357443231.345645	C3PCJ02VuNpeCfgjwa	172.16.253.129	53	8.8.8.8	53	udp	24765	europd.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.231.54.69	31.000000	F
+1357443231.345741	C8wtgX2pjedqt9o5F9	172.16.253.129	53	4.2.2.2	53	udp	24765	europd.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.231.54.69	31.000000	F
+1357443232.869989	C3PCJ02VuNpeCfgjwa	172.16.253.129	53	8.8.8.8	53	udp	39087	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,208.47.254.82,208.47.254.59	3587.000000,401.000000,287.000000,287.000000,14894.000000,7.000000,7.000000	F
+1357443232.870096	C8wtgX2pjedqt9o5F9	172.16.253.129	53	4.2.2.2	53	udp	39087	www.download.windowsupdate.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	www.download.windowsupdate.nsatc.net,main.dl.wu.akadns.net,dom.dl.wu.akadns.net,dl.wu.ms.edgesuite.net,a26.d.akamai.net,23.67.251.49,23.67.251.57	2554.000000,355.000000,249.000000,251.000000,11107.000000,20.000000,20.000000	F
+1357443354.805032	CGLLRh4DhkXhNM0j85	172.16.253.129	53	4.2.2.2	53	udp	56366	europd.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.231.54.69	31.000000	F
+1357443354.804913	CLt3QHJn4jeFvP3h4	172.16.253.129	53	8.8.8.8	53	udp	56366	europd.ddns.info	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	173.231.54.69	31.000000	F
+#close	2014-03-09-10-21-08

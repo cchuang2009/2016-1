@@ -1,0 +1,10 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	signatures
+#open	2014-03-09-10-21-13
+#fields	ts	src_addr	src_port	dst_addr	dst_port	note	sig_id	event_msg	sub_msg	sig_count	host_count
+#types	time	addr	port	addr	port	enum	string	string	string	count	count
+1330843715.169930	10.0.2.15	1381	199.192.156.134	443	Signatures::Sensitive_Signature	windows_reverse_shell	10.0.2.15: ATTACK-RESPONSES Microsoft cmd.exe banner (reverse-shell originator)	POST /bbs/info.asp HTTP/1.1^M^JHost: 199.192.156.134:443^M^JContent-Length: 165^M^JConnection: Keep-Alive^M^JCache-Control: no-cache^M^J^M^J3D333531501A...	-	-
+#close	2014-03-09-10-21-13

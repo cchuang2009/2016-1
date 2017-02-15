@@ -1,0 +1,26 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2014-03-09-10-21-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	count	string	count	count	count	count	table[string]
+18.788726	CX4Tim3cxyB6oo1LEk	10.0.2.15	1044	208.73.211.152	80	tcp	http	0.383135	106	2209	RSTO	-	0	ShADadR	5	314	4	2373	(empty)
+23.216886	Cr7qVKn77PCrkG0C9	10.0.2.15	1046	66.196.118.33	25	tcp	-	2.985703	0	0	S0	-	0	S	2	96	0	0	(empty)
+32.210905	CdugRk3Rcri4aiNPce	10.0.2.15	1046	66.196.118.33	25	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+18.604721	CZhMuJMzk8j9X6uv9	10.0.2.15	1025	8.8.8.8	53	udp	dns	4.611307	98	321	SF	-	0	Dd	3	182	3	405	(empty)
+9.178654	CHZYjo3wKWjbFcuvSl	10.0.2.15	137	10.0.2.255	137	udp	dns	24.284353	1632	0	S0	-	0	D	24	2304	0	0	(empty)
+44.246679	CldDGa4UVuYINkCd6e	10.0.2.15	1047	74.125.141.26	25	tcp	-	2.985991	0	0	S0	-	0	S	2	96	0	0	(empty)
+44.233748	C3e3Ah2ek0DVu0DmZ4	10.0.2.15	1025	8.8.8.8	53	udp	dns	0.012384	76	215	SF	-	0	Dd	2	132	2	271	(empty)
+53.241466	CRkC0j23nNO7yfVS55	10.0.2.15	1047	74.125.141.26	25	tcp	-	-	-	-	S0	-	0	S	1	48	0	0	(empty)
+6.985435	CtaBx62a96a9cauzu4	0.0.0.0	68	255.255.255.255	67	udp	dhcp	0.000500	637	0	S0	-	0	D	2	693	0	0	(empty)
+6.985573	CPXVMl4i1WjJbrLnDe	10.0.2.15	68	10.0.2.2	67	udp	dhcp	0.000433	0	1096	SHR	-	0	d	0	0	2	1152	(empty)
+65.274736	C2x5qz3eLqWVL12H7	10.0.2.15	1048	65.55.92.136	25	tcp	-	2.888139	0	0	S0	-	0	S	2	96	0	0	(empty)
+65.261900	Chm5f94YavMhvBm95h	10.0.2.15	1025	8.8.8.8	53	udp	dns	0.012107	62	334	SF	-	0	Dd	2	118	2	390	(empty)
+18.191276	CXoFsn33Pc0CPytnLk	10.0.2.15	138	10.0.2.255	138	udp	-	20.839600	2526	0	S0	-	0	D	13	2890	0	0	(empty)
+9.104311	CJJ4q72r6iCNNPSvy4	10.0.2.15	1037	239.255.255.250	1900	udp	-	-	-	-	S0	-	0	D	1	161	0	0	(empty)
+9.110713	C73xxHmp86Jepz6k8	10.0.2.15	1041	239.255.255.250	1900	udp	-	6.016512	399	0	S0	-	0	D	3	483	0	0	(empty)
+9.178733	CZh4qIXCZ8cEhk3o8	10.0.2.2	3	10.0.2.15	0	icmp	-	29.852253	4454	0	OTH	-	0	-	37	5490	0	0	(empty)
+9.104426	CF1GVk4rkYQozmOnWl	10.0.2.2	11	10.0.2.15	0	icmp	-	6.023019	564	0	OTH	-	0	-	4	676	0	0	(empty)
+#close	2014-03-09-10-21-24

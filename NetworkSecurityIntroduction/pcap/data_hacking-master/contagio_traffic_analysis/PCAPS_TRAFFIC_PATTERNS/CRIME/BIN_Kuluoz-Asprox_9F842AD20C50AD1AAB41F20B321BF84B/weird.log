@@ -1,0 +1,14 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-24
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349360808.272485	-	-	-	-	-	unknown_protocol_2	-	F	bro
+1349361499.230667	Cq4G1H30J5TChqD41f	192.168.248.165	2429	71.74.56.243	25	premature_connection_reuse	-	F	bro
+1349361499.230667	Cv1brm1hb4kziJS7Rh	192.168.248.165	2429	71.74.56.243	25	SYN_with_data	-	F	bro
+1349361592.076246	Ct4e11xiweTgMVprb	192.168.248.165	3815	71.74.56.244	25	premature_connection_reuse	-	F	bro
+1349361721.159692	Cy21Nz12Migz3H1vDf	192.168.248.165	53	4.2.2.2	53	dns_changed_number_of_responses	The declared number of responses changed from 0 to 4	F	bro
+#close	2014-03-09-10-21-33

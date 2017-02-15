@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2014-03-09-10-21-22
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	server_name	session_id	subject	issuer_subject	not_valid_before	not_valid_after	last_alert	client_subject	client_issuer_subject	cert_hash	validation_status
+#types	time	string	addr	port	addr	port	string	string	string	string	string	string	time	time	string	string	string	string	string
+1334748979.513278	Cfr1yz3xGURtGxBGq9	192.168.254.192	49244	65.55.53.190	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	watson.microsoft.com	-	CN=watson.microsoft.com,OU=Windows,O=Microsoft,L=Redmond,ST=WA,C=US	CN=Microsoft Secure Server Authority,DC=redmond,DC=corp,DC=microsoft,DC=com	1308970077.000000	1372042077.000000	-	-	-	5e0dd73a0a185bfe74c78a5f1b265643	ok
+1334748981.376241	C8d0kQ1NJN6AyHM2V5	192.168.254.192	49246	157.56.51.123	443	TLSv10	TLS_RSA_WITH_AES_128_CBC_SHA	urs.microsoft.com	-	CN=urs.microsoft.com,OU=Windows Live,O=Microsoft,L=Redmond,ST=WA,C=US	CN=Microsoft Secure Server Authority,DC=redmond,DC=corp,DC=microsoft,DC=com	1305580564.000000	1337116564.000000	-	-	-	650b057e3e05b77e7227268afde9730d	ok
+#close	2014-03-09-10-21-22

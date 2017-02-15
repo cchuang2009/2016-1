@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	http
+#open	2014-03-09-10-21-10
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	method	host	uri	referrer	user_agent	request_body_len	response_body_len	status_code	status_msg	info_code	info_msg	filename	tags	username	password	proxied	orig_fuids	orig_mime_types	resp_fuids	resp_mime_types
+#types	time	string	addr	port	addr	port	count	string	string	string	string	string	count	count	count	string	count	string	string	table[enum]	string	string	table[string]	vector[string]	vector[string]	vector[string]	vector[string]
+1311117904.404549	CFxQyaLHN8gDJbqQ3	172.29.0.116	1350	58.64.232.19	80	1	GET	mickeypluto.info	/index.htm	-	IPHONE8.5(host:XPSP3-R93-Ofc2003SP2,ip:172.29.0.116)	0	131	200	OK	-	-	-	(empty)	-	-	-	-	-	Fx05J53kcY5j1YUwfc	text/html
+1311117904.690133	CFxQyaLHN8gDJbqQ3	172.29.0.116	1350	58.64.232.19	80	2	GET	mickeypluto.info	/help.htm	-	IPHONE8.5(host:XPSP3-R93-Ofc2003SP2,ip:172.29.0.116)	0	282317	200	OK	-	-	-	(empty)	-	-	-	-	-	F5Vnf2F0SEKDwTpKb	text/plain
+#close	2014-03-09-10-21-10

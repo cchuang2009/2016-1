@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	smtp
+#open	2014-03-09-10-21-11
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	trans_depth	helo	mailfrom	rcptto	date	from	to	reply_to	msg_id	in_reply_to	subject	x_originating_ip	first_received	second_received	last_reply	path	user_agent	fuids	is_webmail
+#types	time	string	addr	port	addr	port	count	string	string	table[string]	string	string	table[string]	string	string	string	string	addr	string	string	string	vector[addr]	string	vector[string]	bool
+1349624490.928559	CftBECCezhXLmn0mk	172.16.253.129	1138	119.161.5.253	25	1	comxp	-	-	-	-	-	-	-	-	-	-	-	-	530 Access denied	119.161.5.253,172.16.253.129	-	(empty)	F
+1349624485.734884	CbTJom4G7Z1VlFRTQ2	172.16.253.129	1136	119.161.5.253	25	1	comxp	-	-	-	-	-	-	-	-	-	-	-	-	530 Access denied	119.161.5.253,172.16.253.129	-	(empty)	F
+#close	2014-03-09-10-21-11

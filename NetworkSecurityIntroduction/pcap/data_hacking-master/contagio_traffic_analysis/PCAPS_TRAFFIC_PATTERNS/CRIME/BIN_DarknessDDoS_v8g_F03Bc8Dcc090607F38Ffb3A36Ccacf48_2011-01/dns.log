@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-23
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1295296760.442096	CBlhgXCvH15r60dy3	172.16.3.27	1025	172.16.1.1	53	udp	28850	vkotalke.info	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	195.189.226.193	5600.000000	F
+1295296761.439208	CBlhgXCvH15r60dy3	172.16.3.27	1025	172.16.1.1	53	udp	28850	vkotalke.info	1	C_INTERNET	1	A	0	NOERROR	T	F	T	T	0	195.189.226.193	5600.000000	F
+#close	2014-03-09-10-21-23

@@ -1,0 +1,54 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2014-03-09-10-21-54
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer
+#types	time	string	addr	port	addr	port	string	string	bool	string
+1349643237.447662	C7Q2Kd1ZFoo5LTQF0h	172.16.253.240	1146	216.146.38.70	80	unmatched_HTTP_reply	-	F	bro
+1349643238.410899	C7kuvu2SiyQVg9XX3d	172.16.253.240	1150	208.83.223.34	80	line_terminated_with_single_CR	-	F	bro
+1349643242.042338	CknI3d3JZYbUb7i0rg	46.239.117.180	9001	172.16.253.240	1726	connection_originator_SYN_ack	-	F	bro
+1349643242.152265	CIRbhA1LthlZ3NCh46	213.163.65.50	9001	172.16.253.240	1734	connection_originator_SYN_ack	-	F	bro
+1349643242.204450	CoYX2o2NXWkVmUf2zc	65.120.61.73	9001	172.16.253.240	1743	connection_originator_SYN_ack	-	F	bro
+1349643242.222280	CKiWg24nBDAaLb4ZXa	184.105.220.24	9001	172.16.253.240	1741	connection_originator_SYN_ack	-	F	bro
+1349643242.312636	CPnqu13uyqik2KA7yf	213.163.64.43	9001	172.16.253.240	1745	connection_originator_SYN_ack	-	F	bro
+1349643242.312723	C5rJaB4NoC7DAh5Cu5	94.23.14.52	9001	172.16.253.240	1744	connection_originator_SYN_ack	-	F	bro
+1349643242.342291	ClTwc52YAxJVUO2rp8	65.39.74.40	9001	172.16.253.240	1747	connection_originator_SYN_ack	-	F	bro
+1349643242.352598	CpyteSXUejJRI8ZHe	109.105.109.163	44945	172.16.253.240	1746	connection_originator_SYN_ack	-	F	bro
+1349643242.382685	CoYX2o2NXWkVmUf2zc	65.120.61.73	9001	172.16.253.240	1743	data_before_established	-	F	bro
+1349643242.422742	CKiWg24nBDAaLb4ZXa	184.105.220.24	9001	172.16.253.240	1741	data_before_established	-	F	bro
+1349643242.440568	CIRbhA1LthlZ3NCh46	213.163.65.50	9001	172.16.253.240	1734	data_before_established	-	F	bro
+1349643242.450313	CPnqu13uyqik2KA7yf	213.163.64.43	9001	172.16.253.240	1745	data_before_established	-	F	bro
+1349643242.462258	C5rJaB4NoC7DAh5Cu5	94.23.14.52	9001	172.16.253.240	1744	data_before_established	-	F	bro
+1349643242.467211	CknI3d3JZYbUb7i0rg	46.239.117.180	9001	172.16.253.240	1726	data_before_established	-	F	bro
+1349643242.472355	ClTwc52YAxJVUO2rp8	65.39.74.40	9001	172.16.253.240	1747	data_before_established	-	F	bro
+1349643242.502648	CpyteSXUejJRI8ZHe	109.105.109.163	44945	172.16.253.240	1746	data_before_established	-	F	bro
+1349643259.628244	CeAcKR1Sy0789h1Plj	172.16.253.240	1727	82.96.35.6	443	above_hole_data_without_any_acks	-	F	bro
+1349643259.658260	CAIeug2hgOssLvjke9	172.16.253.240	1728	31.172.30.3	443	above_hole_data_without_any_acks	-	F	bro
+1349643270.934265	C3vNW22SLqkXMtX0Za	172.16.253.240	1777	216.146.38.70	80	unmatched_HTTP_reply	-	F	bro
+1349643272.166403	CrhtZRcslG1Ttp5t5	24.151.195.78	9001	172.16.253.240	1792	connection_originator_SYN_ack	-	F	bro
+1349643272.195272	CDmx53iFsgsAwvBA1	184.73.208.210	9001	172.16.253.240	1800	connection_originator_SYN_ack	-	F	bro
+1349643272.206687	C7dTeH1jaFQReOrb5d	195.169.125.226	9001	172.16.253.240	1788	connection_originator_SYN_ack	-	F	bro
+1349643272.212125	CjvolV3EXsYk9oGc2h	96.47.230.89	9001	172.16.253.240	1798	connection_originator_SYN_ack	-	F	bro
+1349643272.219933	CDmx53iFsgsAwvBA1	184.73.208.210	9001	172.16.253.240	1800	data_before_established	-	F	bro
+1349643272.225371	ChD83e1gEeMt7jVA67	87.252.5.163	9001	172.16.253.240	1787	connection_originator_SYN_ack	-	F	bro
+1349643272.265037	CrhtZRcslG1Ttp5t5	24.151.195.78	9001	172.16.253.240	1792	data_before_established	-	F	bro
+1349643272.272147	CjvolV3EXsYk9oGc2h	96.47.230.89	9001	172.16.253.240	1798	data_before_established	-	F	bro
+1349643272.314085	C7dTeH1jaFQReOrb5d	195.169.125.226	9001	172.16.253.240	1788	data_before_established	-	F	bro
+1349643272.320736	CoW1Kg2AhoNw9uoqv8	2.22.231.73	9001	172.16.253.240	1806	connection_originator_SYN_ack	-	F	bro
+1349643272.326124	C8MFfPZho0Xjlkjf5	91.237.88.61	9001	172.16.253.240	1804	connection_originator_SYN_ack	-	F	bro
+1349643272.354035	ChD83e1gEeMt7jVA67	87.252.5.163	9001	172.16.253.240	1787	data_before_established	-	F	bro
+1349643272.420251	CwviwR1nbAVIO4Ys5a	94.23.14.52	9001	172.16.253.240	1796	data_before_established	-	F	bro
+1349643272.428254	C80xN51ArjG4wbcpVl	109.105.109.163	44945	172.16.253.240	1797	data_before_established	-	F	bro
+1349643272.433874	CoW1Kg2AhoNw9uoqv8	2.22.231.73	9001	172.16.253.240	1806	data_before_established	-	F	bro
+1349643272.471702	C8MFfPZho0Xjlkjf5	91.237.88.61	9001	172.16.253.240	1804	data_before_established	-	F	bro
+1349643272.494372	CU1s8HNoEWCJS6bC4	172.16.253.240	1802	91.100.71.228	80	line_terminated_with_single_CR	-	F	bro
+1349643276.708533	Cgd9Fo3ZWaw5USVkze	93.114.43.156	10001	172.16.253.240	1809	connection_originator_SYN_ack	-	F	bro
+1349643276.919627	Cgd9Fo3ZWaw5USVkze	93.114.43.156	10001	172.16.253.240	1809	data_before_established	-	F	bro
+1349643285.597718	CvKvG44sctsKQO8fKh	209.44.114.178	9001	172.16.253.240	1810	connection_originator_SYN_ack	-	F	bro
+1349643285.649216	CvKvG44sctsKQO8fKh	209.44.114.178	9001	172.16.253.240	1810	data_before_established	-	F	bro
+1349643289.288555	CrbXUl2zw05ohNTDR5	84.19.178.6	9001	172.16.253.240	1811	connection_originator_SYN_ack	-	F	bro
+1349643289.424895	CrbXUl2zw05ohNTDR5	84.19.178.6	9001	172.16.253.240	1811	data_before_established	-	F	bro
+1349643325.547580	CN1mEIi6xp7Z0X2L4	172.16.253.240	1813	173.194.74.147	80	unmatched_HTTP_reply	-	F	bro
+#close	2014-03-09-10-21-54

@@ -1,0 +1,15 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	dns
+#open	2014-03-09-10-21-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	trans_id	query	qclass	qclass_name	qtype	qtype_name	rcode	rcode_name	AA	TC	RD	RA	Z	answers	TTLs	rejected
+#types	time	string	addr	port	addr	port	enum	count	string	count	string	count	string	count	string	bool	bool	bool	bool	count	vector[string]	vector[interval]	bool
+1359933020.060946	CQ3uS631A7SZm6Yyrc	172.16.253.131	53	8.8.8.8	53	udp	47611	mail.yaklasim.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.58.4.13	20717.000000	F
+1359933020.061008	CTbeqo1WFZnrkV9mHh	172.16.253.131	53	4.2.2.2	53	udp	47611	mail.yaklasim.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	212.58.4.13	86400.000000	F
+1359933021.375213	CQ3uS631A7SZm6Yyrc	172.16.253.131	53	8.8.8.8	53	udp	48423	clients.duncanwisniewski.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.90.61.19	2343.000000	F
+1359933021.375277	CTbeqo1WFZnrkV9mHh	172.16.253.131	53	4.2.2.2	53	udp	48423	clients.duncanwisniewski.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	64.90.61.19	14400.000000	F
+1359933096.385470	CeFQg02xRi1fOCBIxk	172.16.253.131	53	4.2.2.2	53	udp	43470	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.128.147,74.125.128.105,74.125.128.106,74.125.128.104,74.125.128.99,74.125.128.103	276.000000,276.000000,276.000000,276.000000,276.000000,276.000000	F
+1359933096.385392	CJ563v2Sy9ARqsZrff	172.16.253.131	53	8.8.8.8	53	udp	43470	www.google.com	1	C_INTERNET	1	A	0	NOERROR	F	F	T	T	0	74.125.224.49,74.125.224.50,74.125.224.48,74.125.224.52,74.125.224.51	300.000000,300.000000,300.000000,300.000000,300.000000	F
+#close	2014-03-09-10-21-36
