@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BMI Calculator 1</title>
+<meta name="viewport" initial-scale="1," user-scale="yes">
+<script type="text/javascript">
+  
+  function calcBMI(height, weight)
+  {
+    if(isNaN(height) || isNaN(weight))
+    {
+      alert("Error");
+    }
+    else
+    {
+      var M = height * .01;
+      var KG = weight ;
+      var BMI = (KG/(M*M));
+      //alert(BMI);
+      
+      var msg;
+      if(BMI < 19) 
+        msg ="Weight too low for optimum health";
+      else if(BMI >= 19 && BMI <= 25) 
+        msg =" Weight in healthy range";
+      else if(BMI >= 26 && BMI <= 30) 
+        msg =" Weight too high";
+      else if(BMI > 30 && BMI <= 40) 
+        msg =" Weight in obese range";
+      else if(BMI > 40) 
+        msg =" Weight in morbidly obese range";
+
+    //alert("BMI=" BMI +"+ msg);
+    document.write (BMI+"<br>"+msg);           
+    }
+  }  
+</script>
+</head>
+<body>
+<form action="#">
+Height (cm): <input type="text" value="100" name="height"><br>
+Weight (Kg): <input type="text" value="30" name="weight"><br>
+<input type="button" value="Calculate BMI" onClick="calcBMI(this.form.height.value,this.form.weight.value)">
+<form>
+</body>
+</html>

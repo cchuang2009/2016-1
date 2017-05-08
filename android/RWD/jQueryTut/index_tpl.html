@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+     <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            extensions: ["tex2jax.js"],
+            jax: ["input/TeX","output/HTML-CSS"],
+            imageFont: null,
+            tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+        });
+     </script>
+  
+     <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+           TeX: {  
+              Macros: {
+                       leqslant:"{\\leq }",
+                       geqslant:"{\\geq }",
+                       cdummy:"{\\cdot }",
+                       tmop: ["{\\quad\\textt\\rm{ #1 }\\quad}",1],
+                       textt:"",
+                       nocomma:"",
+              }
+           }
+        });
+     </script>
+     <script type="text/javascript" src="MathJax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"> </script>
+
+     
+     <link rel="stylesheet" href="jquery/jquery.mobile-1.3.2.min.css" />       
+     <script src="jquery/jquery-2.0.3.min.js"></script> 
+     <script src="jquery/jquery.mobile-1.3.2.min.js"></script> 
+
+  </head>
+<body>
+  <div id="tutorial" data-role="page">
+    <div id="head" data-role="header"> 
+        <div align="center">jQuery and jQuery-mobile Introduction</div>
+    </div>
+    <div data-role="content">
+       <div data-role="navbar">
+         <ul>
+           <li><a href="#pre-body">Header</a>
+           <li><a href="#structure">Strurcture</a>
+           <li><a href="#datarole">Data-Role</a>
+         </ul>
+       </div>
+       
+       <div data-role="collapsible-set">
+            <div data-role="collapsible">
+              <h3> Header</h3>
+              <p id="pre-body"> 
+                <font color="#330099"><b>&lt;html&gt;</b><br>
+                &nbsp;&nbsp;&nbsp;&nbsp; <b>&lt;head&gt;</b></font><br>
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <font color="#cc0000">&lt;meta
+                http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;meta
+                name="viewport" content="width=device-width, initial-scale=1"
+                /&gt;</font><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<br>
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; <font color="#993300">&lt;link
+                rel="stylesheet" href="jquery/jquery.mobile-1.3.2.min.css"
+                /&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br>
+                &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &lt;script
+                src="jquery/jquery-2.0.3.min.js"&gt;&lt;/script&gt; <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;script
+                src="jquery/jquery.mobile-1.3.2.min.js"&gt;&lt;/script&gt; </font><br>
+                &nbsp;&nbsp;&nbsp; <font color="#330099"><b>&lt;/head&gt;</b><br>
+                <b>&lt;body&gt;</b></font>
+              </p>
+            </div>
+            <div data-role="collapsible">
+              <h3> Sturcture</h3>
+              <p id="structure"> 
+                <font color="#3333ff">&lt;div id="page1" data-role="page"&gt;<br>
+                &nbsp;&nbsp; <font color="#993300">&lt;div id="head1"
+                data-role="header"&gt; ... &lt;/div&gt;</font><br>
+                &nbsp;&nbsp; <font color="#993300">&lt;div
+                data-role="content"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <font color="#ff0000">&lt;--! other tags here --&gt;</font><br>
+                &nbsp;&nbsp; &lt;/div&gt;<br>
+                &nbsp;&nbsp;&nbsp; &lt;div data-role="footer"&gt;
+                ...&lt;/div&gt;</font><br>
+                &lt;/div&gt;</font><br>
+                <br>
+                <font color="#3333ff">&lt;div id="page2" data-role="page"&gt;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<br>
+                &lt;/div&gt;</font>
+              </p>
+            </div>
+            <div data-role="collapsible">
+              <h3> Tags about Data-Role</h3>
+              <p id="list1"> 
+                 <ul data-role="listview" data-inset="true">
+                   <li><a href="#navbar1">Navigation Bar</a>
+                   <li><a href="#listview1">List of options</a>
+                   <li><a href="#input1">Input </a>
+                   <li><a href="#collapsible1">collapsible</a>
+                   <li><a href="#collapsibleset1">collapsible-set</a>
+                 </ul>
+              </p>
+            </div>
+       </div>     
+     
+    </div>
+    <div data-role="footer">
+          <h2> Diffusion  </h2>
+    </div>
+  </div>
+  
+  <div data-role="page" id="navbar1">
+      <div data-role="header">
+          <h2>Navigation Bar</h2>
+     </div>
+     <div data-role="content">
+        <div  data-role="navbar">
+         <ul>
+           <li><a href="#item1">Item 1</a>
+           <li><a href="#item2">Item 2</a>
+         </ul>
+        </div>
+        <div  data-role="fieldcontain">
+        Codes: <br>
+          <font color="#3333ff">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+          color="#ff0000"> &lt;div&nbsp; data-role="navbar"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &lt;ul&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+          &nbsp; &lt;li&gt;&lt;a href="#item1"&gt;Item 1&lt;/a&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+          &nbsp;&nbsp; &lt;li&gt;&lt;a href="#item2"&gt;Item 2&lt;/a&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &lt;/ul&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;</font></font><br>
+        </div>
+        </div>
+     </div>   
+  </div>
+  
+  
+  <div data-role="page" id="listview1">
+      <div data-role="header">
+          <h2>List of Options</h2>
+     </div>
+     <div data-role="content">
+        <div  data-role="listview">
+         <ul>
+           <li>Item 1</a>
+           <li>Item 2</a>
+         </ul>
+        </div>
+        <div  data-role="fieldcontain">
+        Codes: <br>
+           <font color="#ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &lt;div&nbsp; data-role="listview"&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &lt;ul&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &lt;li&gt;Item 1&lt;/a&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp; &nbsp; &lt;li&gt;Item 2&lt;/a&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &lt;/ul&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;</font><br>
+        </div>
+        </div>
+     </div>   
+  </div>
+  
+  <div data-role="page" id="input1">
+      <div data-role="header">
+          <h2>Input Data with Roller</h2>
+     </div>
+     <div data-role="content">
+        <div  data-role="fieldcontain">
+           <input id="height" name="height" type="range" min="40" max="230" step="1" value="160">
+        </div>
+        <div  data-role="fieldcontain">
+        Codes: <br>
+           <font color="#ff0000">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&nbsp; data-role="fieldcontain"&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input id="height" name="height" type="range" min="40"
+           max="230" step="1" value="160"&gt;<br>
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;</font><br>
+        </div>
+        </div>
+     </div>   
+   </div>
+   
+   <div data-role="page" id="collapsible1">
+      <div data-role="header">
+          <h2>Cell Collapsed</h2>
+     </div>
+     <div data-role="content">
+        <div  data-role="collapsible">
+           <h3> Collapsed Cell</h3>
+           <p> 
+                 More Details
+           </p>
+        </div>
+        <div  data-role="fieldcontain">
+        Codes: <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#ff0000">&lt;div&nbsp; data-role="collapsible"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &lt;h3&gt; Collapsed Cell&lt;/h3&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&lt;p&gt; More Details&lt;/p&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;</font><br>
+        </div>
+        </div>
+     </div>   
+   </div>
+   
+   <div data-role="page" id="collapsibleset1">
+      <div data-role="header">
+          <h2>Set of Collapsed Cells</h2>
+     </div>
+     <div data-role="content">
+        <div data-role="collapsible-set">
+            <div data-role="collapsible">
+              <h3> Collapsed Cell 1</h3>
+              <p>More Details</p>
+            </div>
+            <div data-role="collapsible">
+              <h3> Collapsed Cell 2</h3>
+              <p>More Details</p>
+            </div>
+        </div>
+        <div  data-role="fieldcontain">
+        Codes: <br>
+          &nbsp;<font color="#ff0000">&nbsp;&nbsp;&nbsp;&nbsp; &lt;div
+          data-role="collapsible-set"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &lt;div data-role="collapsible"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ...<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &lt;/div&gt;&nbsp;&nbsp;&nbsp; <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &lt;div data-role="collapsible"&gt;<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          ...<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &lt;/div&gt;&nbsp;&nbsp;&nbsp; <br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font
+          color="#009900"> ...</font><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;</font><br>
+          
+        </div>
+        </div>
+     </div>   
+   </div>
+  
+       
+</body>
+</html>
+
+
+
+ 
+
+  
