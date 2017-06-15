@@ -1,0 +1,1014 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+</head>
+<style type="text/css">
+    body { 
+       margin: 10; 
+       padding: 10
+     }
+    input{
+       font-family:  Georgia, serif;
+       font-size: 1em; /* 20px / 10px */
+       color: #000 ;
+       background-color: #ffb200 ;    
+       border: 2px outset #b37d00 ;
+       border-radius: 10px;
+       width: 60px ;
+       text-decoration: none ;
+       background-color: #9cf ;
+       border-top: 1px solid #c0ffff ;
+       border-right: 1px solid #00f ;
+       border-bottom: 1px solid #00f ;
+       border-left: 1px solid #c0ffff ;
+    }
+    .push-down{
+       border: 1px solid #38538c;
+       background-color: #9cf;
+       //color: #FFFFFF;
+       text-shadow: 0px -1px 1px #213052;
+       box-shadow: inset 0 1px 10px 1px #5D88E3, 0px 1px 0 #1C2C4D, 0 6px 0px #1D3054, 0px 10px 25px rgba(0,0,0,.7);
+    }
+    .push-down:hover{
+       background: transparent;
+       box-shadow: inset 0 0px 20px 1px #88ADFC, 0px 1px 0 #1C2C4D, 0 6px 0px #1D3054, 0px 10px 25px rgba(0,0,0,.7);
+    }
+    .push-down:active{
+       box-shadow: inset 0 1px 10px 1px #5B89EB, 0 1px 0 #1A2847, 0 2px 0 #1C2D4D, 0px 3px 6px rgba(0,0,0,.9);
+       margin-top: 10px;
+    } 
+</style> 
+<body>
+<div align="center">
+
+<script language="Javascript">
+<!---
+var num_images_movie = 227;
+var img_width = 400;
+var img_height = 500;
+var interval = 40;
+var images_movie = new Array();
+
+function preload_images_movie()
+{
+   t = document.getElementById("progress");
+
+   t.innerHTML = "Preloading image ";
+   images_movie[0] = new Image(img_width, img_height);
+   images_movie[0].src = "mapdata/base00000.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[1] = new Image(img_width, img_height);
+   images_movie[1].src = "mapdata/base00001.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[2] = new Image(img_width, img_height);
+   images_movie[2].src = "mapdata/base00002.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[3] = new Image(img_width, img_height);
+   images_movie[3].src = "mapdata/base00003.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[4] = new Image(img_width, img_height);
+   images_movie[4].src = "mapdata/base00004.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[5] = new Image(img_width, img_height);
+   images_movie[5].src = "mapdata/base00005.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[6] = new Image(img_width, img_height);
+   images_movie[6].src = "mapdata/base00006.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[7] = new Image(img_width, img_height);
+   images_movie[7].src = "mapdata/base00007.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[8] = new Image(img_width, img_height);
+   images_movie[8].src = "mapdata/base00008.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[9] = new Image(img_width, img_height);
+   images_movie[9].src = "mapdata/base00009.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[10] = new Image(img_width, img_height);
+   images_movie[10].src = "mapdata/base00010.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[11] = new Image(img_width, img_height);
+   images_movie[11].src = "mapdata/base00011.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[12] = new Image(img_width, img_height);
+   images_movie[12].src = "mapdata/base00012.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[13] = new Image(img_width, img_height);
+   images_movie[13].src = "mapdata/base00013.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[14] = new Image(img_width, img_height);
+   images_movie[14].src = "mapdata/base00014.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[15] = new Image(img_width, img_height);
+   images_movie[15].src = "mapdata/base00015.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[16] = new Image(img_width, img_height);
+   images_movie[16].src = "mapdata/base00016.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[17] = new Image(img_width, img_height);
+   images_movie[17].src = "mapdata/base00017.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[18] = new Image(img_width, img_height);
+   images_movie[18].src = "mapdata/base00018.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[19] = new Image(img_width, img_height);
+   images_movie[19].src = "mapdata/base00019.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[20] = new Image(img_width, img_height);
+   images_movie[20].src = "mapdata/base00020.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[21] = new Image(img_width, img_height);
+   images_movie[21].src = "mapdata/base00021.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[22] = new Image(img_width, img_height);
+   images_movie[22].src = "mapdata/base00022.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[23] = new Image(img_width, img_height);
+   images_movie[23].src = "mapdata/base00023.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[24] = new Image(img_width, img_height);
+   images_movie[24].src = "mapdata/base00024.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[25] = new Image(img_width, img_height);
+   images_movie[25].src = "mapdata/base00025.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[26] = new Image(img_width, img_height);
+   images_movie[26].src = "mapdata/base00026.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[27] = new Image(img_width, img_height);
+   images_movie[27].src = "mapdata/base00027.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[28] = new Image(img_width, img_height);
+   images_movie[28].src = "mapdata/base00028.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[29] = new Image(img_width, img_height);
+   images_movie[29].src = "mapdata/base00029.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[30] = new Image(img_width, img_height);
+   images_movie[30].src = "mapdata/base00030.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[31] = new Image(img_width, img_height);
+   images_movie[31].src = "mapdata/base00031.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[32] = new Image(img_width, img_height);
+   images_movie[32].src = "mapdata/base00032.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[33] = new Image(img_width, img_height);
+   images_movie[33].src = "mapdata/base00033.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[34] = new Image(img_width, img_height);
+   images_movie[34].src = "mapdata/base00034.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[35] = new Image(img_width, img_height);
+   images_movie[35].src = "mapdata/base00035.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[36] = new Image(img_width, img_height);
+   images_movie[36].src = "mapdata/base00036.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[37] = new Image(img_width, img_height);
+   images_movie[37].src = "mapdata/base00037.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[38] = new Image(img_width, img_height);
+   images_movie[38].src = "mapdata/base00038.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[39] = new Image(img_width, img_height);
+   images_movie[39].src = "mapdata/base00039.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[40] = new Image(img_width, img_height);
+   images_movie[40].src = "mapdata/base00040.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[41] = new Image(img_width, img_height);
+   images_movie[41].src = "mapdata/base00041.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[42] = new Image(img_width, img_height);
+   images_movie[42].src = "mapdata/base00042.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[43] = new Image(img_width, img_height);
+   images_movie[43].src = "mapdata/base00043.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[44] = new Image(img_width, img_height);
+   images_movie[44].src = "mapdata/base00044.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[45] = new Image(img_width, img_height);
+   images_movie[45].src = "mapdata/base00045.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[46] = new Image(img_width, img_height);
+   images_movie[46].src = "mapdata/base00046.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[47] = new Image(img_width, img_height);
+   images_movie[47].src = "mapdata/base00047.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[48] = new Image(img_width, img_height);
+   images_movie[48].src = "mapdata/base00048.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[49] = new Image(img_width, img_height);
+   images_movie[49].src = "mapdata/base00049.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[50] = new Image(img_width, img_height);
+   images_movie[50].src = "mapdata/base00050.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[51] = new Image(img_width, img_height);
+   images_movie[51].src = "mapdata/base00051.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[52] = new Image(img_width, img_height);
+   images_movie[52].src = "mapdata/base00052.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[53] = new Image(img_width, img_height);
+   images_movie[53].src = "mapdata/base00053.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[54] = new Image(img_width, img_height);
+   images_movie[54].src = "mapdata/base00054.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[55] = new Image(img_width, img_height);
+   images_movie[55].src = "mapdata/base00055.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[56] = new Image(img_width, img_height);
+   images_movie[56].src = "mapdata/base00056.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[57] = new Image(img_width, img_height);
+   images_movie[57].src = "mapdata/base00057.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[58] = new Image(img_width, img_height);
+   images_movie[58].src = "mapdata/base00058.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[59] = new Image(img_width, img_height);
+   images_movie[59].src = "mapdata/base00059.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[60] = new Image(img_width, img_height);
+   images_movie[60].src = "mapdata/base00060.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[61] = new Image(img_width, img_height);
+   images_movie[61].src = "mapdata/base00061.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[62] = new Image(img_width, img_height);
+   images_movie[62].src = "mapdata/base00062.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[63] = new Image(img_width, img_height);
+   images_movie[63].src = "mapdata/base00063.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[64] = new Image(img_width, img_height);
+   images_movie[64].src = "mapdata/base00064.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[65] = new Image(img_width, img_height);
+   images_movie[65].src = "mapdata/base00065.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[66] = new Image(img_width, img_height);
+   images_movie[66].src = "mapdata/base00066.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[67] = new Image(img_width, img_height);
+   images_movie[67].src = "mapdata/base00067.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[68] = new Image(img_width, img_height);
+   images_movie[68].src = "mapdata/base00068.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[69] = new Image(img_width, img_height);
+   images_movie[69].src = "mapdata/base00069.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[70] = new Image(img_width, img_height);
+   images_movie[70].src = "mapdata/base00070.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[71] = new Image(img_width, img_height);
+   images_movie[71].src = "mapdata/base00071.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[72] = new Image(img_width, img_height);
+   images_movie[72].src = "mapdata/base00072.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[73] = new Image(img_width, img_height);
+   images_movie[73].src = "mapdata/base00073.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[74] = new Image(img_width, img_height);
+   images_movie[74].src = "mapdata/base00074.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[75] = new Image(img_width, img_height);
+   images_movie[75].src = "mapdata/base00075.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[76] = new Image(img_width, img_height);
+   images_movie[76].src = "mapdata/base00076.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[77] = new Image(img_width, img_height);
+   images_movie[77].src = "mapdata/base00077.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[78] = new Image(img_width, img_height);
+   images_movie[78].src = "mapdata/base00078.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[79] = new Image(img_width, img_height);
+   images_movie[79].src = "mapdata/base00079.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[80] = new Image(img_width, img_height);
+   images_movie[80].src = "mapdata/base00080.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[81] = new Image(img_width, img_height);
+   images_movie[81].src = "mapdata/base00081.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[82] = new Image(img_width, img_height);
+   images_movie[82].src = "mapdata/base00082.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[83] = new Image(img_width, img_height);
+   images_movie[83].src = "mapdata/base00083.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[84] = new Image(img_width, img_height);
+   images_movie[84].src = "mapdata/base00084.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[85] = new Image(img_width, img_height);
+   images_movie[85].src = "mapdata/base00085.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[86] = new Image(img_width, img_height);
+   images_movie[86].src = "mapdata/base00086.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[87] = new Image(img_width, img_height);
+   images_movie[87].src = "mapdata/base00087.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[88] = new Image(img_width, img_height);
+   images_movie[88].src = "mapdata/base00088.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[89] = new Image(img_width, img_height);
+   images_movie[89].src = "mapdata/base00089.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[90] = new Image(img_width, img_height);
+   images_movie[90].src = "mapdata/base00090.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[91] = new Image(img_width, img_height);
+   images_movie[91].src = "mapdata/base00091.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[92] = new Image(img_width, img_height);
+   images_movie[92].src = "mapdata/base00092.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[93] = new Image(img_width, img_height);
+   images_movie[93].src = "mapdata/base00093.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[94] = new Image(img_width, img_height);
+   images_movie[94].src = "mapdata/base00094.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[95] = new Image(img_width, img_height);
+   images_movie[95].src = "mapdata/base00095.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[96] = new Image(img_width, img_height);
+   images_movie[96].src = "mapdata/base00096.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[97] = new Image(img_width, img_height);
+   images_movie[97].src = "mapdata/base00097.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[98] = new Image(img_width, img_height);
+   images_movie[98].src = "mapdata/base00098.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[99] = new Image(img_width, img_height);
+   images_movie[99].src = "mapdata/base00099.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[100] = new Image(img_width, img_height);
+   images_movie[100].src = "mapdata/base00100.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[101] = new Image(img_width, img_height);
+   images_movie[101].src = "mapdata/base00101.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[102] = new Image(img_width, img_height);
+   images_movie[102].src = "mapdata/base00102.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[103] = new Image(img_width, img_height);
+   images_movie[103].src = "mapdata/base00103.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[104] = new Image(img_width, img_height);
+   images_movie[104].src = "mapdata/base00104.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[105] = new Image(img_width, img_height);
+   images_movie[105].src = "mapdata/base00105.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[106] = new Image(img_width, img_height);
+   images_movie[106].src = "mapdata/base00106.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[107] = new Image(img_width, img_height);
+   images_movie[107].src = "mapdata/base00107.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[108] = new Image(img_width, img_height);
+   images_movie[108].src = "mapdata/base00108.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[109] = new Image(img_width, img_height);
+   images_movie[109].src = "mapdata/base00109.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[110] = new Image(img_width, img_height);
+   images_movie[110].src = "mapdata/base00110.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[111] = new Image(img_width, img_height);
+   images_movie[111].src = "mapdata/base00111.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[112] = new Image(img_width, img_height);
+   images_movie[112].src = "mapdata/base00112.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[113] = new Image(img_width, img_height);
+   images_movie[113].src = "mapdata/base00113.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[114] = new Image(img_width, img_height);
+   images_movie[114].src = "mapdata/base00114.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[115] = new Image(img_width, img_height);
+   images_movie[115].src = "mapdata/base00115.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[116] = new Image(img_width, img_height);
+   images_movie[116].src = "mapdata/base00116.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[117] = new Image(img_width, img_height);
+   images_movie[117].src = "mapdata/base00117.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[118] = new Image(img_width, img_height);
+   images_movie[118].src = "mapdata/base00118.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[119] = new Image(img_width, img_height);
+   images_movie[119].src = "mapdata/base00119.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[120] = new Image(img_width, img_height);
+   images_movie[120].src = "mapdata/base00120.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[121] = new Image(img_width, img_height);
+   images_movie[121].src = "mapdata/base00121.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[122] = new Image(img_width, img_height);
+   images_movie[122].src = "mapdata/base00122.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[123] = new Image(img_width, img_height);
+   images_movie[123].src = "mapdata/base00123.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[124] = new Image(img_width, img_height);
+   images_movie[124].src = "mapdata/base00124.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[125] = new Image(img_width, img_height);
+   images_movie[125].src = "mapdata/base00125.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[126] = new Image(img_width, img_height);
+   images_movie[126].src = "mapdata/base00126.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[127] = new Image(img_width, img_height);
+   images_movie[127].src = "mapdata/base00127.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[128] = new Image(img_width, img_height);
+   images_movie[128].src = "mapdata/base00128.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[129] = new Image(img_width, img_height);
+   images_movie[129].src = "mapdata/base00129.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[130] = new Image(img_width, img_height);
+   images_movie[130].src = "mapdata/base00130.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[131] = new Image(img_width, img_height);
+   images_movie[131].src = "mapdata/base00131.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[132] = new Image(img_width, img_height);
+   images_movie[132].src = "mapdata/base00132.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[133] = new Image(img_width, img_height);
+   images_movie[133].src = "mapdata/base00133.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[134] = new Image(img_width, img_height);
+   images_movie[134].src = "mapdata/base00134.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[135] = new Image(img_width, img_height);
+   images_movie[135].src = "mapdata/base00135.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[136] = new Image(img_width, img_height);
+   images_movie[136].src = "mapdata/base00136.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[137] = new Image(img_width, img_height);
+   images_movie[137].src = "mapdata/base00137.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[138] = new Image(img_width, img_height);
+   images_movie[138].src = "mapdata/base00138.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[139] = new Image(img_width, img_height);
+   images_movie[139].src = "mapdata/base00139.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[140] = new Image(img_width, img_height);
+   images_movie[140].src = "mapdata/base00140.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[141] = new Image(img_width, img_height);
+   images_movie[141].src = "mapdata/base00141.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[142] = new Image(img_width, img_height);
+   images_movie[142].src = "mapdata/base00142.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[143] = new Image(img_width, img_height);
+   images_movie[143].src = "mapdata/base00143.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[144] = new Image(img_width, img_height);
+   images_movie[144].src = "mapdata/base00144.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[145] = new Image(img_width, img_height);
+   images_movie[145].src = "mapdata/base00145.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[146] = new Image(img_width, img_height);
+   images_movie[146].src = "mapdata/base00146.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[147] = new Image(img_width, img_height);
+   images_movie[147].src = "mapdata/base00147.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[148] = new Image(img_width, img_height);
+   images_movie[148].src = "mapdata/base00148.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[149] = new Image(img_width, img_height);
+   images_movie[149].src = "mapdata/base00149.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[150] = new Image(img_width, img_height);
+   images_movie[150].src = "mapdata/base00150.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[151] = new Image(img_width, img_height);
+   images_movie[151].src = "mapdata/base00151.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[152] = new Image(img_width, img_height);
+   images_movie[152].src = "mapdata/base00152.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[153] = new Image(img_width, img_height);
+   images_movie[153].src = "mapdata/base00153.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[154] = new Image(img_width, img_height);
+   images_movie[154].src = "mapdata/base00154.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[155] = new Image(img_width, img_height);
+   images_movie[155].src = "mapdata/base00155.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[156] = new Image(img_width, img_height);
+   images_movie[156].src = "mapdata/base00156.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[157] = new Image(img_width, img_height);
+   images_movie[157].src = "mapdata/base00157.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[158] = new Image(img_width, img_height);
+   images_movie[158].src = "mapdata/base00158.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[159] = new Image(img_width, img_height);
+   images_movie[159].src = "mapdata/base00159.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[160] = new Image(img_width, img_height);
+   images_movie[160].src = "mapdata/base00160.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[161] = new Image(img_width, img_height);
+   images_movie[161].src = "mapdata/base00161.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[162] = new Image(img_width, img_height);
+   images_movie[162].src = "mapdata/base00162.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[163] = new Image(img_width, img_height);
+   images_movie[163].src = "mapdata/base00163.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[164] = new Image(img_width, img_height);
+   images_movie[164].src = "mapdata/base00164.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[165] = new Image(img_width, img_height);
+   images_movie[165].src = "mapdata/base00165.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[166] = new Image(img_width, img_height);
+   images_movie[166].src = "mapdata/base00166.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[167] = new Image(img_width, img_height);
+   images_movie[167].src = "mapdata/base00167.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[168] = new Image(img_width, img_height);
+   images_movie[168].src = "mapdata/base00168.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[169] = new Image(img_width, img_height);
+   images_movie[169].src = "mapdata/base00169.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[170] = new Image(img_width, img_height);
+   images_movie[170].src = "mapdata/base00170.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[171] = new Image(img_width, img_height);
+   images_movie[171].src = "mapdata/base00171.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[172] = new Image(img_width, img_height);
+   images_movie[172].src = "mapdata/base00172.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[173] = new Image(img_width, img_height);
+   images_movie[173].src = "mapdata/base00173.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[174] = new Image(img_width, img_height);
+   images_movie[174].src = "mapdata/base00174.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[175] = new Image(img_width, img_height);
+   images_movie[175].src = "mapdata/base00175.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[176] = new Image(img_width, img_height);
+   images_movie[176].src = "mapdata/base00176.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[177] = new Image(img_width, img_height);
+   images_movie[177].src = "mapdata/base00177.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[178] = new Image(img_width, img_height);
+   images_movie[178].src = "mapdata/base00178.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[179] = new Image(img_width, img_height);
+   images_movie[179].src = "mapdata/base00179.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[180] = new Image(img_width, img_height);
+   images_movie[180].src = "mapdata/base00180.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[181] = new Image(img_width, img_height);
+   images_movie[181].src = "mapdata/base00181.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[182] = new Image(img_width, img_height);
+   images_movie[182].src = "mapdata/base00182.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[183] = new Image(img_width, img_height);
+   images_movie[183].src = "mapdata/base00183.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[184] = new Image(img_width, img_height);
+   images_movie[184].src = "mapdata/base00184.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[185] = new Image(img_width, img_height);
+   images_movie[185].src = "mapdata/base00185.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[186] = new Image(img_width, img_height);
+   images_movie[186].src = "mapdata/base00186.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[187] = new Image(img_width, img_height);
+   images_movie[187].src = "mapdata/base00187.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[188] = new Image(img_width, img_height);
+   images_movie[188].src = "mapdata/base00188.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[189] = new Image(img_width, img_height);
+   images_movie[189].src = "mapdata/base00189.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[190] = new Image(img_width, img_height);
+   images_movie[190].src = "mapdata/base00190.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[191] = new Image(img_width, img_height);
+   images_movie[191].src = "mapdata/base00191.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[192] = new Image(img_width, img_height);
+   images_movie[192].src = "mapdata/base00192.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[193] = new Image(img_width, img_height);
+   images_movie[193].src = "mapdata/base00193.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[194] = new Image(img_width, img_height);
+   images_movie[194].src = "mapdata/base00194.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[195] = new Image(img_width, img_height);
+   images_movie[195].src = "mapdata/base00195.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[196] = new Image(img_width, img_height);
+   images_movie[196].src = "mapdata/base00196.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[197] = new Image(img_width, img_height);
+   images_movie[197].src = "mapdata/base00197.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[198] = new Image(img_width, img_height);
+   images_movie[198].src = "mapdata/base00198.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[199] = new Image(img_width, img_height);
+   images_movie[199].src = "mapdata/base00199.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[200] = new Image(img_width, img_height);
+   images_movie[200].src = "mapdata/base00200.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[201] = new Image(img_width, img_height);
+   images_movie[201].src = "mapdata/base00201.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[202] = new Image(img_width, img_height);
+   images_movie[202].src = "mapdata/base00202.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[203] = new Image(img_width, img_height);
+   images_movie[203].src = "mapdata/base00203.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[204] = new Image(img_width, img_height);
+   images_movie[204].src = "mapdata/base00204.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[205] = new Image(img_width, img_height);
+   images_movie[205].src = "mapdata/base00205.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[206] = new Image(img_width, img_height);
+   images_movie[206].src = "mapdata/base00206.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[207] = new Image(img_width, img_height);
+   images_movie[207].src = "mapdata/base00207.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[208] = new Image(img_width, img_height);
+   images_movie[208].src = "mapdata/base00208.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[209] = new Image(img_width, img_height);
+   images_movie[209].src = "mapdata/base00209.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[210] = new Image(img_width, img_height);
+   images_movie[210].src = "mapdata/base00210.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[211] = new Image(img_width, img_height);
+   images_movie[211].src = "mapdata/base00211.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[212] = new Image(img_width, img_height);
+   images_movie[212].src = "mapdata/base00212.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[213] = new Image(img_width, img_height);
+   images_movie[213].src = "mapdata/base00213.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[214] = new Image(img_width, img_height);
+   images_movie[214].src = "mapdata/base00214.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[215] = new Image(img_width, img_height);
+   images_movie[215].src = "mapdata/base00215.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[216] = new Image(img_width, img_height);
+   images_movie[216].src = "mapdata/base00216.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[217] = new Image(img_width, img_height);
+   images_movie[217].src = "mapdata/base00217.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[218] = new Image(img_width, img_height);
+   images_movie[218].src = "mapdata/base00218.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[219] = new Image(img_width, img_height);
+   images_movie[219].src = "mapdata/base00219.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[220] = new Image(img_width, img_height);
+   images_movie[220].src = "mapdata/base00220.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[221] = new Image(img_width, img_height);
+   images_movie[221].src = "mapdata/base00221.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[222] = new Image(img_width, img_height);
+   images_movie[222].src = "mapdata/base00222.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[223] = new Image(img_width, img_height);
+   images_movie[223].src = "mapdata/base00223.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[224] = new Image(img_width, img_height);
+   images_movie[224].src = "mapdata/base00224.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[225] = new Image(img_width, img_height);
+   images_movie[225].src = "mapdata/base00225.png";
+        
+   t.innerHTML = "Preloading image ";
+   images_movie[226] = new Image(img_width, img_height);
+   images_movie[226].src = "mapdata/base00226.png";
+        
+   t.innerHTML = "";
+}
+
+function tick_movie()
+{
+   if (frame_movie > num_images_movie - 1)
+       frame_movie = 0;
+
+   document.movie.src = images_movie[frame_movie].src;
+   frame_movie += 1;
+   tt = setTimeout("tick_movie()", interval);
+}
+
+function startup_tmpmovie()
+{
+   preload_images_movie();
+   frame_movie = 0;
+   setTimeout("tick_movie()", interval);
+}
+
+function stopit()
+{ clearTimeout(tt); }
+
+function restart_tmpmovie()
+{ tt = setTimeout("tick_movie()", interval); }
+
+function slower()
+{ interval = interval/0.7; }
+
+function faster()
+{ interval = interval*0.7; }
+
+// --->
+</script>
+
+<form>
+&nbsp;
+<input type="button" class="push-down" value="Play" onClick="startup_tmpmovie()">
+<input type="button" class="push-down" value="Pause" onClick="stopit()">
+<input type="button" class="push-down" value="Replay" onClick="restart_tmpmovie()">
+&nbsp;
+<input type="button" class="push-down" value="Slower" onClick="slower()">
+<input type="button" class="push-down" value="Faster" onClick="faster()">
+</form>
+
+<p><div ID="progress"></div></p>
+<img src="mapdata/base00000.png" name="movie" border=2/></div>
+
+</body>
+</html>
