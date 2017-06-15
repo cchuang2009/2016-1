@@ -1,4 +1,4 @@
-This is the data of a Talk for PyCon TW - 2017. Materials were formed by  three IPython notebook files:
+This is the data of a Talk given for PyCon TW - 2017. Materials were formed by  three IPython notebook files:
 
 1. [Part1: Data Cleaning](Dengue-taiwan-2016.ipynb)<br>
 2. [Part2: Attack Coefficient $R_t$](Rt_pyton.ipynb)<br>
