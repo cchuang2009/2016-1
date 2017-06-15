@@ -1,0 +1,59 @@
+<html>
+<meta charset="utf-8" />    
+<meta name="viewport" content="user-scalable=yes, initial-scale=1, 
+     maximum-scale=2, minimum-scale=1, 
+     width=device-width, height=device-height" />    
+<script language="Javascript">
+  function makeLibs(input1,input2,input3,input4,input5,input6){
+    var Story="There are many "+input1+" I want to "+input2+"<br>"
+              +"like "+input3+" in "+input4+" are uncountable<br>"
+              +"I realize, deeply, when it's too "+input5+"<br>"
+              +"the fact that they are still "+input6;
+    document.getElementById('poem').innerHTML = Story; 
+  }
+</script>    
+    
+<body>
+<form name="matlibs">
+<table border=0>
+  <tr>
+    <td>人事物Noun</td>
+    <td>
+       <input type="text" name="input1" value="people">
+    </td>
+  </tr>
+  <tr>
+    <td> Verb</td>
+    <td>
+       <input type="text" name="input2" value="thank">
+    </td>
+  </tr>
+  <tr>
+    <td>single object</td>
+    <td>
+       <input type="text" name="input3" value="star">
+    </td>
+    <td>Group of objects</td>
+    <td>
+       <input type="text" name="input4" value="sky">
+    </td>  
+  </tr> 
+  <tr>
+    <td>Time Situation</td>
+    <td>
+       <input type="text" name="input5" value="late">
+    </td>
+    <td>Moody</td>
+    <td>
+       <input type="text" name="input6" value="anonymous">
+    </td>  
+  </tr>  
+</table>
+<input type="button" value="Create" 
+       onClick="makeLibs(this.form.input1.value,this.form.input2.value,this.form.input3.value,
+                this.form.input4.value,this.form.input5.value,this.form.input6.value)">
+</form>
+<div id="poem" style="font-family: Georgia, serif;background-color:ghostwhite; b
+                      order:solid black; width:300px; padding:20px;color:brown;"></div>
+</body>
+</html>
