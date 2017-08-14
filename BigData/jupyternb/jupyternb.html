@@ -170,10 +170,71 @@ var hideText='Hide';
   
 </ul> 
  
-</fieldset> 
- 
+</fieldset>
 
- <div style="text-align: left; font-weight: bold; color: #0000cc"> Maintained by diffusion group</div>
+<fieldset>
+<legend style="font-weight: bold; font-size: 20px; color: blue;"> Structure of  Anaconda Platform  on Live Linux</legend>
+
+<ul>
+    <li style="font-weight: bold;color:blue;">[boot], syslinux
+       <ul>
+           <li style="font-weight: bold;color:blue;">[syslinux]
+             <ul>
+                 <li style="font-weight: bold;color:brown;">porteus.cfg, configuration of Porteus</li>
+                 <li style="font-weight: bold;color:brown;">porteus.png, wallpaper</li>
+                 <li style="font-weight: bold;color:brown;">...</li>
+             </ul>
+           </li>
+       </ul>
+    </li>
+    <li style="font-weight: bold;color:#222299;">[EFI], extlinux boot system</li>
+    
+    <li style="font-weight: bold;color:blue;">[porteus]: <i>Top of Porteus Linux</i>
+        <ul>
+            <li style="color:blue;">[base], core of live Linux
+               <ul>
+                   <li style="font-weight: bold;color:brown;">001-kernel.xzm</li>
+                   <li style="font-weight: bold;color:brown;">...</li>
+               </ul>
+            </li>
+            <li style="color:#222299;">[modules], utility packages and development tools</li>
+            <li style="font-weight: bold;color:blue;">[optional]
+                <ul>
+                    <li style="font-weight: bold;color:blue;">[anaconda3]
+                        <ul>
+                            <li style="font-weight: bold;color:brown;">anaconda-0.xzm, core packages of Anaconda</li>
+                            <li style="font-weight: bold;color:brown;">anaconda-1.xzm, python packages installed by PIP</li>
+                            <li style="font-weight: bold;color:brown;">anaconda-2-R.xzm, R kernel in Jupter notebook</li>
+                            <li style="font-weight: bold;color:brown;"> ...</li>
+                       </ul>
+                    </li>
+                    <li style="font-weight: bold;color:blue;">[Python36]
+                        <ul>
+                            <li style="font-weight: bold;color:brown;">Python-3.6.2.xzm</li>
+                            <li style="font-weight: bold;color:brown;">IPython-6.1.xzm, Jupyter core packages</li>
+                            <li style="font-weight: bold;color:brown;">sklearn-0.18.2.xzm, Python packages for Machine learning</li>
+                            <li style="font-weight: bold;color:brown;">R-3.4.1.xzm, related R packages and ir Kernel</li>
+                            <li style="font-weight: bold;color:brown;"> ...</li>
+                        </ul>
+                    </li>
+                    <li style="font-weight: bold;color:blue;"> ...</li>
+                    
+                </ul>
+            </li>
+            <li style="font-weight: bold;color:#222299;">[changes]: cache of live Linux
+            <li style="font-weight: bold;color:#222299;">[tools]: tools of Porteus Linux
+            <li style="font-weight: bold;color:#222299;">[rootcopy], preload setting or others
+            </li>
+            <li style="font-weight: bold;color:brown;">porteus-v3.2-x86_64.sgn
+            </li>
+        </ul> 
+        
+    </li>
+    
+</ul> 
+</fieldset>
+
+<div style="text-align: left; font-weight: bold; color: #0000cc"> Maintained by diffusion group</div>
  
  
 </body> 
