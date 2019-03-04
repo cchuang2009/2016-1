@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html> 
+<head> 
+<!-- saved from url=(0050)http://diffusion.cgu.edu.tw/ftp/modules/index.html --> 
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"> 
+  <title>Jupyter Notebook Tree Structure</title>
+  <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script> 
+
+  <script type="text/javascript"> 
+      $(function(){
+        $('li:has(ul)')
+          .click(function(event){
+            if (this == event.target) {
+              $(this).css('list-style-image',
+              //$(this).css('list-style-text',
+                (!$(this).children().is(':hidden')) ?
+                  //'+' : '-');
+                  'url(images/plus.gif)' : 'url(images/minus.gif)');
+              $(this).children().toggle('slow');
+            }
+            return false;
+          })
+          .css({cursor:'pointer',
+                //'list-style-text':'+'})
+                'list-style-image':'url(images/plus.gif)'})
+          .children().hide();
+        $('li:not(:has(ul))').css({
+          cursor: 'default',
+          //'list-style-text':'none'
+           'list-style-image':'none'                        
+        });
+      });
+    </script> 
+
+
+<script type="text/javascript"> 
+$(document).ready(function(){
+ 
+	$(".menu a").hover(function() {
+		$(this).next("em").animate({opacity: "show", top: "-75"}, "slow");
+	}, function() {
+		$(this).next("em").animate({opacity: "hide", top: "-85"}, "fast");
+	});
+ 
+ 
+});
+</script> 
+
+<!--
+Check class whether is and response:
+
+1. Show: display the message;
+2. Hide: hide the mesage;
+
+-->
+
+<script type="text/javascript"> 
+$(document).ready(function() {
+ 
+// choose text for the show/hide link - can contain HTML (e.g. an image)
+var showText='Show';
+var hideText='Hide';
+    // append show/hide links to the element directly preceding the element with a class of "toggle"
+    $('.toggle').prev().append(' (<a href="#" class="toggleLink">'+showText+'</a>)');
+ 
+    // hide all of the elements with a class of 'toggle'
+    $('.toggle').hide();
+ 
+    // capture clicks on the toggle links
+    $('a.toggleLink').click(function() {
+ 
+    // change the link depending on whether the element is shown or hidden
+    $(this).html ($(this).html()==hideText ? showText : hideText);
+ 
+    // toggle the display - uncomment the next line for a basic "accordion" style
+    //$('.toggle').hide();$('a.toggleLink').html(showText);
+    $(this).parent().next('.toggle').toggle('slow');
+ 
+    // return false so any link destination is not followed
+    return false;
+ 
+    });
+});
+</script>
+</head> 
+<body> 
+ 
+<fieldset> 
+<legend style="font-weight: bold; font-size: 20px; color: blue;"> Structure of Portable Anaconda Platform </legend>
+ 
+<ul> 
+ 
+ <li style="font-weight: bold;color:blue;">[2016-portable]: <i>lectures directory</i>
+    <ul> 
+      <li style="color:brown;"> index.ipynb (Main Page)</li>
+      <li style="font-weight: bold;color:#222299;"> [BioStat-R]: <i>R lectures and labs</i></li>
+      <li style="font-weight: bold;color:#222299;"> [2dplot]: <i>2 dimensional visualization</i></li>
+      <li style="font-weight: bold;color:#222299;"> [3dplot]: <i>3 dimensional visualization</i></li>
+      <li>  ...  </li>
+      </ul> 
+  </li>
+  <li style="font-weight: bold;color:brown;"> startup.sh (for Mac) </li>
+  <li style="font-weight: bold;color:brown;"> portable.bat (for Windows)</li>
+  
+  <li style="font-weight: bold;color:blue;">[anaconda36]: <i>Top of Mac anaconda</i>
+    <ul> 
+        <li style="font-weight: bold;color:blue;">[bin]: <i>binary commands</i>
+        <ul> 
+          <li style="color:brown;">anaconda</li>
+          <li style="color:brown;">jupyter-notebook</li>
+            <li style="color:brown;">jupyter-lab, <i>try it by yourself</i></li>  
+          <li style="color:brown;">...</li>
+        </ul> 
+      </li> 
+        <li style="font-weight: bold;color:blue;">[etc]: <i>setting of Jupyter</i>
+          <ul>
+             <li style="font-weight: bold;color:blue;">[jupyter]
+                 <ul>
+                     <li style="font-weight: bold;color:blue;">[nbconfig]: <i>setting of Jupyter notebook</i>
+                         <ul>
+                             <li style="font-weight: bold;color:brown;">notebook.json</li>
+                             <li style="font-weight: bold;color:brown;"> ...</li>
+                         </ul>
+                     </li>
+                 </ul>
+              </li>
+          </ul>
+      </li>
+        <li style="font-weight: bold;color:blue;">[lib]: libraries/packages of Python
+           <ul>
+              <li style="font-weight: bold;color:blue;">[python3.6]
+                  <ul>
+                      <li style="font-weight: bold;color:blue;">[site-packages]: <i>Packages of Python</i>
+                          <ul>
+                              <li style="font-weight: bold;color:#222299;">[numpy]</li>
+                              <li style="font-weight: bold;color:#222299;">[scipy]</li>
+                              <li style="font-weight: bold;color:brown;">easy-install.pth</li>
+                              <li style="font-weight: bold;color:#222299;"> ...</li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li style="font-weight: bold;color:#222299;">[R]: <i>statistical software</i></li>
+          </ul>
+      </li>
+        <li style="font-weight: bold;color:blue;">[share]: <i>kernels/notebook extensions availed by notebook</i>
+            <ul>
+              <li style="font-weight: bold;color:blue;">[jupyter]
+                  <ul>
+                      <li style="font-weight: bold;color:blue;">[kernels]: <i>notebook kernels</i>
+                          <ul>
+                              <li style="font-weight: bold;color:#222299;">[ir]: <i>kernel of R</i></li>
+                              <li style="font-weight: bold;color:#222299;">[vpython]: <i>kernel of VPython</i></li>
+                              <li style="font-weight: bold;color:b#222299;"> ...</li>
+                          </ul>
+                      </li>
+                      <li style="font-weight: bold;color:blue;">[nbextensions]: notebook extensions
+                          <ul>
+                              <li style="font-weight: bold;color:#222299;">[appmode]</i></li>
+                              <li style="font-weight: bold;color:#222299;">[jupyter-js-widgets]: <i>ipywidget</i></li>           
+                              <li style="font-weight: bold;color:#222299;">[livereveal]: <i>web-based slide show</i></li>
+                              <li style="font-weight: bold;color:#222299;">[qgrid]</i></li>
+                              <li style="font-weight: bold;color:#222299;"> ...</li>
+                          </ul>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </li>
+    </ul> 
+    <li style="font-weight: bold;color:#1111aa;">[AnacondaWin]: <i>Top of windows anaconda, same as above</i></li>
+  </li>
+  
+</ul> 
+ 
+</fieldset> 
+ 
+
+ <div style="text-align: left; font-weight: bold; color: #0000cc"> Maintained by diffusion group</div>
+ 
+ 
+</body> 
+</html> 
