@@ -1,0 +1,1935 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_3d5c9915a61b4ec59c9b649aecbe1512 {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_3d5c9915a61b4ec59c9b649aecbe1512" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_3d5c9915a61b4ec59c9b649aecbe1512 = L.map(
+        'map_3d5c9915a61b4ec59c9b649aecbe1512', {
+        center: [24.054019209876536, 120.82438017283947],
+        zoom: 9,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_767db9b7b6444f828acbcad23ca640fd = L.tileLayer(
+        'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_3d5c9915a61b4ec59c9b649aecbe1512);
+    
+            var marker_cluster_260d80c987b24aa4926e533a6944afab = L.markerClusterGroup({});
+            map_3d5c9915a61b4ec59c9b649aecbe1512.addLayer(marker_cluster_260d80c987b24aa4926e533a6944afab);
+            
+    
+        var marker_c1e382b27e2a4dfe8d0eec3319f4e4d3 = L.marker(
+            [25.294147, 121.539141],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_27d7ada268564d7eb25369fb42bcc641 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_85138042424247d68c5dfdceb2f884ad = $(`<div id="html_85138042424247d68c5dfdceb2f884ad" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 富貴角 pm2.5: 6</div>`)[0];
+                popup_27d7ada268564d7eb25369fb42bcc641.setContent(html_85138042424247d68c5dfdceb2f884ad);
+            
+
+            marker_c1e382b27e2a4dfe8d0eec3319f4e4d3.bindPopup(popup_27d7ada268564d7eb25369fb42bcc641)
+            ;
+
+            
+        
+    
+        var marker_f8f5070c3c3e4ff98e03a592e3dea4f3 = L.marker(
+            [25.182722, 121.529583],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_6e8da2d3e4de442bb58d3a16b8db5839 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d46fd576c1df43ffb42ad161369ff5c4 = $(`<div id="html_d46fd576c1df43ffb42ad161369ff5c4" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 陽明 pm2.5: 2</div>`)[0];
+                popup_6e8da2d3e4de442bb58d3a16b8db5839.setContent(html_d46fd576c1df43ffb42ad161369ff5c4);
+            
+
+            marker_f8f5070c3c3e4ff98e03a592e3dea4f3.bindPopup(popup_6e8da2d3e4de442bb58d3a16b8db5839)
+            ;
+
+            
+        
+    
+        var marker_2d36f836bf9b4433a1c166fa1a677389 = L.marker(
+            [25.179667, 121.689881],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_07fba72110924f299b28eaaac913c227 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e0ed5035a88e4a948d566217f476c698 = $(`<div id="html_e0ed5035a88e4a948d566217f476c698" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 萬里 pm2.5: 9</div>`)[0];
+                popup_07fba72110924f299b28eaaac913c227.setContent(html_e0ed5035a88e4a948d566217f476c698);
+            
+
+            marker_2d36f836bf9b4433a1c166fa1a677389.bindPopup(popup_07fba72110924f299b28eaaac913c227)
+            ;
+
+            
+        
+    
+        var marker_2cad94575f1a4a8f8c80234e2a5669a8 = L.marker(
+            [25.1645, 121.449239],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_a985813b3800497496a429fd16d65300 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_718bff12566a447f99300a31631b7858 = $(`<div id="html_718bff12566a447f99300a31631b7858" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 淡水 pm2.5: 5</div>`)[0];
+                popup_a985813b3800497496a429fd16d65300.setContent(html_718bff12566a447f99300a31631b7858);
+            
+
+            marker_2cad94575f1a4a8f8c80234e2a5669a8.bindPopup(popup_a985813b3800497496a429fd16d65300)
+            ;
+
+            
+        
+    
+        var marker_5266a9899be5476a90c99d94952949ae = L.marker(
+            [25.129167, 121.760056],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_37101a3708ea4ca49fb5ec4e4c3cb634 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0b0b06ef5e924f2b890ca4dc5588c348 = $(`<div id="html_0b0b06ef5e924f2b890ca4dc5588c348" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 基隆 pm2.5: 18</div>`)[0];
+                popup_37101a3708ea4ca49fb5ec4e4c3cb634.setContent(html_0b0b06ef5e924f2b890ca4dc5588c348);
+            
+
+            marker_5266a9899be5476a90c99d94952949ae.bindPopup(popup_37101a3708ea4ca49fb5ec4e4c3cb634)
+            ;
+
+            
+        
+    
+        var marker_0956509581ec495c99eaeebb95a80e85 = L.marker(
+            [25.105917, 121.5145],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_39427e6166004e7290a9b50428a286ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_56f0b63280164a2ca0bf714470dbab05 = $(`<div id="html_56f0b63280164a2ca0bf714470dbab05" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 士林 pm2.5: 8</div>`)[0];
+                popup_39427e6166004e7290a9b50428a286ba.setContent(html_56f0b63280164a2ca0bf714470dbab05);
+            
+
+            marker_0956509581ec495c99eaeebb95a80e85.bindPopup(popup_39427e6166004e7290a9b50428a286ba)
+            ;
+
+            
+        
+    
+        var marker_d4e5ed3c28ed41b6a3e90148f6ce3fec = L.marker(
+            [25.07857, 121.365703],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_5cef7905f4754066910d5bc1dba1842d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f2bf9c2f0cd24794bcb99e31116214ff = $(`<div id="html_f2bf9c2f0cd24794bcb99e31116214ff" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 林口 pm2.5: 3</div>`)[0];
+                popup_5cef7905f4754066910d5bc1dba1842d.setContent(html_f2bf9c2f0cd24794bcb99e31116214ff);
+            
+
+            marker_d4e5ed3c28ed41b6a3e90148f6ce3fec.bindPopup(popup_5cef7905f4754066910d5bc1dba1842d)
+            ;
+
+            
+        
+    
+        var marker_6f0d7cf299c7407f812aecc3514273d4 = L.marker(
+            [25.072611, 121.493806],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_0658ab04081741a7b1ca27f7121ca6d1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ef4a57e423a0442d92d78e9cf39a5fde = $(`<div id="html_ef4a57e423a0442d92d78e9cf39a5fde" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 三重 pm2.5: 14</div>`)[0];
+                popup_0658ab04081741a7b1ca27f7121ca6d1.setContent(html_ef4a57e423a0442d92d78e9cf39a5fde);
+            
+
+            marker_6f0d7cf299c7407f812aecc3514273d4.bindPopup(popup_0658ab04081741a7b1ca27f7121ca6d1)
+            ;
+
+            
+        
+    
+        var marker_b18910df05d24e88977b44d0a81d0a02 = L.marker(
+            [25.06895, 121.481028],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_513760a2930e4973b78c46dbe511970b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_20e9bab8fb3b4771bc46a1e304ccb12c = $(`<div id="html_20e9bab8fb3b4771bc46a1e304ccb12c" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 菜寮 pm2.5: </div>`)[0];
+                popup_513760a2930e4973b78c46dbe511970b.setContent(html_20e9bab8fb3b4771bc46a1e304ccb12c);
+            
+
+            marker_b18910df05d24e88977b44d0a81d0a02.bindPopup(popup_513760a2930e4973b78c46dbe511970b)
+            ;
+
+            
+        
+    
+        var marker_35b7ef54fa3548a989c8003a60b5bf7f = L.marker(
+            [25.065669, 121.6408],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_306b73ddd7ed44b59d181e7be256fa02 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c9506214beee449f93a946519883f2b6 = $(`<div id="html_c9506214beee449f93a946519883f2b6" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 汐止 pm2.5: 10</div>`)[0];
+                popup_306b73ddd7ed44b59d181e7be256fa02.setContent(html_c9506214beee449f93a946519883f2b6);
+            
+
+            marker_35b7ef54fa3548a989c8003a60b5bf7f.bindPopup(popup_306b73ddd7ed44b59d181e7be256fa02)
+            ;
+
+            
+        
+    
+        var marker_47c9daea814a4fe8befa2c1978996668 = L.marker(
+            [25.0632, 121.513311],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_c901973d55e54f85885ff593c1cc79d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf550cdb99df46f6bbcd209391fc47e0 = $(`<div id="html_cf550cdb99df46f6bbcd209391fc47e0" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 大同 pm2.5: </div>`)[0];
+                popup_c901973d55e54f85885ff593c1cc79d9.setContent(html_cf550cdb99df46f6bbcd209391fc47e0);
+            
+
+            marker_47c9daea814a4fe8befa2c1978996668.bindPopup(popup_c901973d55e54f85885ff593c1cc79d9)
+            ;
+
+            
+        
+    
+        var marker_157545eedd934e5a81aea919b1ceba9d = L.marker(
+            [25.062361, 121.526528],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_274bac22965b4b7786a22684777ef0c4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_faf6f5911cc5439a8efe19dbe33755cf = $(`<div id="html_faf6f5911cc5439a8efe19dbe33755cf" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 中山 pm2.5: 20</div>`)[0];
+                popup_274bac22965b4b7786a22684777ef0c4.setContent(html_faf6f5911cc5439a8efe19dbe33755cf);
+            
+
+            marker_157545eedd934e5a81aea919b1ceba9d.bindPopup(popup_274bac22965b4b7786a22684777ef0c4)
+            ;
+
+            
+        
+    
+        var marker_aa94867233a94973a7d742e2563f156c = L.marker(
+            [25.060344, 121.201811],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_4276ca810412419686013a39f7c107ba = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a424291f67774eb08ef7202e150ddcf8 = $(`<div id="html_a424291f67774eb08ef7202e150ddcf8" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 大園 pm2.5: 13</div>`)[0];
+                popup_4276ca810412419686013a39f7c107ba.setContent(html_a424291f67774eb08ef7202e150ddcf8);
+            
+
+            marker_aa94867233a94973a7d742e2563f156c.bindPopup(popup_4276ca810412419686013a39f7c107ba)
+            ;
+
+            
+        
+    
+        var marker_1b9384832a5140cdab8cb48409f8f3f0 = L.marker(
+            [25.05, 121.578611],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_b26945c620c849bfbbaf4e06e572a831 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d99384430ea342d39d8bf661f06c08f6 = $(`<div id="html_d99384430ea342d39d8bf661f06c08f6" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 松山 pm2.5: 11</div>`)[0];
+                popup_b26945c620c849bfbbaf4e06e572a831.setContent(html_d99384430ea342d39d8bf661f06c08f6);
+            
+
+            marker_1b9384832a5140cdab8cb48409f8f3f0.bindPopup(popup_b26945c620c849bfbbaf4e06e572a831)
+            ;
+
+            
+        
+    
+        var marker_8c95f23216fc4a84b2a501121be34179 = L.marker(
+            [25.046503, 121.507972],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_c16ae7e66f744312964e5bb96641b397 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9a38a0a565ca4b6db3d9a5bac2178fc0 = $(`<div id="html_9a38a0a565ca4b6db3d9a5bac2178fc0" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 萬華 pm2.5: 8</div>`)[0];
+                popup_c16ae7e66f744312964e5bb96641b397.setContent(html_9a38a0a565ca4b6db3d9a5bac2178fc0);
+            
+
+            marker_8c95f23216fc4a84b2a501121be34179.bindPopup(popup_c16ae7e66f744312964e5bb96641b397)
+            ;
+
+            
+        
+    
+        var marker_82f06c691fa4456ab145bfdfad2c8b2b = L.marker(
+            [25.037972, 121.4325],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_0764cf61b8a34618bf12d88dd8bd23ec = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_64b282ae29cf467599578cedaf8c1cd7 = $(`<div id="html_64b282ae29cf467599578cedaf8c1cd7" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 新莊 pm2.5: 15</div>`)[0];
+                popup_0764cf61b8a34618bf12d88dd8bd23ec.setContent(html_64b282ae29cf467599578cedaf8c1cd7);
+            
+
+            marker_82f06c691fa4456ab145bfdfad2c8b2b.bindPopup(popup_0764cf61b8a34618bf12d88dd8bd23ec)
+            ;
+
+            
+        
+    
+        var marker_66b97ad63bee41e9852c7aa43db8872e = L.marker(
+            [25.035503, 121.082761],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_e7fdbb91ff8e47048af3e6512426c568 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8b0c4c6fc62a44f2ab2f5c391ff9028f = $(`<div id="html_8b0c4c6fc62a44f2ab2f5c391ff9028f" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 觀音 pm2.5: 5</div>`)[0];
+                popup_e7fdbb91ff8e47048af3e6512426c568.setContent(html_8b0c4c6fc62a44f2ab2f5c391ff9028f);
+            
+
+            marker_66b97ad63bee41e9852c7aa43db8872e.bindPopup(popup_e7fdbb91ff8e47048af3e6512426c568)
+            ;
+
+            
+        
+    
+        var marker_771fd9718d7042c18b1d10878f432cb7 = L.marker(
+            [25.020608, 121.529556],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_5488fad6c70b4d05bef78f7dfb9fb06b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9630fe2924ec4e4abd3e6e0e182d602d = $(`<div id="html_9630fe2924ec4e4abd3e6e0e182d602d" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 古亭 pm2.5: 14</div>`)[0];
+                popup_5488fad6c70b4d05bef78f7dfb9fb06b.setContent(html_9630fe2924ec4e4abd3e6e0e182d602d);
+            
+
+            marker_771fd9718d7042c18b1d10878f432cb7.bindPopup(popup_5488fad6c70b4d05bef78f7dfb9fb06b)
+            ;
+
+            
+        
+    
+        var marker_930edd5439334f8dbd528d8e9101f8fd = L.marker(
+            [25.017, 121.516306],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_996e830bd3064bc0be0b110fe4641570 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e3a43cab94704254941dc591934d3368 = $(`<div id="html_e3a43cab94704254941dc591934d3368" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 永和 pm2.5: 14</div>`)[0];
+                popup_996e830bd3064bc0be0b110fe4641570.setContent(html_e3a43cab94704254941dc591934d3368);
+            
+
+            marker_930edd5439334f8dbd528d8e9101f8fd.bindPopup(popup_996e830bd3064bc0be0b110fe4641570)
+            ;
+
+            
+        
+    
+        var marker_6be90c95a5654b1a906ad2a979b25e80 = L.marker(
+            [25.012972, 121.458667],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_dd9dcfb1b7b745de92ddabdde6ca80b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_139447a71237477787adea0cfb34585b = $(`<div id="html_139447a71237477787adea0cfb34585b" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 板橋 pm2.5: 14</div>`)[0];
+                popup_dd9dcfb1b7b745de92ddabdde6ca80b5.setContent(html_139447a71237477787adea0cfb34585b);
+            
+
+            marker_6be90c95a5654b1a906ad2a979b25e80.bindPopup(popup_dd9dcfb1b7b745de92ddabdde6ca80b5)
+            ;
+
+            
+        
+    
+        var marker_028f1a921c6c480089053dcc3820c846 = L.marker(
+            [24.994728, 121.304953],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_bb0299a0e0b24e618bd9a1e0632e2622 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2cf31deaffa641b4a5e1973668344731 = $(`<div id="html_2cf31deaffa641b4a5e1973668344731" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 桃園 pm2.5: 10</div>`)[0];
+                popup_bb0299a0e0b24e618bd9a1e0632e2622.setContent(html_2cf31deaffa641b4a5e1973668344731);
+            
+
+            marker_028f1a921c6c480089053dcc3820c846.bindPopup(popup_bb0299a0e0b24e618bd9a1e0632e2622)
+            ;
+
+            
+        
+    
+        var marker_817a688c7038477881bc2167dd942741 = L.marker(
+            [24.982528, 121.451861],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_de68378d9e4340e19ce4afded29144db = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3161924f7214495c9574e6a347b00063 = $(`<div id="html_3161924f7214495c9574e6a347b00063" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 土城 pm2.5: 11</div>`)[0];
+                popup_de68378d9e4340e19ce4afded29144db.setContent(html_3161924f7214495c9574e6a347b00063);
+            
+
+            marker_817a688c7038477881bc2167dd942741.bindPopup(popup_de68378d9e4340e19ce4afded29144db)
+            ;
+
+            
+        
+    
+        var marker_5f3151d24258485ea9c6f6e4a2488c5c = L.marker(
+            [24.977222, 121.537778],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_4987e1632048447c82456c3bd430ddf9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ef4ae3f13c044e158b943a3641874321 = $(`<div id="html_ef4ae3f13c044e158b943a3641874321" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 新店 pm2.5: 7</div>`)[0];
+                popup_4987e1632048447c82456c3bd430ddf9.setContent(html_ef4ae3f13c044e158b943a3641874321);
+            
+
+            marker_5f3151d24258485ea9c6f6e4a2488c5c.bindPopup(popup_4987e1632048447c82456c3bd430ddf9)
+            ;
+
+            
+        
+    
+        var marker_34e01c0ae0fb4c13b7c6911b1640e431 = L.marker(
+            [24.954208, 121.204981],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_d4437c70ee444959991f784cb792416f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ff6fd20d38384ba395e8d8e75e55a20f = $(`<div id="html_ff6fd20d38384ba395e8d8e75e55a20f" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 平鎮 pm2.5: 14</div>`)[0];
+                popup_d4437c70ee444959991f784cb792416f.setContent(html_ff6fd20d38384ba395e8d8e75e55a20f);
+            
+
+            marker_34e01c0ae0fb4c13b7c6911b1640e431.bindPopup(popup_d4437c70ee444959991f784cb792416f)
+            ;
+
+            
+        
+    
+        var marker_28e63d5ffd3a470283b47c2e1e8ca268 = L.marker(
+            [24.953278, 121.221667],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_b0e8bcb5407349c299812570b1cc8dbc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0bc94ca3cb134e4ab87ea242c7085e0a = $(`<div id="html_0bc94ca3cb134e4ab87ea242c7085e0a" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 中壢 pm2.5: 6</div>`)[0];
+                popup_b0e8bcb5407349c299812570b1cc8dbc.setContent(html_0bc94ca3cb134e4ab87ea242c7085e0a);
+            
+
+            marker_28e63d5ffd3a470283b47c2e1e8ca268.bindPopup(popup_b0e8bcb5407349c299812570b1cc8dbc)
+            ;
+
+            
+        
+    
+        var marker_53365fc1072f4c818d5c8a7e26714145 = L.marker(
+            [24.863869, 121.21635],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_d95c8d11306c4d51a57576a60e6df67a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_03ea0ee7a55b4417ace7812aafda0637 = $(`<div id="html_03ea0ee7a55b4417ace7812aafda0637" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 龍潭 pm2.5: ND</div>`)[0];
+                popup_d95c8d11306c4d51a57576a60e6df67a.setContent(html_03ea0ee7a55b4417ace7812aafda0637);
+            
+
+            marker_53365fc1072f4c818d5c8a7e26714145.bindPopup(popup_d95c8d11306c4d51a57576a60e6df67a)
+            ;
+
+            
+        
+    
+        var marker_ff1e63e338a3405fb094f160ab5f68f1 = L.marker(
+            [24.900142, 121.038653],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_93ba9cc593104dabbcdda6ab2bc89ac0 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d23446be17ec42a090e1546dd3243d86 = $(`<div id="html_d23446be17ec42a090e1546dd3243d86" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 湖口 pm2.5: 12</div>`)[0];
+                popup_93ba9cc593104dabbcdda6ab2bc89ac0.setContent(html_d23446be17ec42a090e1546dd3243d86);
+            
+
+            marker_ff1e63e338a3405fb094f160ab5f68f1.bindPopup(popup_93ba9cc593104dabbcdda6ab2bc89ac0)
+            ;
+
+            
+        
+    
+        var marker_930457295f6a4acca696843a8d0de127 = L.marker(
+            [24.805619, 120.972075],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_9520690d6acc48fe9e3041a1d2f8ac60 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_03b4a89ac3214bad9073fe6ec47bbb35 = $(`<div id="html_03b4a89ac3214bad9073fe6ec47bbb35" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 新竹 pm2.5: ND</div>`)[0];
+                popup_9520690d6acc48fe9e3041a1d2f8ac60.setContent(html_03b4a89ac3214bad9073fe6ec47bbb35);
+            
+
+            marker_930457295f6a4acca696843a8d0de127.bindPopup(popup_9520690d6acc48fe9e3041a1d2f8ac60)
+            ;
+
+            
+        
+    
+        var marker_8d8cdd7621bc45939139ceb3d34f8163 = L.marker(
+            [24.740644, 121.088903],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_74879d7e9e0a4fab8e077ea631c1b1ef = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_637660610b3f4cf1b09cf266e4da0299 = $(`<div id="html_637660610b3f4cf1b09cf266e4da0299" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 竹東 pm2.5: ND</div>`)[0];
+                popup_74879d7e9e0a4fab8e077ea631c1b1ef.setContent(html_637660610b3f4cf1b09cf266e4da0299);
+            
+
+            marker_8d8cdd7621bc45939139ceb3d34f8163.bindPopup(popup_74879d7e9e0a4fab8e077ea631c1b1ef)
+            ;
+
+            
+        
+    
+        var marker_b11d16f534d14dd0aff32b0b00ffdd56 = L.marker(
+            [24.696969, 120.898572],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_741e3b55a372474880d1258519e2a4a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_16b5b66b772242c1b820d59bdb81623d = $(`<div id="html_16b5b66b772242c1b820d59bdb81623d" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 頭份 pm2.5: ND</div>`)[0];
+                popup_741e3b55a372474880d1258519e2a4a2.setContent(html_16b5b66b772242c1b820d59bdb81623d);
+            
+
+            marker_b11d16f534d14dd0aff32b0b00ffdd56.bindPopup(popup_741e3b55a372474880d1258519e2a4a2)
+            ;
+
+            
+        
+    
+        var marker_6a645de9a76a4f2285dfe4fda354b71e = L.marker(
+            [24.565269, 120.8202],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_a2fb700cbcb94d9db92571e84bd59939 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ce67bccceb774a93ba047dcaea60e5bf = $(`<div id="html_ce67bccceb774a93ba047dcaea60e5bf" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 苗栗 pm2.5: 3</div>`)[0];
+                popup_a2fb700cbcb94d9db92571e84bd59939.setContent(html_ce67bccceb774a93ba047dcaea60e5bf);
+            
+
+            marker_6a645de9a76a4f2285dfe4fda354b71e.bindPopup(popup_a2fb700cbcb94d9db92571e84bd59939)
+            ;
+
+            
+        
+    
+        var marker_6c037eec94594e57bc027bedbd299ad9 = L.marker(
+            [24.382942, 120.758833],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_fc45d2b0213740699fd40b05ebaf6725 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_018d73a5840c4a729ffdcfa35509fa0e = $(`<div id="html_018d73a5840c4a729ffdcfa35509fa0e" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 三義 pm2.5: 3</div>`)[0];
+                popup_fc45d2b0213740699fd40b05ebaf6725.setContent(html_018d73a5840c4a729ffdcfa35509fa0e);
+            
+
+            marker_6c037eec94594e57bc027bedbd299ad9.bindPopup(popup_fc45d2b0213740699fd40b05ebaf6725)
+            ;
+
+            
+        
+    
+        var marker_45baabe6726e45d18554147ea2d69302 = L.marker(
+            [24.256586, 120.741711],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_1b1d30dabeda4ff2a3809cb7f4a59ee3 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_01db8da2fe9c4e70bf7d6cc7f629b51a = $(`<div id="html_01db8da2fe9c4e70bf7d6cc7f629b51a" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 豐原 pm2.5: 6</div>`)[0];
+                popup_1b1d30dabeda4ff2a3809cb7f4a59ee3.setContent(html_01db8da2fe9c4e70bf7d6cc7f629b51a);
+            
+
+            marker_45baabe6726e45d18554147ea2d69302.bindPopup(popup_1b1d30dabeda4ff2a3809cb7f4a59ee3)
+            ;
+
+            
+        
+    
+        var marker_78ff11a1de4f4f89ad29fe157bce755b = L.marker(
+            [24.225628, 120.568794],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_34fb71799f3e4a258757af420b1b6ebc = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e8a5f1202e91469bb6b0b95b34a2a4ad = $(`<div id="html_e8a5f1202e91469bb6b0b95b34a2a4ad" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 沙鹿 pm2.5: ND</div>`)[0];
+                popup_34fb71799f3e4a258757af420b1b6ebc.setContent(html_e8a5f1202e91469bb6b0b95b34a2a4ad);
+            
+
+            marker_78ff11a1de4f4f89ad29fe157bce755b.bindPopup(popup_34fb71799f3e4a258757af420b1b6ebc)
+            ;
+
+            
+        
+    
+        var marker_9217bbb7f17e4745a850e8fbb2392e5c = L.marker(
+            [24.162197, 120.616917],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_be16a21c6ca34763945e1c08f3b02178 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_acece25225694424b554620e3b773f4a = $(`<div id="html_acece25225694424b554620e3b773f4a" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 西屯 pm2.5: 11</div>`)[0];
+                popup_be16a21c6ca34763945e1c08f3b02178.setContent(html_acece25225694424b554620e3b773f4a);
+            
+
+            marker_9217bbb7f17e4745a850e8fbb2392e5c.bindPopup(popup_be16a21c6ca34763945e1c08f3b02178)
+            ;
+
+            
+        
+    
+        var marker_251036a2e5d3404c84c5ed9ae6db11a6 = L.marker(
+            [24.151958, 120.641092],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_96c89a59f9ce4b2a8e14b4b32c7fd3a6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_46372e2b67f8424ea21dc40be37f59b1 = $(`<div id="html_46372e2b67f8424ea21dc40be37f59b1" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 忠明 pm2.5: 13</div>`)[0];
+                popup_96c89a59f9ce4b2a8e14b4b32c7fd3a6.setContent(html_46372e2b67f8424ea21dc40be37f59b1);
+            
+
+            marker_251036a2e5d3404c84c5ed9ae6db11a6.bindPopup(popup_96c89a59f9ce4b2a8e14b4b32c7fd3a6)
+            ;
+
+            
+        
+    
+        var marker_32394d3b492c4a8f9e9aece29c7a0b70 = L.marker(
+            [24.131672, 120.469061],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_e80575b3c7f54fa7ae0df1e9170742d4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fdbbd55486a94049a20c25a5ecf06202 = $(`<div id="html_fdbbd55486a94049a20c25a5ecf06202" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 線西 pm2.5: 10</div>`)[0];
+                popup_e80575b3c7f54fa7ae0df1e9170742d4.setContent(html_fdbbd55486a94049a20c25a5ecf06202);
+            
+
+            marker_32394d3b492c4a8f9e9aece29c7a0b70.bindPopup(popup_e80575b3c7f54fa7ae0df1e9170742d4)
+            ;
+
+            
+        
+    
+        var marker_5b76d82152fa4dd9ac0c2495965dc4f6 = L.marker(
+            [24.099611, 120.677689],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_ecc0c1d23e9f4857b0e2df9480150825 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_7bd4f6a974e84500930db5cb28322828 = $(`<div id="html_7bd4f6a974e84500930db5cb28322828" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 大里 pm2.5: 8</div>`)[0];
+                popup_ecc0c1d23e9f4857b0e2df9480150825.setContent(html_7bd4f6a974e84500930db5cb28322828);
+            
+
+            marker_5b76d82152fa4dd9ac0c2495965dc4f6.bindPopup(popup_ecc0c1d23e9f4857b0e2df9480150825)
+            ;
+
+            
+        
+    
+        var marker_8ae4fecaa0a443738af3a9c67f5e630b = L.marker(
+            [24.066, 120.541519],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_dec6d5b235ad41c885eca5d1e918c680 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6e16575d0e234f47bd07652363f8ba5d = $(`<div id="html_6e16575d0e234f47bd07652363f8ba5d" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 彰化 pm2.5: 7</div>`)[0];
+                popup_dec6d5b235ad41c885eca5d1e918c680.setContent(html_6e16575d0e234f47bd07652363f8ba5d);
+            
+
+            marker_8ae4fecaa0a443738af3a9c67f5e630b.bindPopup(popup_dec6d5b235ad41c885eca5d1e918c680)
+            ;
+
+            
+        
+    
+        var marker_fa68ae3b8d564f38be1ad38c65ab836f = L.marker(
+            [23.968842, 120.967903],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_aca5f4715b3a497a967842c9c947d467 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5a6dd7b8325b422daf86de987d2d8697 = $(`<div id="html_5a6dd7b8325b422daf86de987d2d8697" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 埔里 pm2.5: 7</div>`)[0];
+                popup_aca5f4715b3a497a967842c9c947d467.setContent(html_5a6dd7b8325b422daf86de987d2d8697);
+            
+
+            marker_fa68ae3b8d564f38be1ad38c65ab836f.bindPopup(popup_aca5f4715b3a497a967842c9c947d467)
+            ;
+
+            
+        
+    
+        var marker_e69b7f0bfe434850b9a86c2dc4c5aaf3 = L.marker(
+            [23.925175, 120.409653],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_a2b8fd12d41a4a14a271ea5b5c255ae9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28aafc4c9c1142b496ebea04d215d64e = $(`<div id="html_28aafc4c9c1142b496ebea04d215d64e" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 二林 pm2.5: 10</div>`)[0];
+                popup_a2b8fd12d41a4a14a271ea5b5c255ae9.setContent(html_28aafc4c9c1142b496ebea04d215d64e);
+            
+
+            marker_e69b7f0bfe434850b9a86c2dc4c5aaf3.bindPopup(popup_a2b8fd12d41a4a14a271ea5b5c255ae9)
+            ;
+
+            
+        
+    
+        var marker_4c294a1fafaf4a928d88145d0e9ea7a2 = L.marker(
+            [23.913, 120.685306],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_294a7afed4624c52b7519cc6328c24de = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6189d50907ae4350a8c89b27cebe81c6 = $(`<div id="html_6189d50907ae4350a8c89b27cebe81c6" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 南投 pm2.5: 2</div>`)[0];
+                popup_294a7afed4624c52b7519cc6328c24de.setContent(html_6189d50907ae4350a8c89b27cebe81c6);
+            
+
+            marker_4c294a1fafaf4a928d88145d0e9ea7a2.bindPopup(popup_294a7afed4624c52b7519cc6328c24de)
+            ;
+
+            
+        
+    
+        var marker_150f1d90eaae48aea6128b0a69cac7cf = L.marker(
+            [23.756389, 120.677306],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_b16ca6bf4aeb420aa0692a30cd75c491 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d3f130059a6d4922a0ca243711e72c8f = $(`<div id="html_d3f130059a6d4922a0ca243711e72c8f" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 竹山 pm2.5: </div>`)[0];
+                popup_b16ca6bf4aeb420aa0692a30cd75c491.setContent(html_d3f130059a6d4922a0ca243711e72c8f);
+            
+
+            marker_150f1d90eaae48aea6128b0a69cac7cf.bindPopup(popup_b16ca6bf4aeb420aa0692a30cd75c491)
+            ;
+
+            
+        
+    
+        var marker_94583df0232e47e38a8c90e09b0e4b84 = L.marker(
+            [23.757547, 120.348742],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_09c0b232cc304f0f87c3abd50c18bea8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b4757840fd884b09baaabf2d897614b3 = $(`<div id="html_b4757840fd884b09baaabf2d897614b3" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 崙背 pm2.5: ND</div>`)[0];
+                popup_09c0b232cc304f0f87c3abd50c18bea8.setContent(html_b4757840fd884b09baaabf2d897614b3);
+            
+
+            marker_94583df0232e47e38a8c90e09b0e4b84.bindPopup(popup_09c0b232cc304f0f87c3abd50c18bea8)
+            ;
+
+            
+        
+    
+        var marker_3960f139a903477b948c07abb34a4466 = L.marker(
+            [23.753506, 120.251825],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_1124eeaa0c3c49b59e877a8e535377d4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9cc23d66d241495c9a5d5e169af1ed80 = $(`<div id="html_9cc23d66d241495c9a5d5e169af1ed80" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 麥寮 pm2.5: 2</div>`)[0];
+                popup_1124eeaa0c3c49b59e877a8e535377d4.setContent(html_9cc23d66d241495c9a5d5e169af1ed80);
+            
+
+            marker_3960f139a903477b948c07abb34a4466.bindPopup(popup_1124eeaa0c3c49b59e877a8e535377d4)
+            ;
+
+            
+        
+    
+        var marker_f1aabc3dcb464839b5a5ec4321a24757 = L.marker(
+            [23.717533, 120.202842],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_ae097fe5c6b449ceadd1680ded229a29 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2f1bcf0ba72f4f9199edf4abbd7e1b9f = $(`<div id="html_2f1bcf0ba72f4f9199edf4abbd7e1b9f" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 臺西 pm2.5: 5</div>`)[0];
+                popup_ae097fe5c6b449ceadd1680ded229a29.setContent(html_2f1bcf0ba72f4f9199edf4abbd7e1b9f);
+            
+
+            marker_f1aabc3dcb464839b5a5ec4321a24757.bindPopup(popup_ae097fe5c6b449ceadd1680ded229a29)
+            ;
+
+            
+        
+    
+        var marker_62e6a16c557142eda8487f6b68656fc1 = L.marker(
+            [23.711853, 120.544994],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_6876a8ce66bd443fa706aaa2ee06f1b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_33c276ececaf4197bb7f20020a0765e2 = $(`<div id="html_33c276ececaf4197bb7f20020a0765e2" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 斗六 pm2.5: 31</div>`)[0];
+                popup_6876a8ce66bd443fa706aaa2ee06f1b5.setContent(html_33c276ececaf4197bb7f20020a0765e2);
+            
+
+            marker_62e6a16c557142eda8487f6b68656fc1.bindPopup(popup_6876a8ce66bd443fa706aaa2ee06f1b5)
+            ;
+
+            
+        
+    
+        var marker_c01bc53ddc9b4a039a88cbf04ed89760 = L.marker(
+            [23.554839, 120.345531],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_aa45a0454fbe43df84ce1eac733add96 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1a6e234de7bd482a9d805cc2b7d63f4e = $(`<div id="html_1a6e234de7bd482a9d805cc2b7d63f4e" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 新港 pm2.5: 20</div>`)[0];
+                popup_aa45a0454fbe43df84ce1eac733add96.setContent(html_1a6e234de7bd482a9d805cc2b7d63f4e);
+            
+
+            marker_c01bc53ddc9b4a039a88cbf04ed89760.bindPopup(popup_aa45a0454fbe43df84ce1eac733add96)
+            ;
+
+            
+        
+    
+        var marker_a857c033d5014f93891558f0e0441b8a = L.marker(
+            [23.467122, 120.247811],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_999585a32a7b41b9812ab77fe806855d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bdda7793076f41cbacccf57f4d31ffc8 = $(`<div id="html_bdda7793076f41cbacccf57f4d31ffc8" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 朴子 pm2.5: 12</div>`)[0];
+                popup_999585a32a7b41b9812ab77fe806855d.setContent(html_bdda7793076f41cbacccf57f4d31ffc8);
+            
+
+            marker_a857c033d5014f93891558f0e0441b8a.bindPopup(popup_999585a32a7b41b9812ab77fe806855d)
+            ;
+
+            
+        
+    
+        var marker_6ac69e2207d94458b7ea3f34db1bc3e1 = L.marker(
+            [23.462778, 120.440833],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_fb3dd805f0df426f86d79d35653d6007 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_e64b92fe871e460593bb0a6bdfb82788 = $(`<div id="html_e64b92fe871e460593bb0a6bdfb82788" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 嘉義 pm2.5: 3</div>`)[0];
+                popup_fb3dd805f0df426f86d79d35653d6007.setContent(html_e64b92fe871e460593bb0a6bdfb82788);
+            
+
+            marker_6ac69e2207d94458b7ea3f34db1bc3e1.bindPopup(popup_fb3dd805f0df426f86d79d35653d6007)
+            ;
+
+            
+        
+    
+        var marker_1198ebf87d9041dd9d7bfafb082178f3 = L.marker(
+            [23.305633, 120.31725],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_5f793ffb35914db58a296b28082f85e7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3eefe2d2cf9a4c82a9ab5b1226ef95bb = $(`<div id="html_3eefe2d2cf9a4c82a9ab5b1226ef95bb" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 新營 pm2.5: 11</div>`)[0];
+                popup_5f793ffb35914db58a296b28082f85e7.setContent(html_3eefe2d2cf9a4c82a9ab5b1226ef95bb);
+            
+
+            marker_1198ebf87d9041dd9d7bfafb082178f3.bindPopup(popup_5f793ffb35914db58a296b28082f85e7)
+            ;
+
+            
+        
+    
+        var marker_b5ac826cd653492fa9d6125385ce2040 = L.marker(
+            [23.115097, 120.297142],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_eab6296c7cfc402899fe45ce069a0eec = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cce5c97c49e64264a3526c3a792ac6cb = $(`<div id="html_cce5c97c49e64264a3526c3a792ac6cb" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 善化 pm2.5: ND</div>`)[0];
+                popup_eab6296c7cfc402899fe45ce069a0eec.setContent(html_cce5c97c49e64264a3526c3a792ac6cb);
+            
+
+            marker_b5ac826cd653492fa9d6125385ce2040.bindPopup(popup_eab6296c7cfc402899fe45ce069a0eec)
+            ;
+
+            
+        
+    
+        var marker_a9d7a615ed934b4f816d2ecdbdb34fac = L.marker(
+            [23.048333, 120.218333],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_af71144368ff47aeb83801b31278d336 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cebec9ddd7794f58b4b9e527726a36de = $(`<div id="html_cebec9ddd7794f58b4b9e527726a36de" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 安南 pm2.5: 9</div>`)[0];
+                popup_af71144368ff47aeb83801b31278d336.setContent(html_cebec9ddd7794f58b4b9e527726a36de);
+            
+
+            marker_a9d7a615ed934b4f816d2ecdbdb34fac.bindPopup(popup_af71144368ff47aeb83801b31278d336)
+            ;
+
+            
+        
+    
+        var marker_71f3a314cb294893a5eef1e1a8ccf747 = L.marker(
+            [22.984581, 120.202617],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_5bdef197491545d2b419571cd90e2f40 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_30f4e316da0b4f90a7e1008e23472fac = $(`<div id="html_30f4e316da0b4f90a7e1008e23472fac" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 臺南 pm2.5: 9</div>`)[0];
+                popup_5bdef197491545d2b419571cd90e2f40.setContent(html_30f4e316da0b4f90a7e1008e23472fac);
+            
+
+            marker_71f3a314cb294893a5eef1e1a8ccf747.bindPopup(popup_5bdef197491545d2b419571cd90e2f40)
+            ;
+
+            
+        
+    
+        var marker_d2f93f84ed1f4e8eb7c57c12fbbf2694 = L.marker(
+            [22.883583, 120.530542],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_da5a16308155447cb545ea1fcbf1ff99 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ab3bf7aedf904a4984a4a3525e64c4b4 = $(`<div id="html_ab3bf7aedf904a4984a4a3525e64c4b4" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 美濃 pm2.5: 5</div>`)[0];
+                popup_da5a16308155447cb545ea1fcbf1ff99.setContent(html_ab3bf7aedf904a4984a4a3525e64c4b4);
+            
+
+            marker_d2f93f84ed1f4e8eb7c57c12fbbf2694.bindPopup(popup_da5a16308155447cb545ea1fcbf1ff99)
+            ;
+
+            
+        
+    
+        var marker_c0d82772a5314f1c933cc7cad7a2d69f = L.marker(
+            [22.757506, 120.305689],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_08b302d3e7f241869e8819129a761b1d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d4a1d7f160374656acbe90a30fb52143 = $(`<div id="html_d4a1d7f160374656acbe90a30fb52143" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 橋頭 pm2.5: 6</div>`)[0];
+                popup_08b302d3e7f241869e8819129a761b1d.setContent(html_d4a1d7f160374656acbe90a30fb52143);
+            
+
+            marker_c0d82772a5314f1c933cc7cad7a2d69f.bindPopup(popup_08b302d3e7f241869e8819129a761b1d)
+            ;
+
+            
+        
+    
+        var marker_e0173c554c3c47e9b3afd39a779a1b10 = L.marker(
+            [22.733667, 120.328289],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_475eaca247ff4fb1b8202b27a0ac866c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_28b3aafd74d24d81bcb1039f4971be28 = $(`<div id="html_28b3aafd74d24d81bcb1039f4971be28" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 楠梓 pm2.5: </div>`)[0];
+                popup_475eaca247ff4fb1b8202b27a0ac866c.setContent(html_28b3aafd74d24d81bcb1039f4971be28);
+            
+
+            marker_e0173c554c3c47e9b3afd39a779a1b10.bindPopup(popup_475eaca247ff4fb1b8202b27a0ac866c)
+            ;
+
+            
+        
+    
+        var marker_47d8d712592d4bc78b8c4aa99ff77c5d = L.marker(
+            [22.689056, 120.332631],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_360adf2e64654485b2ce86be79a60171 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cc8a47f147b14c888e03433d6d0db4f5 = $(`<div id="html_cc8a47f147b14c888e03433d6d0db4f5" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 仁武 pm2.5: 5</div>`)[0];
+                popup_360adf2e64654485b2ce86be79a60171.setContent(html_cc8a47f147b14c888e03433d6d0db4f5);
+            
+
+            marker_47d8d712592d4bc78b8c4aa99ff77c5d.bindPopup(popup_360adf2e64654485b2ce86be79a60171)
+            ;
+
+            
+        
+    
+        var marker_9b9aa29d1140400bad6ea3ae9d4b0288 = L.marker(
+            [22.674861, 120.292917],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_74eca71d1b074cb18c6c09babd07aaa4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_2b80c796a9304dfa9cddac46d16c3b0f = $(`<div id="html_2b80c796a9304dfa9cddac46d16c3b0f" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 左營 pm2.5: 9</div>`)[0];
+                popup_74eca71d1b074cb18c6c09babd07aaa4.setContent(html_2b80c796a9304dfa9cddac46d16c3b0f);
+            
+
+            marker_9b9aa29d1140400bad6ea3ae9d4b0288.bindPopup(popup_74eca71d1b074cb18c6c09babd07aaa4)
+            ;
+
+            
+        
+    
+        var marker_ddd5011e1a1a4ed9b01c715b88182a09 = L.marker(
+            [22.673081, 120.488033],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_f1061bf96ce545049b2df9d5e6ca5f0e = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9c5650f3b2404686afe85fe0cb04f782 = $(`<div id="html_9c5650f3b2404686afe85fe0cb04f782" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 屏東 pm2.5: ND</div>`)[0];
+                popup_f1061bf96ce545049b2df9d5e6ca5f0e.setContent(html_9c5650f3b2404686afe85fe0cb04f782);
+            
+
+            marker_ddd5011e1a1a4ed9b01c715b88182a09.bindPopup(popup_f1061bf96ce545049b2df9d5e6ca5f0e)
+            ;
+
+            
+        
+    
+        var marker_30ccd5afd98b44748fb7ce0b0afbf0cf = L.marker(
+            [22.632567, 120.288086],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_f39552ca587a426abfb7fd0608645c80 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_8c13c2a3c2fa430ab932b56579ff54cd = $(`<div id="html_8c13c2a3c2fa430ab932b56579ff54cd" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 前金 pm2.5: 5</div>`)[0];
+                popup_f39552ca587a426abfb7fd0608645c80.setContent(html_8c13c2a3c2fa430ab932b56579ff54cd);
+            
+
+            marker_30ccd5afd98b44748fb7ce0b0afbf0cf.bindPopup(popup_f39552ca587a426abfb7fd0608645c80)
+            ;
+
+            
+        
+    
+        var marker_6442a313b60f4be183ea7330233f309a = L.marker(
+            [22.627392, 120.358083],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_e0b091fb60154ba98f1168492aee1528 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_06040cbdb8d949f1a42d1b10c23b100e = $(`<div id="html_06040cbdb8d949f1a42d1b10c23b100e" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 鳳山 pm2.5: 19</div>`)[0];
+                popup_e0b091fb60154ba98f1168492aee1528.setContent(html_06040cbdb8d949f1a42d1b10c23b100e);
+            
+
+            marker_6442a313b60f4be183ea7330233f309a.bindPopup(popup_e0b091fb60154ba98f1168492aee1528)
+            ;
+
+            
+        
+    
+        var marker_19d0021e8c0f47ae9c05f845d36bb56e = L.marker(
+            [22.608711, 120.312017],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_f28c7e990fe84d65a00329c4485adfee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c1c6775999174eb08082776731614ca6 = $(`<div id="html_c1c6775999174eb08082776731614ca6" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 復興 pm2.5: 6</div>`)[0];
+                popup_f28c7e990fe84d65a00329c4485adfee.setContent(html_c1c6775999174eb08082776731614ca6);
+            
+
+            marker_19d0021e8c0f47ae9c05f845d36bb56e.bindPopup(popup_f28c7e990fe84d65a00329c4485adfee)
+            ;
+
+            
+        
+    
+        var marker_c3d85cc4de3c46c69e9294a93f9919fe = L.marker(
+            [22.605386, 120.307564],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_f1904db5ff874433b3ba95de59fdb4b5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_fcad6831237d436b86b84a7f50880e2e = $(`<div id="html_fcad6831237d436b86b84a7f50880e2e" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 前鎮 pm2.5: 4</div>`)[0];
+                popup_f1904db5ff874433b3ba95de59fdb4b5.setContent(html_fcad6831237d436b86b84a7f50880e2e);
+            
+
+            marker_c3d85cc4de3c46c69e9294a93f9919fe.bindPopup(popup_f1904db5ff874433b3ba95de59fdb4b5)
+            ;
+
+            
+        
+    
+        var marker_eb17577e4a0a422dbfd85e5873d5a795 = L.marker(
+            [22.565833, 120.337736],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_90fb27e5140140009a615449bb07cf57 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bd450b5b102343438d8c6ad4dc897822 = $(`<div id="html_bd450b5b102343438d8c6ad4dc897822" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 小港 pm2.5: 9</div>`)[0];
+                popup_90fb27e5140140009a615449bb07cf57.setContent(html_bd450b5b102343438d8c6ad4dc897822);
+            
+
+            marker_eb17577e4a0a422dbfd85e5873d5a795.bindPopup(popup_90fb27e5140140009a615449bb07cf57)
+            ;
+
+            
+        
+    
+        var marker_8ebbb5883a2d408bbae074816d81ac16 = L.marker(
+            [22.564136, 120.425311],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_d3211877b87240b18618f67424cddbdd = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_534a9fbb4d6549d2b189e3e3014c8153 = $(`<div id="html_534a9fbb4d6549d2b189e3e3014c8153" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 大寮 pm2.5: 11</div>`)[0];
+                popup_d3211877b87240b18618f67424cddbdd.setContent(html_534a9fbb4d6549d2b189e3e3014c8153);
+            
+
+            marker_8ebbb5883a2d408bbae074816d81ac16.bindPopup(popup_d3211877b87240b18618f67424cddbdd)
+            ;
+
+            
+        
+    
+        var marker_a0128548db76431c93128fad83684d84 = L.marker(
+            [22.523108, 120.561175],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_0ff4c9d028b04822b3474062aeb2c8a8 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f3d2b68bc6f74bae82b5d30da20eda2e = $(`<div id="html_f3d2b68bc6f74bae82b5d30da20eda2e" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 潮州 pm2.5: </div>`)[0];
+                popup_0ff4c9d028b04822b3474062aeb2c8a8.setContent(html_f3d2b68bc6f74bae82b5d30da20eda2e);
+            
+
+            marker_a0128548db76431c93128fad83684d84.bindPopup(popup_0ff4c9d028b04822b3474062aeb2c8a8)
+            ;
+
+            
+        
+    
+        var marker_74277ce2007240d79d5d830b3b3efea0 = L.marker(
+            [22.4795, 120.41175],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_fdc8cc713536488c930582c04d7593a2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bffde314f4e742a391d2435e77b37aad = $(`<div id="html_bffde314f4e742a391d2435e77b37aad" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 林園 pm2.5: 7</div>`)[0];
+                popup_fdc8cc713536488c930582c04d7593a2.setContent(html_bffde314f4e742a391d2435e77b37aad);
+            
+
+            marker_74277ce2007240d79d5d830b3b3efea0.bindPopup(popup_fdc8cc713536488c930582c04d7593a2)
+            ;
+
+            
+        
+    
+        var marker_d4cdbe878d36449188d0ef32ad4aacb4 = L.marker(
+            [21.958069, 120.788928],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_0ad16062c8dd4ee5b76cd0d78ab028d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_38f87e758b304467b534243b751fb135 = $(`<div id="html_38f87e758b304467b534243b751fb135" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 恆春 pm2.5: </div>`)[0];
+                popup_0ad16062c8dd4ee5b76cd0d78ab028d9.setContent(html_38f87e758b304467b534243b751fb135);
+            
+
+            marker_d4cdbe878d36449188d0ef32ad4aacb4.bindPopup(popup_0ad16062c8dd4ee5b76cd0d78ab028d9)
+            ;
+
+            
+        
+    
+        var marker_70d2a740b6814a48a2235ce37b2dcb81 = L.marker(
+            [24.747917, 121.746394],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_7e7e8941f483419dbee746cbc76c98d9 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_6a20451d7722459191a548f13303c47d = $(`<div id="html_6a20451d7722459191a548f13303c47d" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 宜蘭 pm2.5: 16</div>`)[0];
+                popup_7e7e8941f483419dbee746cbc76c98d9.setContent(html_6a20451d7722459191a548f13303c47d);
+            
+
+            marker_70d2a740b6814a48a2235ce37b2dcb81.bindPopup(popup_7e7e8941f483419dbee746cbc76c98d9)
+            ;
+
+            
+        
+    
+        var marker_c7c87e2b6a464a7591750c504a484f13 = L.marker(
+            [24.632203, 121.792928],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_c265ceb78ce7423995b4d135e7f81439 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1d0d562d011d427b879cd18256a009e6 = $(`<div id="html_1d0d562d011d427b879cd18256a009e6" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 冬山 pm2.5: 29</div>`)[0];
+                popup_c265ceb78ce7423995b4d135e7f81439.setContent(html_1d0d562d011d427b879cd18256a009e6);
+            
+
+            marker_c7c87e2b6a464a7591750c504a484f13.bindPopup(popup_c265ceb78ce7423995b4d135e7f81439)
+            ;
+
+            
+        
+    
+        var marker_2a11736887ba400399a707be9d5253c0 = L.marker(
+            [23.971306, 121.599769],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_876e1c11f8c54889be3cc6bc9fd38a05 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d3d05d7d64dc421496ef05faf25fc0a8 = $(`<div id="html_d3d05d7d64dc421496ef05faf25fc0a8" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 花蓮 pm2.5: 7</div>`)[0];
+                popup_876e1c11f8c54889be3cc6bc9fd38a05.setContent(html_d3d05d7d64dc421496ef05faf25fc0a8);
+            
+
+            marker_2a11736887ba400399a707be9d5253c0.bindPopup(popup_876e1c11f8c54889be3cc6bc9fd38a05)
+            ;
+
+            
+        
+    
+        var marker_6e91be5184cd4977aee558a1d68286aa = L.marker(
+            [23.045083, 121.161933],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_5efd7ba2c4c247d4bd741084964a408d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f433cc44c93a47949761fbf681a5fdbc = $(`<div id="html_f433cc44c93a47949761fbf681a5fdbc" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 關山 pm2.5: 10</div>`)[0];
+                popup_5efd7ba2c4c247d4bd741084964a408d.setContent(html_f433cc44c93a47949761fbf681a5fdbc);
+            
+
+            marker_6e91be5184cd4977aee558a1d68286aa.bindPopup(popup_5efd7ba2c4c247d4bd741084964a408d)
+            ;
+
+            
+        
+    
+        var marker_a048e2dd90a845eea80427f1e502986f = L.marker(
+            [22.755358, 121.15045],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_c2b9791750b04373a09ea92aa68fe279 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_11a78dd981d940549b5e534f553df249 = $(`<div id="html_11a78dd981d940549b5e534f553df249" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 臺東 pm2.5: 9</div>`)[0];
+                popup_c2b9791750b04373a09ea92aa68fe279.setContent(html_11a78dd981d940549b5e534f553df249);
+            
+
+            marker_a048e2dd90a845eea80427f1e502986f.bindPopup(popup_c2b9791750b04373a09ea92aa68fe279)
+            ;
+
+            
+        
+    
+        var marker_b7587ac3d599400ba09e906bf5b93753 = L.marker(
+            [26.153611, 119.9525],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_a1228747f0a345cca0690a3e8e299e59 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_03bf17d20c3943c0a88843750c08bdac = $(`<div id="html_03bf17d20c3943c0a88843750c08bdac" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 馬祖 pm2.5: 10</div>`)[0];
+                popup_a1228747f0a345cca0690a3e8e299e59.setContent(html_03bf17d20c3943c0a88843750c08bdac);
+            
+
+            marker_b7587ac3d599400ba09e906bf5b93753.bindPopup(popup_a1228747f0a345cca0690a3e8e299e59)
+            ;
+
+            
+        
+    
+        var marker_1d87ad09672f460fa3f17a5f030e9af2 = L.marker(
+            [24.432133, 118.312256],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_9cab6120fd694dd99431df9344dbfc28 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c111b098e071475599cb2c73c4c7cbbe = $(`<div id="html_c111b098e071475599cb2c73c4c7cbbe" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 金門 pm2.5: 16</div>`)[0];
+                popup_9cab6120fd694dd99431df9344dbfc28.setContent(html_c111b098e071475599cb2c73c4c7cbbe);
+            
+
+            marker_1d87ad09672f460fa3f17a5f030e9af2.bindPopup(popup_9cab6120fd694dd99431df9344dbfc28)
+            ;
+
+            
+        
+    
+        var marker_c8366ef12bf74e19bf5b951f0ad3babd = L.marker(
+            [23.569031, 119.566158],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_be476b08e116491ba9cc75ffec10261b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_dd0418bed80d45f18b9188f26cb45292 = $(`<div id="html_dd0418bed80d45f18b9188f26cb45292" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 馬公 pm2.5: 3</div>`)[0];
+                popup_be476b08e116491ba9cc75ffec10261b.setContent(html_dd0418bed80d45f18b9188f26cb45292);
+            
+
+            marker_c8366ef12bf74e19bf5b951f0ad3babd.bindPopup(popup_be476b08e116491ba9cc75ffec10261b)
+            ;
+
+            
+        
+    
+        var marker_03242f7f334b496488f09be9f2ac3254 = L.marker(
+            [23.179047, 120.245831],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_f4e2c8c01c8a4ad89b0012c1a3e2798a = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_afff49e3a05d4e5a8d51229093db9926 = $(`<div id="html_afff49e3a05d4e5a8d51229093db9926" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 臺南(麻豆) pm2.5: </div>`)[0];
+                popup_f4e2c8c01c8a4ad89b0012c1a3e2798a.setContent(html_afff49e3a05d4e5a8d51229093db9926);
+            
+
+            marker_03242f7f334b496488f09be9f2ac3254.bindPopup(popup_f4e2c8c01c8a4ad89b0012c1a3e2798a)
+            ;
+
+            
+        
+    
+        var marker_cc5e31b75ef6473b9d214463e2c83624 = L.marker(
+            [23.843139, 120.273117],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_79c4e82b04574fbc81e2b081efe7817c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5ff602fc73e44d30b6f0e9f3512eb985 = $(`<div id="html_5ff602fc73e44d30b6f0e9f3512eb985" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 彰化(大城) pm2.5: 8</div>`)[0];
+                popup_79c4e82b04574fbc81e2b081efe7817c.setContent(html_5ff602fc73e44d30b6f0e9f3512eb985);
+            
+
+            marker_cc5e31b75ef6473b9d214463e2c83624.bindPopup(popup_79c4e82b04574fbc81e2b081efe7817c)
+            ;
+
+            
+        
+    
+        var marker_67976e58014a43f8bc6df80346d5df6b = L.marker(
+            [24.616369, 120.786028],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_f2bfb7c9173c4c9c851a8d4d966e4608 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_89aa641e31f641dd9b6f8d0b60edca23 = $(`<div id="html_89aa641e31f641dd9b6f8d0b60edca23" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 苗栗(後龍) pm2.5: 7</div>`)[0];
+                popup_f2bfb7c9173c4c9c851a8d4d966e4608.setContent(html_89aa641e31f641dd9b6f8d0b60edca23);
+            
+
+            marker_67976e58014a43f8bc6df80346d5df6b.bindPopup(popup_f2bfb7c9173c4c9c851a8d4d966e4608)
+            ;
+
+            
+        
+    
+        var marker_ded808a14bb94c33b4579b18b53bcae3 = L.marker(
+            [22.352222, 120.377222],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(marker_cluster_260d80c987b24aa4926e533a6944afab);
+        
+    
+            var popup_cb2b2ce509a04eab82e66ed836c1b0bf = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_45e694e7f2a34787869ce88cf0bbd8c0 = $(`<div id="html_45e694e7f2a34787869ce88cf0bbd8c0" style="width: 100.0%; height: 100.0%;">2019-06-10 14:00:00 屏東(琉球) pm2.5: 10</div>`)[0];
+                popup_cb2b2ce509a04eab82e66ed836c1b0bf.setContent(html_45e694e7f2a34787869ce88cf0bbd8c0);
+            
+
+            marker_ded808a14bb94c33b4579b18b53bcae3.bindPopup(popup_cb2b2ce509a04eab82e66ed836c1b0bf)
+            ;
+
+            
+        
+</script>
