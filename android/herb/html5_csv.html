@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">   
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/papaparse.min.js"></script>
+  <title>Read CSV With  Papaparse JavaScript</title>
+  <style>
+	.pdfobject-container { height: 500px;}
+	.pdfobject { border: 1px solid #666; }
+   tr:nth-child(even) {background-color: #f2f2f2;} 
+  </style>
+     
+</head>
+<body>
+  <div class="container" style="padding:10px 10px;">
+    <h1>中藥材 中英對照</h1>
+	<div id="header"></div>
+	<div class="well">
+		<div class="row">
+		<form class="form-inline" id="form">
+			<div class="form-group">
+                <label for="files"> &nbsp;<b>File</b>&nbsp; </label>
+			    <input type="file" id="files" class="form-control" accept=".csv" required />
+			</div>
+			<div class="form-group">
+			 <button type="submit" id="submit-file" class="btn btn-primary">Open</button>
+			 </div>
+		</form>
+		</div>
+		<div class="row">
+			
+			<div class="row" id="parsed_csv_list">
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin:30px 0px 50px 50px;">
+		
+	</div>
+	<div id="footer"></div>
+  </div>
+</body>
+</html>
+<script type="text/javascript">
+  $(document).ready(function(){
+	//$('#header').load('../header-ads.html');
+    //$('#footer').load('../footer-ads.html');
+	
+    $('#submit-file').on("click",function(e){
+		e.preventDefault();
+		$('#files').parse({
+			config: {
+				delimiter: "auto",
+				complete: displayHTMLTable,
+			},
+			before: function(file, inputElem)
+			{
+				//console.log("Parsing file...", file);
+			},
+			error: function(err, file)
+			{
+				//console.log("ERROR:", err, file);
+			},
+			complete: function()
+			{
+				//console.log("Done with all files");
+			}
+		});
+    });
+	
+	function displayHTMLTable(results){
+		var table = '<div style="overflow-x:auto;"><table class="table">';
+		var data = results.data;
+		// initialize head
+        table+= '<thead><tr style="font-size:1.4em;">';
+        var row = data[0];
+		var cells = row.join(",").split(",");
+			 
+		for(j=0;j<cells.length;j++){
+			table+= "<th>";
+			table+= cells[j];
+			table+= "</th>";
+		}
+        table+= '</thead>';
+		for(i=1;i<data.length;i++){
+			table+= "<tr>";
+			var row = data[i];
+			var cells = row.join(",").split(",");
+			 
+			for(j=0;j<cells.length;j++){
+				table+= "<td>";
+				table+= cells[j];
+				table+= "</th>";
+			}
+			table+= "</tr>";
+		}
+		table+= "</table></div>";
+		$("#parsed_csv_list").html(table);
+	}
+  });
+</script>
