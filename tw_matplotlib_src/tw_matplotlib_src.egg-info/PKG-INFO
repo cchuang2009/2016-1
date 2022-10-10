@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tw-matplotlib-src
+Version: 1.0.0
+Summary: matplotlib Taiwanized setting
+Home-page: https://github.com/cchuang2009/tw_matplotlib_src
+Author: cchuang
+Author-email: cchuang2009@gmail.com
+License: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![PyPI version]](https://badge.fury.io/py/japanize-matplotlib)
+# tw_matplotlib
+matplotlib 繁體中文化
+
+## 使用方法
+Import package after matplotlib.lib imported
+
+```python
+import matplotlib.pyplot as plt
+import tw_matplotlib
+
+plt.plot([1, 2, 3, 4])
+plt.xlabel('繁體中文測試')
+plt.show()
